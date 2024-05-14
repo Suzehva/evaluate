@@ -1,0 +1,11 @@
+,question,answer,model_output,f1,latency,num_tokens
+0,when is the last episode of season 8 of the walking dead,"['March 18, 2018']",April,0.0,0.37763357162475586,42
+1,in greek mythology who was the goddess of spring growth,"['Persephone (/pərˈsɛfəni/; Greek: Περσεφόνη), also called Kore (/ˈkɔːriː/; ""the maiden"")']",Persephone,0.19999999999999998,0.3971695899963379,42
+2,what is the name of the most important jewish text,['the Shulchan Aruch'],Torah,0.0,0.46265602111816406,40
+3,what is the name of spain's most famous soccer team,['Real Madrid'],Barcelona,0.0,0.30107736587524414,42
+4,when was the first robot used in surgery,['1983'],1985,0.0,0.26343870162963867,38
+5,who sings the song i don't care i love it,['Icona Pop and Charli XCX'],Icona Pop,0.5714285714285715,0.24596858024597168,42
+6,who are uncle owen and aunt beru related to,"['Shmi', 'Anakin', 'Padmé Amidala']",Luke Skywalker,0.0,0.2975010871887207,41
+7,where is zimbabwe located in the world map,"['in southern Africa, between the Zambezi and Limpopo Rivers, bordered by South Africa, Botswana, Zambia and Mozambique']",Africa,0.11764705882352941,0.22480273246765137,38
+8,100 acres is equal to how many hectares,['1 square hectometre (hm2)'],40,0.0,0.3348393440246582,37
+9,where was donovan mitchell picked in the draft,['13th'],13th,1.0,0.37624621391296387,41
