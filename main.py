@@ -9,7 +9,7 @@ import math_pre
 import natural_questions_pre
 import apis
 
-DATASET = "natural_questions"
+DATASET = "math"
 """
 Options:
     1. math (hendrycks/competition_math)
@@ -31,7 +31,7 @@ Options:
     3. "COT"
 """
 
-SAMPLE_SIZE = 10 # how many data points to include
+SAMPLE_SIZE = 5 # how many data points to include
 
 
 def main():
@@ -51,9 +51,9 @@ def main():
         if (validation is None):
             print ("validation is none")
         results, total_tokens, total_time, average_f1 = natural_questions_pre.run_model(train, validation, MODEL, SAMPLE_SIZE, PROMPTING_T)
-        average_latency = total_time / SAMPLE_SIZE
         print("\naverage f1 score:", average_f1)
-
+    
+    average_latency = total_time / SAMPLE_SIZE
     print("Average Latency (s):", average_latency)
     print("Total Tokens Used:", total_tokens)
     print("Number of datapoints used: ", SAMPLE_SIZE)

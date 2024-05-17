@@ -4,137 +4,42 @@
 x-5 &\text{ if } -2 \le x \le 2, \\
 2x-b &\text{ if } x <-2.
 \end{array}
-\right.\]Find $a+b$ if the piecewise function is continuous (which means that its graph can be drawn without lifting your pencil from the paper).",Level 5,Algebra,"For the piecewise function to be continuous, the cases must ""meet"" at $2$ and $-2$. For example, $ax+3$ and $x-5$ must be equal when $x=2$. This implies $a(2)+3=2-5$, which we solve to get $2a=-6 \Rightarrow a=-3$. Similarly, $x-5$ and $2x-b$ must be equal when $x=-2$. Substituting, we get $-2-5=2(-2)-b$, which implies $b=3$. So $a+b=-3+3=\boxed{0}$.","For the function to be continuous at $x=2$, the function should be equal to $f(2)$ from both directions.
-From $x>2$, $f(2)=a\cdot2+3=2a+3$.
-From $-2\le x \le 2$, $f(2)=2-5=-3$.
-Setting these equal, we get $2a+3=-3 \Rightarrow a=-3$.
+\right.\]Find $a+b$ if the piecewise function is continuous (which means that its graph can be drawn without lifting your pencil from the paper).",Level 5,Algebra,"For the piecewise function to be continuous, the cases must ""meet"" at $2$ and $-2$. For example, $ax+3$ and $x-5$ must be equal when $x=2$. This implies $a(2)+3=2-5$, which we solve to get $2a=-6 \Rightarrow a=-3$. Similarly, $x-5$ and $2x-b$ must be equal when $x=-2$. Substituting, we get $-2-5=2(-2)-b$, which implies $b=3$. So $a+b=-3+3=\boxed{0}$.","For the function $f(x)$ to be continuous at the points where the branches meet, the values of $f(x)$ from each side need to be equal at those points. 
 
-For the function to be continuous at $x=-2$, the function should be equal to $f(-2)$ from both directions.
-From $-2 \le x \le 2$, $f(-2)=(-2)-5=-7$.
-From $x<-2$, $f(-2)=2(-2)-b=-4-b$.
-Setting these equal, we get $-4-b=-7 \Rightarrow b=3$.
+We first evaluate $f(x)$ at $x = 2$ and $x = -2$:
+For $x>2, f(x) = ax+3 \implies f(2) = 2a+3$.
+For $-2 \le x \le 2, f(x) = x - 5 \implies f(2) = 2 - 5 = -3$.
+Setting these two expressions equal, $2a + 3 = -3 \implies a = -3$.
 
-Therefore, the sum of $a$ and $b$ is $-3+3=\boxed{0}$.",True,3.955939769744873,1016
-1,"A rectangular band formation is a formation with $m$ band members in each of $r$ rows, where $m$ and $r$ are integers. A particular band has less than 100 band members. The director arranges them in a rectangular formation and finds that he has two members left over. If he increases the number of members in each row by 1 and reduces the number of rows by 2, there are exactly enough places in the new formation for each band member. What is the largest number of members the band could have?",Level 5,Algebra,"Let $x$ be the number of band members in each row for the original formation, when two are left over.  Then we can write two equations from the given information: $$rx+2=m$$ $$(r-2)(x+1)=m$$ Setting these equal, we find: $$rx+2=(r-2)(x+1)=rx-2x+r-2$$ $$2=-2x+r-2$$ $$4=r-2x$$ We know that the band has less than 100 members.  Based on the first equation, we must have $rx$ less than 98.  We can guess and check some values of $r$ and $x$ in the last equation.  If $r=18$, then $x=7$, and $rx=126$ which is too big.  If $r=16$, then $x=6$, and $rx=96$, which is less than 98.  Checking back in the second formation, we see that $(16-2)(6+1)=14\cdot 7=98$ as it should.  This is the best we can do, so the largest number of members the band could have is $\boxed{98}$.","Let $x$ be the number of band members. We are given that $x = mr + 2$, and also that there are fewer than 100 band members, so $x < 100$. 
+Also, for $-2 \le x \le 2, f(x) = x - 5 \implies f(-2) = -2 - 5 = -7$.
+For $x <-2, f(x) = 2x-b \implies f(-2) = 2(-2) - b = -4 - b$.
+Setting these two expressions equal, $-4 - b = -7 \implies b = -4+7 = 3$.
 
-We are told that when $m+1$ band members are placed in each row and the number of rows are reduced by 2, the arrangement works out perfectly, so we have $(m+1)(r-2) = x$. 
+Therefore, $a + b = (-3) + 3 = \boxed{0}$.",1.0,4.451023578643799,1078
+1,"A rectangular band formation is a formation with $m$ band members in each of $r$ rows, where $m$ and $r$ are integers. A particular band has less than 100 band members. The director arranges them in a rectangular formation and finds that he has two members left over. If he increases the number of members in each row by 1 and reduces the number of rows by 2, there are exactly enough places in the new formation for each band member. What is the largest number of members the band could have?",Level 5,Algebra,"Let $x$ be the number of band members in each row for the original formation, when two are left over.  Then we can write two equations from the given information: $$rx+2=m$$ $$(r-2)(x+1)=m$$ Setting these equal, we find: $$rx+2=(r-2)(x+1)=rx-2x+r-2$$ $$2=-2x+r-2$$ $$4=r-2x$$ We know that the band has less than 100 members.  Based on the first equation, we must have $rx$ less than 98.  We can guess and check some values of $r$ and $x$ in the last equation.  If $r=18$, then $x=7$, and $rx=126$ which is too big.  If $r=16$, then $x=6$, and $rx=96$, which is less than 98.  Checking back in the second formation, we see that $(16-2)(6+1)=14\cdot 7=98$ as it should.  This is the best we can do, so the largest number of members the band could have is $\boxed{98}$.","Let $x$ be the number of band members. We know that $x = mr + 2$ for some positive integers $m$ and $r$, and $r(m+1) = 2(m-2)$. Considering the second equation and expanding, we get $mr + r = 2m - 4$. Since $x < 100$, then $mr < 98$. We can list the possible values of $mr$, along with corresponding values of $r$, $m$, and $x$:
 
-Substitute $x = mr + 2$ into $(m+1)(r-2) = x$ to get 
-\[(m+1)(r-2) = mr + 2.\]
-Expanding this yields $mr + r - 2m - 2 = mr + 2 \Rightarrow r - 2m = 4$. Therefore, we have that $r \equiv 2m \pmod{4}$, which means that $r$ is of the form $2m + 4k$ for some integer $k$. Since $x = mr + 2 < 100$, we must have $m < 50$. 
+$mr = 6$, gives $r = 6, m = 1$, and $x = 8$
+$mr = 8$, gives $r = 4, m = 2$, and $x = 10$
+$mr = 12$, gives $r = 4, m = 3$, and $x = 14$
+$mr = 20$, gives $r = 5, m = 4$, and $x = 22$
+$mr = 30$, gives $r = 6, m = 5$, and $x = 32$
+$mr = 42$, gives $r = 7, m = 6$, and $x = 44$
+$mr = 56$, gives $r = 8, m = 7$, and $x = 58$
+$mr = 72$, gives $r = 9, m = 8$, and $x = 74$
+$mr = 90$, gives $r = 10, m = 9$, and $x = 92$
 
-To maximize $x$, we see that setting $m = 49$ is the largest possible value for $m$. For this value of $m$, $r = 96$, so $x = mr + 2 = 49 \cdot 96 + 2 = \boxed{4706}$.",False,4.4517295360565186,1107
-2,What is the degree of the polynomial $(4 +5x^3 +100 +2\pi x^4 + \sqrt{10}x^4 +9)$?,Level 3,Algebra,"This polynomial is not written in standard form.  However, we don't need to write it in standard form, nor do we need to pay attention to the coefficients.  We just look for the exponents on $x$.  We have an $x^4$ term and no other term of higher degree, so $\boxed{4}$ is the degree of the polynomial.","The degree of a polynomial is the highest power of $x$ that appears in the polynomial. In this case, the polynomial is $5x^3 + 2\pi x^4 + \sqrt{10}x^4$. 
-The highest power of $x$ is $4$, so the degree of the polynomial is $\boxed{4}$.",True,1.4847300052642822,811
-3,Evaluate $\left\lceil3\left(6-\frac12\right)\right\rceil$.,Level 3,Algebra,"Firstly, $3\left(6-\frac12\right)=18-1-\frac12=17-\frac12$.  Because $0\le\frac12<1$, we have $\left\lceil17-\frac12\right\rceil=\boxed{17}$.","We first simplify the expression inside the ceiling function: $$3\left(6-\frac{1}{2}\right)=3\left(\frac{12}{2}-\frac{1}{2}\right)=3\left(\frac{11}{2}\right)=\frac{33}{2}.$$ The ceiling function of $\frac{33}{2}$ is $17$, so our final answer is $\boxed{17}$.",True,1.7287530899047852,812
+Observe that the largest number of members the band could have is $\boxed{92}$.",0.0,7.728614330291748,1165
+2,What is the degree of the polynomial $(4 +5x^3 +100 +2\pi x^4 + \sqrt{10}x^4 +9)$?,Level 3,Algebra,"This polynomial is not written in standard form.  However, we don't need to write it in standard form, nor do we need to pay attention to the coefficients.  We just look for the exponents on $x$.  We have an $x^4$ term and no other term of higher degree, so $\boxed{4}$ is the degree of the polynomial.","The degree of a polynomial is the highest power of $x$ that appears in the polynomial. In this case, the polynomial is $5x^3 + 2\pi x^4 + \sqrt{10}x^4$, so the highest power of $x$ is $4$. Therefore, the degree of the polynomial is $\boxed{4}$.",1.0,1.5305607318878174,812
+3,Evaluate $\left\lceil3\left(6-\frac12\right)\right\rceil$.,Level 3,Algebra,"Firstly, $3\left(6-\frac12\right)=18-1-\frac12=17-\frac12$.  Because $0\le\frac12<1$, we have $\left\lceil17-\frac12\right\rceil=\boxed{17}$.","We have $3\left(6-\frac{1}{2}\right)=3\cdot\frac{11}{2}=\frac{33}{2}=16.5$. The smallest integer greater than or equal to $16.5$ is $17$. Thus, $\left\lceil3\left(6-\frac{1}{2}\right)\right\rceil = \boxed{17}$.",1.0,1.8091685771942139,808
 4,"Sam is hired for a 20-day period. On days that he works, he earns $\$$60. For each day that he does not work, $\$$30 is subtracted from his earnings. At the end of the 20-day period, he received $\$$660. How many days did he not work?",Level 3,Algebra,"Call $x$ the number of days Sam works and $y$ the number of days he does not. We can set up the following system of equations to represent the given information: \begin{align*}
 x+y &= 20 \\
 60x - 30y &= 660 \\
-\end{align*} The first equation represents the total number of days Sam works, and the second equation represents his total profit. Solving for $x$ in the first equation yields $x = 20 - y$. Substituting into the second equation gives $60(20-y) - 30y = 660$. Canceling a factor of $10$ and multiplying out gives $120 - 6y - 3y = 66$. This simplifies to $-9y = -54$, or $y = 6$. Thus, Sam did not work for $\boxed{6}$ days.","Let $x$ be the number of days Sam worked and $y$ be the number of days he did not work.
+\end{align*} The first equation represents the total number of days Sam works, and the second equation represents his total profit. Solving for $x$ in the first equation yields $x = 20 - y$. Substituting into the second equation gives $60(20-y) - 30y = 660$. Canceling a factor of $10$ and multiplying out gives $120 - 6y - 3y = 66$. This simplifies to $-9y = -54$, or $y = 6$. Thus, Sam did not work for $\boxed{6}$ days.","Let $x$ be the number of days Sam did not work. This means that he worked for $20-x$ days.
 
-We know that Sam worked for $x$ days and did not work for $y$ days for a total of 20 days, so we have $x + y = 20$.
+Since he earns $\$60$ for each working day and $\$30$ is subtracted for each day he does not work, we can write the equation:
 
-We also know that he earned $60x$ on days he worked and lost $30y$ on days he did not work. Since he received a total of $\$660$, we have $60x - 30y = 660$.
+$60(20-x) - 30x = 660$.
 
-Solving these two equations simultaneously:
-$\begin{cases} x + y = 20 \\ 60x - 30y = 660 \end{cases}$
+Expanding and simplifying gives $1200 - 60x - 30x = 660$. Combining like terms yields $1200 - 90x = 660$. Solving for $x$ gives $x = \dfrac{540}{90} = 6$.
 
-From the first equation, we get $x = 20 - y$.
-
-Substitute $x=20-y$ into the second equation:
-$60(20-y) - 30y = 660$
-
-$1200 - 60y - 30y = 660$
-
-$-90y = -540$
-
-$y = 6$
-
-Therefore, Sam did not work for $\boxed{6}$ days.",True,4.230908393859863,1002
-5,Find the center of the circle with equation $x^2 - 6x + y^2 + 2y = 9$.,Level 4,Algebra,"Completing the square, we get $(x - 3)^2 + (y + 1)^2 = 19$. Therefore, the center of the circle is $\boxed{(3, -1)}$.","To find the center of the circle, we rewrite the equation in the form $(x - h)^2 + (y - k)^2 = r^2$, where $(h, k)$ is the center of the circle and $r$ is its radius. Completing the square for $x^2 - 6x$ and $y^2 + 2y$, we have
-\begin{align*}
-x^2 - 6x & = (x^2 - 6x + 9) - 9, \\
-y^2 + 2y & = (y^2 + 2y + 1) - 1.
-\end{align*}
-So, the given equation becomes
-\begin{align*}
-(x^2 - 6x + 9) - 9 + (y^2 + 2y + 1) - 1 & = 9, \\
-(x - 3)^2 + (y + 1)^2 & = 19.
-\end{align*}
-Thus, the center of the circle is $\boxed{(3, -1)}$ and its radius is $\sqrt{19}$.",True,4.030426979064941,973
-6,"What are all values of $p$ such that for every $q>0$, we have   $$\frac{3(pq^2+p^2q+3q^2+3pq)}{p+q}>2p^2q?$$ Express your answer in interval notation in decimal form.",Level 5,Algebra,"First we'll simplify that complicated expression. We attempt to factor the numerator of the left side: \begin{align*}
-pq^2+p^2q+3q^2+3pq &= q(pq + p^2 + 3q + 3p) \\
-&= q[ p(q+p) + 3(q+p) ] \\
-&= q(p+3)(q+p).
-\end{align*}Substituting this in for the numerator in our inequality gives $$\frac{3q(p+3)(p+q)}{p+q}>2p^2q.$$We note that left hand side has $p+q$ in both the numerator and denominator.  We can only cancel these terms if $p+q \neq 0.$  Since we're looking for values of $p$ such that the inequality is true for all $q > 0,$ we need $p \geq 0$ so that $p + q \neq 0.$
-
-Also because this must be true for every $q>0$, we can cancel the $q$'s on both sides. This gives  \begin{align*}
-3(p+3)&>2p^2\Rightarrow\\
-3p+9&>2p^2 \Rightarrow\\
-0&>2p^2-3p-9.
-\end{align*}Now we must solve this quadratic inequality. We can factor the quadratic as $2p^2-3p-9=(2p+3)(p-3)$. The roots are $p=3$ and $p=-1.5$. Since a graph of this parabola would open upwards, we know that the value of $2p^2 - 3p - 9$ is negative between the roots, so the solution to our inequality is $-1.5<p<3.$  But we still need $0 \leq p,$ so in interval notation the answer is $\boxed{[0,3)}$.","We first simplify the inequality:
-$$\frac{3(pq^2+p^2q+3q^2+3pq)}{p+q}>2p^2q$$
-$$\frac{3q(p^2+q+3p+3)}{p+q}>2p^2q$$
-$$\frac{3q(p + 3)(q + 1)}{p + q} > 2p^2q$$
-Cross multiplying and simplifying further results in:
-$$3q(p + 3)(q + 1) > 2p^2q(p+q)$$
-$$3q^2 + 3q^2p + 3q + 9q > 2p^2q + 2p^3q$$
-$$6q^2 + 3q^2p + 3q + 9q > 2p^2q + 2p^3q$$
-Using the fact that $q > 0$, we divide each side by $q$:
-$$6q + 3pq + 3 + 9 > 2p^2 + 2p^3$$
-$$6 + 3p + 3 + 9 > 2p^2 + 2p^3$$
-$$18 + 3p > 2p^2 + 2p^3$$
-$$18 > 2p^2 + 2p^3 - 3p$$
-$$18 > 2p^2 + 2p^2 - 3p$$
-So we must find the values of $p$ that satisfy $2p^2 + 2p^2 - 3p < 18$, or $4p^2 - 3p - 18 < 0$. This quadratic factors into $(2p+3)(2p-6)<0$ which has solutions $-\frac{3}{2}  < p < 3$. Therefore, the answer is $\boxed{(-1.5, 3)}$.",False,8.734723329544067,1203
-7,"If $x = 2$ and $y = 5$, then what is the value of $\frac{x^4+2y^2}{6}$ ?",Level 1,Algebra,We have  \[\frac{x^4 + 2y^2}{6} = \frac{2^4 + 2(5^2)}{6} = \frac{16+2(25)}{6} = \frac{16+50}{6} = \frac{66}{6} = \boxed{11}.\],Substitute $x=2$ and $y=5$ into the expression to find $\frac{2^4+2(5)^2}{6}=\frac{16+2(25)}{6}=\frac{16+50}{6}=\frac{66}{6}=\boxed{11}$.,True,1.5821564197540283,802
-8,"The sequence of integers in the row of squares and in each of the two columns of squares form three distinct arithmetic sequences. What is the value of $N$?
-
-[asy]
-unitsize(0.35inch);
-draw((0,0)--(7,0)--(7,1)--(0,1)--cycle);
-draw((1,0)--(1,1));
-draw((2,0)--(2,1));
-draw((3,0)--(3,1));
-draw((4,0)--(4,1));
-draw((5,0)--(5,1));
-draw((6,0)--(6,1));
-draw((6,2)--(7,2)--(7,-4)--(6,-4)--cycle);
-draw((6,-1)--(7,-1));
-draw((6,-2)--(7,-2));
-draw((6,-3)--(7,-3));
-draw((3,0)--(4,0)--(4,-3)--(3,-3)--cycle);
-draw((3,-1)--(4,-1));
-draw((3,-2)--(4,-2));
-label(""21"",(0.5,0.8),S);
-label(""14"",(3.5,-1.2),S);
-label(""18"",(3.5,-2.2),S);
-label(""$N$"",(6.5,1.8),S);
-label(""-17"",(6.5,-3.2),S);
-[/asy]",Level 2,Algebra,"Since $18 - 14 = 4$, the common difference in the first column of squares is 4, so the number above 14 is $14 - 4 = 10$, and the number above 10 is $10 - 4 = 6$.  This is also the fourth number in the row, so the common difference in the row is $(6 - 21)/3 = -5$.
-
-Then the seventh (and last) number in the row is $21 - 5 \cdot 6 = -9$.  In the second column, the common difference is $[(-17) - (-9)]/4 = -2$, so $N = -9 - (-2) = \boxed{-7}$.","Let the common differences of the sequences going across, down, and down the right side be $a,$ $b,$ and $c,$ respectively. Since the third number in the top row is $18$ more than the first number, we have $(N + a) - N = 18,$ and since the first number in the bottom row is $17$ less than the first number in the top row, we have $N - 21 = 17,$ Hence $a = 18$ and $N = 38.$ Similarly, $b = -17$ and $c = 4,$ so the third number in the second column is $14 + (-17) = -3.$ Therefore, the value of $N$ is $\boxed{38}.$",False,3.271597385406494,1167
-9,"Tim wants to invest some money in a bank which compounds quarterly with an annual interest rate of $7\%$. To the nearest dollar, how much money should he invest if he wants a total of $\$60,\!000$ at the end of $5$ years?",Level 5,Algebra,"Recall the formula $A=P\left(1+\frac{r}{n}\right)^{nt}$, where $A$ is the end balance, $P$ is the principal, $r$ is the interest rate, $t$ is the number of years, and $n$ is the number of times the interest is compounded in a year. This formula represents the idea that the interest is compounded every $1/n$ years with the rate of $r/n$.
-
-Substituting the given information, we have \[60,\!000=P\left(1+\frac{0.07}{4}\right)^{4 \cdot 5}.\]Solving for $P$ gives  $P=42409.474...$, which rounded to the nearest dollar is $\boxed{\$42409}$.","The formula for compound interest is given by the formula:
-
-\[A = P\left(1+\frac{r}{n}\right)^{nt},\]
-
-where:
-$A$ is the amount of money accumulated after $t$ years,
-$P$ is the principal amount (initial investment),
-$r$ is the annual interest rate (decimal),
-$n$ is the number of times the interest is compounded per year, and
-$t$ is the number of years the money is invested for.
-
-Since the bank compounds quarterly, $n=4$ and $r=7\%=0.07$.
-
-Given that $A = \$60,\!000$, $t=5$ years, we need to find $P$.
-
-Plugging in the values into the formula and solving for $P$, we get:
-
-\[P = \frac{A}{\left(1+\frac{r}{n}\right)^{nt}}.\]
-
-Substitute the known values:
-
-\[P = \frac{\$60,000}{\left(1 + \frac{0.07}{4}\right)^{4\cdot 5}} = \frac{\$60,000}{(1 + 0.0175)^{20}} = \frac{\$60,000}{(1.0175)^{20}} \approx \frac{\$60,000}{1.3988} \approx \boxed{\$42,\!873}.\]",False,7.81795859336853,1056
+Therefore, Sam did not work for $\boxed{6}$ days.",1.0,2.851055145263672,914
