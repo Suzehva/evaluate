@@ -323,7 +323,9 @@ def run_model(train, test, model, sample_size, prompting_t):
                 'model_output': output_solution,
                 'correct':correct,
                 'latency': latency,
-                'num_tokens': num_tokens
+                'num_tokens': num_tokens,
+                'completion_tokens':response.usage.completion_tokens,
+                'prompt_tokens':response.usage.prompt_tokens
             }
         )
         total_tokens += num_tokens
