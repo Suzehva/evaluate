@@ -290,6 +290,10 @@ def run_model(train, test, model, sample_size, prompting_t):
     total_correct = 0
     counter = 0
 
+    if (prompting_t == "few_shot"):
+        few_shot_samples = train.select(range(apis.FEW_SHOT_SIZE))
+        train = train.select(range(apis.FEW_SHOT_SIZE, len(train)))
+
     for sample in train.select(range(sample_size)):
         problem = sample['problem']
 
@@ -298,7 +302,7 @@ def run_model(train, test, model, sample_size, prompting_t):
             response = apis.call_default_api(problem, model, SYSTEM_INPUT)
         elif (prompting_t == "few_shot"):
             # we pass in test data for few-shot examples since we don't use that
-            response = apis.call_few_shot_api(problem, model, SYSTEM_INPUT, test, "math");
+            response = apis.call_few_shot_api(problem, model, SYSTEM_INPUT, few_shot_samples, "math");
         elif (prompting_t == "COT"):
             response = apis.call_COT_api(problem, model, SYSTEM_INPUT)
         else:
