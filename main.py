@@ -1,11 +1,9 @@
 # to run: python3 main.py
-
-from datasets import load_dataset
 #from openai import OpenAI
 import sys
 from datetime import datetime
 import pandas as pd
-import math_pre
+import math_main
 import natural_questions_pre
 import apis
 
@@ -38,18 +36,14 @@ def main():
     
     if (DATASET == "math"):
         # preprocess math
-        train, test = math_pre.load_data()
-        results, total_tokens, total_time, total_correct = math_pre.run_model(train, test, MODEL, SAMPLE_SIZE, PROMPTING_T)
+        train, test = math_main.load_data()
+        results, total_tokens, total_time, total_correct = math_main.run_model(train, test, MODEL, SAMPLE_SIZE, PROMPTING_T)
        
         accuracy = total_correct / SAMPLE_SIZE
         print("\nAccuracy:", accuracy)
 
     elif (DATASET == "natural_questions"):
         train, validation = natural_questions_pre.load_data()
-        if (train is None):
-            print("train is none")
-        if (validation is None):
-            print ("validation is none")
         results, total_tokens, total_time, average_f1 = natural_questions_pre.run_model(train, validation, MODEL, SAMPLE_SIZE, PROMPTING_T)
         print("\naverage f1 score:", average_f1)
     
@@ -64,7 +58,18 @@ def main():
     df = pd.DataFrame(results)
     df.to_csv(f"results/result_{DATASET}_{MODEL}_{PROMPTING_T}_.csv")
 
-
+    file_path = f'results/total_{DATASET}_{MODEL}_{PROMPTING_T}_.txt'
+    with open(file_path, 'w') as file:
+        file.write(f"Model Version: {MODEL}")
+        file.write(f"Average Latency (s): {average_latency}\n")
+        file.write(f"Total Tokens Used: {total_tokens}\n")
+        file.write(f"Eval Sample Size: {SAMPLE_SIZE}\n")
+        if DATASET == "math":
+            file.write(f"Accuracy: {accuracy}\n")
+        if DATASET == "natural_questions":
+            file.write(f"F1 Score: {average_f1}\n")
+        # file.write(f"Using {i} example prompts:\n")
+        # file.write(system_input + "\n")
     # TODO: ask user whether it wants to use RAG, any tools/agents
 
 

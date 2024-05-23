@@ -3,7 +3,7 @@
 from openai import OpenAI
 client = OpenAI()
 
-FEW_SHOT_SIZE = 5;
+FEW_SHOT_SIZE = 5
 
 def call_few_shot_api(input, model, system_prompt, examples, dataset):
     system_prompt += "See some example below: \n"
