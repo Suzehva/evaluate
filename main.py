@@ -37,14 +37,14 @@ def main():
     if (DATASET == "math"):
         # preprocess math
         train, test = math_main.load_data()
-        results, total_tokens, total_time, total_correct = math_main.run_model(train, test, MODEL, SAMPLE_SIZE, PROMPTING_T)
+        results, total_tokens, total_time, total_correct, prompt = math_main.run_model(train, test, MODEL, SAMPLE_SIZE, PROMPTING_T)
        
         accuracy = total_correct / SAMPLE_SIZE
         print("\nAccuracy:", accuracy)
 
     elif (DATASET == "natural_questions"):
         train, validation = natural_questions_pre.load_data()
-        results, total_tokens, total_time, average_f1 = natural_questions_pre.run_model(train, validation, MODEL, SAMPLE_SIZE, PROMPTING_T)
+        results, total_tokens, total_time, average_f1, prompt = natural_questions_pre.run_model(train, validation, MODEL, SAMPLE_SIZE, PROMPTING_T)
         print("\naverage f1 score:", average_f1)
     
     average_latency = total_time / SAMPLE_SIZE
@@ -68,8 +68,9 @@ def main():
             file.write(f"Accuracy: {accuracy}\n")
         if DATASET == "natural_questions":
             file.write(f"F1 Score: {average_f1}\n")
-        # file.write(f"Using {i} example prompts:\n")
-        # file.write(system_input + "\n")
+        file.write(f"System Prompt: {prompt}\n")
+        if PROMPTING_T == "few_shot" or PROMPTING_T == "cot":
+            file.write(f"Few Shot Examples: {math_main.FEWSHOT_SIZE}\n")
     # TODO: ask user whether it wants to use RAG, any tools/agents
 
 

@@ -61,6 +61,6 @@ def run_model(train, test, model, sample_size, prompting_t):
         counter += 1
         print(f"processed {counter}/{sample_size}")
 
-    return results, total_tokens, total_time, total_correct
+    return results, total_tokens, total_time, total_correct, prompt
 
 
