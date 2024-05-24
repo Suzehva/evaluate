@@ -28,7 +28,7 @@ def run_model(train, test, model, sample_size, prompting_t):
     counter = 0
 
     prompt = math_prompts.get_prompt(prompting_t, train)
-    if prompting_t == "cot" or prompting_t == "fs": # filter out fs examples from train
+    if prompting_t == "COT_FS" or prompting_t == "FS": # filter out fs examples from train
         train = train.select(range(apis.FEW_SHOT_SIZE, len(train)))
     
     for sample in train.select(range(sample_size)):

@@ -21,12 +21,14 @@ Options:
     2. ???
 """
 
-PROMPTING_T = "few_shot"
+PROMPTING_T = "COT"
 """
 Options:
-    1. "few_shot" 
+    1. "FS" (few shot)
     2  "" (no prompting technique)
-    3. "COT"
+    3. "COT" (chain of thought)
+    4. "TOT" (tree of thought)
+    5. "COT_FS"
 """
 
 SAMPLE_SIZE = 5 # how many data points to include
@@ -51,7 +53,7 @@ def main():
     print("Average Latency (s):", average_latency)
     print("Total Tokens Used:", total_tokens)
     print("Number of datapoints used: ", SAMPLE_SIZE)
-    if (PROMPTING_T == "few_shot"):
+    if (PROMPTING_T == "FS"):
         print("number of examples used per few_shot: ", apis.FEW_SHOT_SIZE)
 
        
@@ -60,7 +62,7 @@ def main():
 
     file_path = f'results/total_{DATASET}_{MODEL}_{PROMPTING_T}_.txt'
     with open(file_path, 'w') as file:
-        file.write(f"Model Version: {MODEL}")
+        file.write(f"Model Version: {MODEL}\n")
         file.write(f"Average Latency (s): {average_latency}\n")
         file.write(f"Total Tokens Used: {total_tokens}\n")
         file.write(f"Eval Sample Size: {SAMPLE_SIZE}\n")
@@ -69,9 +71,8 @@ def main():
         if DATASET == "natural_questions":
             file.write(f"F1 Score: {average_f1}\n")
         file.write(f"System Prompt: {prompt}\n")
-        if PROMPTING_T == "few_shot" or PROMPTING_T == "cot":
+        if PROMPTING_T == "FS" or PROMPTING_T == "COT_FS":
             file.write(f"Few Shot Examples: {math_main.FEWSHOT_SIZE}\n")
-    # TODO: ask user whether it wants to use RAG, any tools/agents
 
 
 if __name__ == "__main__":
