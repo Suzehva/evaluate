@@ -18,7 +18,9 @@ MODEL = "gpt-3.5-turbo"
 """
 Options:
     1. gpt-3.5-turbo
-    2. ???
+    2. gpt-4
+    3. gpt-4-turbo
+    4. gpt-4o
 """
 
 PROMPTING_T = "COT_FS"
@@ -33,12 +35,15 @@ Options:
 
 SAMPLE_SIZE = 5 # how many data points to include
 
+USE_ENSEMBLE = False # optionally use ensembling for math
+
+ENSEMBLE_SIZE = 5 # number of ensembles to use
 
 def main():
     
     if (DATASET == "math"):
         train, test = math_main.load_data()
-        results, total_tokens, total_time, total_correct, prompt = math_main.run_model(train, test, MODEL, SAMPLE_SIZE, PROMPTING_T)
+        results, total_tokens, total_time, total_correct, prompt = math_main.run_model(train, test, MODEL, SAMPLE_SIZE, PROMPTING_T, USE_ENSEMBLE)
        
         accuracy = total_correct / SAMPLE_SIZE
         print("\nAccuracy:", accuracy)
@@ -73,6 +78,9 @@ def main():
         if PROMPTING_T == "FS" or PROMPTING_T == "COT_FS":
             name = f"{DATASET}_main.FEWSHOT_SIZE"
             file.write(f"Few Shot Examples: {name}\n")
+        if USE_ENSEMBLE:
+            var_name = f"{DATASET}_main.ENSEMBLE_SIZE"
+            file.write(f"Ensemble Size: {var_name}\n")
 
 
 if __name__ == "__main__":
