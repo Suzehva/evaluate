@@ -4,67 +4,72 @@
 x-5 &\text{ if } -2 \le x \le 2, \\
 2x-b &\text{ if } x <-2.
 \end{array}
-\right.\]Find $a+b$ if the piecewise function is continuous (which means that its graph can be drawn without lifting your pencil from the paper).",Level 5,Algebra,"For the piecewise function to be continuous, the cases must ""meet"" at $2$ and $-2$. For example, $ax+3$ and $x-5$ must be equal when $x=2$. This implies $a(2)+3=2-5$, which we solve to get $2a=-6 \Rightarrow a=-3$. Similarly, $x-5$ and $2x-b$ must be equal when $x=-2$. Substituting, we get $-2-5=2(-2)-b$, which implies $b=3$. So $a+b=-3+3=\boxed{0}$.","For the function to be continuous, the function values must match at the points where the pieces connect. 
+\right.\]Find $a+b$ if the piecewise function is continuous (which means that its graph can be drawn without lifting your pencil from the paper).",Level 5,Algebra,"For the piecewise function to be continuous, the cases must ""meet"" at $2$ and $-2$. For example, $ax+3$ and $x-5$ must be equal when $x=2$. This implies $a(2)+3=2-5$, which we solve to get $2a=-6 \Rightarrow a=-3$. Similarly, $x-5$ and $2x-b$ must be equal when $x=-2$. Substituting, we get $-2-5=2(-2)-b$, which implies $b=3$. So $a+b=-3+3=\boxed{0}$.","For the function to be continuous, the values of the function at the points where the pieces connect need to be equal. 
 
-1. At $x=2$, we have $f(2) = 2-5 = -3$ (from the middle piece) and $f(2) = a\cdot 2 + 3 = 2a + 3$ (from the top piece). Because the function is continuous at $x=2$, we must have $-3 = 2a + 3$. Solving for $a$, we get $a = -3 - 3 = -6$.
+1. $ax+3=x-5$ at $x=2$:  
+\[ax+3 = 2a + 3 = 2-5 = -3 
+\]
+So, $2a = -6$, which gives $a = -3.$
 
-2. At $x=-2$, we have $f(-2) = -2 - b$ (from the bottom piece) and $f(-2) = (-2)\cdot a + 3 = -12 + 3 = -9$ (from the top piece). For continuity at $x=-2$, we have $-2 - b = -9$. Solving for $b$, we get $b = -2 + 9 = 7$.
+2. $x-5 = 2x-b$ at $x = -2$:  
+\[
+-2 - 5 = -7 = -4 - b
+\]
+So, $b = -3.$
 
-Therefore, $a+b = -6 + 7 = 1$.
+Therefore, $a + b = -3 + (-3) = -6$. Hence, $\boxed{-6}$ is the final answer.",0.0,3.1543056964874268,292,158,134
+1,"A rectangular band formation is a formation with $m$ band members in each of $r$ rows, where $m$ and $r$ are integers. A particular band has less than 100 band members. The director arranges them in a rectangular formation and finds that he has two members left over. If he increases the number of members in each row by 1 and reduces the number of rows by 2, there are exactly enough places in the new formation for each band member. What is the largest number of members the band could have?",Level 5,Algebra,"Let $x$ be the number of band members in each row for the original formation, when two are left over.  Then we can write two equations from the given information: $$rx+2=m$$ $$(r-2)(x+1)=m$$ Setting these equal, we find: $$rx+2=(r-2)(x+1)=rx-2x+r-2$$ $$2=-2x+r-2$$ $$4=r-2x$$ We know that the band has less than 100 members.  Based on the first equation, we must have $rx$ less than 98.  We can guess and check some values of $r$ and $x$ in the last equation.  If $r=18$, then $x=7$, and $rx=126$ which is too big.  If $r=16$, then $x=6$, and $rx=96$, which is less than 98.  Checking back in the second formation, we see that $(16-2)(6+1)=14\cdot 7=98$ as it should.  This is the best we can do, so the largest number of members the band could have is $\boxed{98}$.","Let the number of band members be $x$, the number of members in each row be $m$, and the number of rows be $r$. 
+From the given information, we have:
+$x = mr + 2$ and 
+$x = (m+1)(r-2)$.
 
-Therefore, \(\boxed{a+b = 1}\) when the function is continuous.",0.0,4.5761330127716064,393,259,134
-1,"A rectangular band formation is a formation with $m$ band members in each of $r$ rows, where $m$ and $r$ are integers. A particular band has less than 100 band members. The director arranges them in a rectangular formation and finds that he has two members left over. If he increases the number of members in each row by 1 and reduces the number of rows by 2, there are exactly enough places in the new formation for each band member. What is the largest number of members the band could have?",Level 5,Algebra,"Let $x$ be the number of band members in each row for the original formation, when two are left over.  Then we can write two equations from the given information: $$rx+2=m$$ $$(r-2)(x+1)=m$$ Setting these equal, we find: $$rx+2=(r-2)(x+1)=rx-2x+r-2$$ $$2=-2x+r-2$$ $$4=r-2x$$ We know that the band has less than 100 members.  Based on the first equation, we must have $rx$ less than 98.  We can guess and check some values of $r$ and $x$ in the last equation.  If $r=18$, then $x=7$, and $rx=126$ which is too big.  If $r=16$, then $x=6$, and $rx=96$, which is less than 98.  Checking back in the second formation, we see that $(16-2)(6+1)=14\cdot 7=98$ as it should.  This is the best we can do, so the largest number of members the band could have is $\boxed{98}$.","Let $m$ be the number of band members in each row and $r$ be the number of rows in the rectangular formation.
+Substituting the first equation into the second, we get: 
+$mr + 2 = (m+1)(r-2)$
+$mr + 2 = mr - 2m + r - 2$
+$2 = r - 2m - 2$
+$r = 2m + 4$
 
-From the given conditions, we have the following equations:
-1. $mr + 2 < 100$ (less than 100 members)
-2. $(m+1)(r-2) = mr$ (new formation has enough places for each band member)
+Now, since $x < 100$, we have: 
 
-Expanding the second equation gives $mr + r - 2m - 2 = mr$ which simplifies to $r - 2m - 2 = 0$. Therefore, $r = 2m + 2$.
-
-Substitute $r = 2m + 2$ into the first equation:
+$mr + 2 < 100$
+$m(2m + 4) + 2 < 100$
 $2m^2 + 4m + 2 < 100$
+$2m^2 + 4m - 98 < 0$
+$m^2 + 2m - 49 < 0$
 
-Solving this quadratic inequality gives $m < 7$.
+Since $m$ is an integer, we can find the factors of $-49$ that have a sum of $2$, which are $7$ and $-7$.
+Therefore, the largest possible value for $m$ is $7$, which results in a value of $r = 2*7 + 4 = 18$.
 
-Therefore, the maximum number of members the band could have is when $m = 6$:
-$r = 2(6) + 2 = 14$
+Finally, we find the maximum number of members the band could have:
 
-Hence, the largest number of members the band could have is $\boxed{84}$.",0.0,3.6909537315368652,371,230,141
-2,What is the degree of the polynomial $(4 +5x^3 +100 +2\pi x^4 + \sqrt{10}x^4 +9)$?,Level 3,Algebra,"This polynomial is not written in standard form.  However, we don't need to write it in standard form, nor do we need to pay attention to the coefficients.  We just look for the exponents on $x$.  We have an $x^4$ term and no other term of higher degree, so $\boxed{4}$ is the degree of the polynomial.","The degree of a polynomial is determined by the highest exponent of the variable in any term of the polynomial. In this case, the highest exponent is 4.
+$x = 7*18 + 2 = 126 + 2 = 128$
 
-Therefore, the degree of the polynomial is $\boxed{4}$.",1.0,1.1937694549560547,112,46,66
-3,Evaluate $\left\lceil3\left(6-\frac12\right)\right\rceil$.,Level 3,Algebra,"Firstly, $3\left(6-\frac12\right)=18-1-\frac12=17-\frac12$.  Because $0\le\frac12<1$, we have $\left\lceil17-\frac12\right\rceil=\boxed{17}$.","First, we simplify the expression inside the ceiling function:
+Thus, the largest number of members the band could have is $\boxed{128}$.",0.0,5.326004266738892,475,334,141
+2,What is the degree of the polynomial $(4 +5x^3 +100 +2\pi x^4 + \sqrt{10}x^4 +9)$?,Level 3,Algebra,"This polynomial is not written in standard form.  However, we don't need to write it in standard form, nor do we need to pay attention to the coefficients.  We just look for the exponents on $x$.  We have an $x^4$ term and no other term of higher degree, so $\boxed{4}$ is the degree of the polynomial.","The degree of a polynomial is the highest power of the variable present in the polynomial. In this case, the polynomial is $5x^3 + 2\pi x^4 + \sqrt{10}x^4$.
 
-$$3\left(6-\frac{1}{2}\right) = 3\left(\frac{12}{2}-\frac{1}{2}\right) = 3\left(\frac{11}{2}\right) = \frac{33}{2}$$
+The highest power of the variable $x$ in this polynomial is $4$. Therefore, the degree of the given polynomial is $\boxed{4}$.",1.0,1.6913626194000244,145,79,66
+3,Evaluate $\left\lceil3\left(6-\frac12\right)\right\rceil$.,Level 3,Algebra,"Firstly, $3\left(6-\frac12\right)=18-1-\frac12=17-\frac12$.  Because $0\le\frac12<1$, we have $\left\lceil17-\frac12\right\rceil=\boxed{17}$.","First, simplify the expression inside the ceiling function:
 
-Then, we find the smallest integer greater than or equal to $\frac{33}{2}$, which is 17. Therefore, $\boxed{17}$ is the final answer.",1.0,1.7637555599212646,159,108,51
+$3\left(6-\frac{1}{2}\right) = 3\left(\frac{12}{2}-\frac{1}{2}\right) = 3\left(\frac{11}{2}\right) = \frac{33}{2}$
+
+Now, since $\frac{33}{2} = 16.5$, the smallest integer greater than or equal to 16.5 is 17. Therefore, 
+
+$\boxed{17}$
+
+So, $\left\lceil3\left(6-\frac12\right)\right\rceil = 17$.",1.0,2.3142642974853516,186,135,51
 4,"Sam is hired for a 20-day period. On days that he works, he earns $\$$60. For each day that he does not work, $\$$30 is subtracted from his earnings. At the end of the 20-day period, he received $\$$660. How many days did he not work?",Level 3,Algebra,"Call $x$ the number of days Sam works and $y$ the number of days he does not. We can set up the following system of equations to represent the given information: \begin{align*}
 x+y &= 20 \\
 60x - 30y &= 660 \\
-\end{align*} The first equation represents the total number of days Sam works, and the second equation represents his total profit. Solving for $x$ in the first equation yields $x = 20 - y$. Substituting into the second equation gives $60(20-y) - 30y = 660$. Canceling a factor of $10$ and multiplying out gives $120 - 6y - 3y = 66$. This simplifies to $-9y = -54$, or $y = 6$. Thus, Sam did not work for $\boxed{6}$ days.","Let $x$ be the number of days Sam worked and $y$ be the number of days he did not work.
+\end{align*} The first equation represents the total number of days Sam works, and the second equation represents his total profit. Solving for $x$ in the first equation yields $x = 20 - y$. Substituting into the second equation gives $60(20-y) - 30y = 660$. Canceling a factor of $10$ and multiplying out gives $120 - 6y - 3y = 66$. This simplifies to $-9y = -54$, or $y = 6$. Thus, Sam did not work for $\boxed{6}$ days.","Let \( x \) be the number of days Sam did not work and \( y \) be the number of days he worked. We know that \( x + y = 20 \) and that Sam earned \( 60y - 30x = 660 \) dollars.
 
-We know that he worked for $x$ days, so he earned $60x$ on those days. On the days he did not work, $30y$ would be subtracted from his earnings.
+From the first equation, we can express \( y \) in terms of \( x \):
+\( y = 20 - x \)
 
-Since at the end of 20 days he received $660, we can form the equation:
+Substitute this into the second equation:
+\( 60(20 - x) - 30x = 660 \)
+\( 1200 - 60x - 30x = 660 \)
+\( 1200 - 90x = 660 \)
+\( -90x = -540 \)
+\( x = 6 \)
 
-$60x -30y = 660$
-
-We also know that he worked for a total of 20 days, so $x + y = 20$.
-
-We can solve this system of equations to find $y$:
-
-From $x+y = 20$, we get $x = 20 - y$.
-
-Substitute $x = 20 - y$ into $60x - 30y = 660$:
-
-$60(20 - y) - 30y = 660$
-
-$1200 - 60y - 30y = 660$
-
-$1200 - 90y = 660$
-
-$-90y = -540$
-
-$y = 6$
-
-Therefore, Sam did not work for $\boxed{6}$ days.",1.0,4.224220514297485,339,244,95
+Therefore, Sam did not work for \( \boxed{6} \) days.",1.0,2.822730302810669,269,174,95

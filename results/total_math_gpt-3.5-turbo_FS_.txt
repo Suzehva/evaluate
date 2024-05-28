@@ -1,6 +1,6 @@
 Model Version: gpt-3.5-turbo
-Average Latency (s): 4.629117107391357
-Total Tokens Used: 3998
+Average Latency (s): 4.226728725433349
+Total Tokens Used: 3658
 Eval Sample Size: 5
 Accuracy: 0.4
 System Prompt: You answer questions about math problems. Enclose your final answer in LaTeX's \boxed tag.
@@ -20,4 +20,4 @@ A: 17
 Q: Sam is hired for a 20-day period. On days that he works, he earns $\$$60. For each day that he does not work, $\$$30 is subtracted from his earnings. At the end of the 20-day period, he received $\$$660. How many days did he not work?
 A: 6
 
-Few Shot Examples: 5
+Few Shot Examples: math_main.FEWSHOT_SIZE

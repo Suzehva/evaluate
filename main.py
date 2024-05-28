@@ -4,10 +4,10 @@ import sys
 from datetime import datetime
 import pandas as pd
 import math_main
-import natural_questions_pre
+import natural_questions_main
 import apis
 
-DATASET = "math"
+DATASET = "natural_questions"
 """
 Options:
     1. math (hendrycks/competition_math)
@@ -21,7 +21,7 @@ Options:
     2. ???
 """
 
-PROMPTING_T = "COT"
+PROMPTING_T = "COT_FS"
 """
 Options:
     1. "FS" (few shot)
@@ -37,7 +37,6 @@ SAMPLE_SIZE = 5 # how many data points to include
 def main():
     
     if (DATASET == "math"):
-        # preprocess math
         train, test = math_main.load_data()
         results, total_tokens, total_time, total_correct, prompt = math_main.run_model(train, test, MODEL, SAMPLE_SIZE, PROMPTING_T)
        
@@ -45,8 +44,8 @@ def main():
         print("\nAccuracy:", accuracy)
 
     elif (DATASET == "natural_questions"):
-        train, validation = natural_questions_pre.load_data()
-        results, total_tokens, total_time, average_f1, prompt = natural_questions_pre.run_model(train, validation, MODEL, SAMPLE_SIZE, PROMPTING_T)
+        train, validation = natural_questions_main.load_data()
+        results, total_tokens, total_time, average_f1, prompt = natural_questions_main.run_model(train, validation, MODEL, SAMPLE_SIZE, PROMPTING_T)
         print("\naverage f1 score:", average_f1)
     
     average_latency = total_time / SAMPLE_SIZE
@@ -72,7 +71,8 @@ def main():
             file.write(f"F1 Score: {average_f1}\n")
         file.write(f"System Prompt: {prompt}\n")
         if PROMPTING_T == "FS" or PROMPTING_T == "COT_FS":
-            file.write(f"Few Shot Examples: {math_main.FEWSHOT_SIZE}\n")
+            name = f"{DATASET}_main.FEWSHOT_SIZE"
+            file.write(f"Few Shot Examples: {name}\n")
 
 
 if __name__ == "__main__":

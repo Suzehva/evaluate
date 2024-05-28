@@ -11,7 +11,7 @@ def get_fs_prompt(dataset):
     prompt += get_examples("FS", dataset, math_main.FEWSHOT_SIZE)
     return prompt
 
-def get_cot_prompt(dataset):
+def get_cot_prompt():
     prompt = "You answer questions about math problems. Provide a step-by-step solution. Enclose your final answer in LaTeX's \\boxed tag.\n"
     return prompt
 
@@ -40,13 +40,13 @@ def get_prompt(prompt_type, dataset):
     Take in prompt type and optional number of examples
     """
     if prompt_type == "COT":
-        prompt = get_cot_prompt(dataset)
+        prompt = get_cot_prompt()
     elif prompt_type == "COT_FS":
         prompt = get_cot_fs_prompt(dataset)
     elif prompt_type == "FS":
         prompt = get_fs_prompt(dataset)
     elif prompt_type == "TOT":
-        prompt = get_tot_prompt(dataset)
+        prompt = get_tot_prompt()
     elif prompt_type == "":
         prompt = get_vanilla_prompt()
     else:

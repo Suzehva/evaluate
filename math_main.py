@@ -1,6 +1,3 @@
-# TODO: create class to preprocess math data (select only last data between {}, latex format
-# Return a pandas df with the following columns: question, original answer, original processed answer, level, genre
-
 from typing import Optional
 from datasets import load_dataset
 from time import time
@@ -9,7 +6,6 @@ import apis
 from prompting import math_prompts
 from preprocess import math_pre
 
-SYSTEM_INPUT = "You answer questions about math problems. Provide a concise answer. Enclose your final answer in LaTeX's \\boxed tag.\n"
 FEWSHOT_SIZE = 5 # always set this to 0 if not using fewshot
 NUM_EXPERTS = 3 # tree of thought
 
@@ -29,7 +25,7 @@ def run_model(train, test, model, sample_size, prompting_t):
 
     prompt = math_prompts.get_prompt(prompting_t, train)
     if prompting_t == "COT_FS" or prompting_t == "FS": # filter out fs examples from train
-        train = train.select(range(apis.FEW_SHOT_SIZE, len(train)))
+        train = train.select(range(FEWSHOT_SIZE, len(train)))
     
     for sample in train.select(range(sample_size)):
         problem = sample['problem']

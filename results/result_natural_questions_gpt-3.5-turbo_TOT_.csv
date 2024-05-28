@@ -1,0 +1,24 @@
+,question,answer,model_output,f1,latency,num_tokens,completion_tokens,prompt_tokens
+0,when is the last episode of season 8 of the walking dead,"{'end_byte': [96731], 'end_token': [3525], 'start_byte': [96715], 'start_token': [3521], 'text': ['March 18, 2018']}","I'm sorry, I am a language model assistant and I am only able to provide information and help with questions related to text-based content. How can I assist you today?",0.0,1.115121841430664,145,35,110
+1,in greek mythology who was the goddess of spring growth,"Persephone (/pərˈsɛfəni/; Greek: Περσεφόνη), also called Kore (/ˈkɔːriː/; ""the maiden"")","Expert 1: I believe the goddess of spring growth in Greek mythology is Persephone.
+Expert 2: Yes, Persephone is known as the goddess of spring growth because she was abducted by Hades and her return to the earth brought about the blooming of flowers and the onset of the spring season.
+Expert 3: Another reason Persephone is associated with spring growth is because she is the daughter of Demeter, the goddess of agriculture. Demeter's joy at being reunited with her daughter each spring is said to bring about the fertility and abundance of the earth.
+
+[[Persephone]] is the goddess of spring growth in Greek mythology.",0.03883495145631068,2.675295114517212,241,133,108
+2,what is the name of the most important jewish text,"{'end_byte': [133303], 'end_token': [4399], 'start_byte': [133231], 'start_token': [4396], 'text': ['the Shulchan Aruch']}","Expert 1: The Torah is the most important Jewish text, as it contains the foundational laws and teachings of Judaism.
+
+Expert 2: The Torah is made up of five books: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy.
+
+Expert 3: Each of these books, or sections, contain important stories, laws, and commandments that guide Jewish life and practice.
+
+[[ANSWER: The Torah]]",0.0,2.016338348388672,194,87,107
+3,what is the name of spain's most famous soccer team,Real Madrid,"Expert 1: Real Madrid
+Expert 2: Real Madrid
+Expert 3: Real Madrid
+
+[[Real Madrid]]",0.25,0.7994353771209717,134,25,109
+4,when was the first robot used in surgery,"{'end_byte': [92102], 'end_token': [3832], 'start_byte': [92098], 'start_token': [3831], 'text': ['1983']}","Expert 1: The first use of a robot in surgery was in 1985.
+Expert 2: The robot used was the PUMA 560, which assisted in performing neurosurgical biopsies.
+Expert 3: This marked the beginning of robotic-assisted surgery, which has since evolved to include various types of procedures in different medical specialties.
+
+[[1985]]",0.0,1.5751233100891113,182,77,105

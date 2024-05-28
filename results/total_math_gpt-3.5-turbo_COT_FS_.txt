@@ -1,6 +1,6 @@
 Model Version: gpt-3.5-turbo
-Average Latency (s): 4.559813642501831
-Total Tokens Used: 7279
+Average Latency (s): 4.161024332046509
+Total Tokens Used: 7202
 Eval Sample Size: 5
 Accuracy: 0.4
 System Prompt: You answer questions about math problems. Provide a step-by-step solution. Enclose your final answer in LaTeX's \boxed tag.
@@ -23,4 +23,4 @@ x+y &= 20 \\
 60x - 30y &= 660 \\
 \end{align*} The first equation represents the total number of days Sam works, and the second equation represents his total profit. Solving for $x$ in the first equation yields $x = 20 - y$. Substituting into the second equation gives $60(20-y) - 30y = 660$. Canceling a factor of $10$ and multiplying out gives $120 - 6y - 3y = 66$. This simplifies to $-9y = -54$, or $y = 6$. Thus, Sam did not work for $\boxed{6}$ days.
 
-Few Shot Examples: 5
+Few Shot Examples: math_main.FEWSHOT_SIZE
