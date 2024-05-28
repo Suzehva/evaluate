@@ -40,7 +40,7 @@ def run_model(train, test, model, sample_size, prompting_t, use_ensemble = False
                 response = apis.call_default_api(problem, model, prompt)
                 output_solution = response.choices[0].message.content
                 num_tokens += response.usage.total_tokens
-                responses.append(response)
+                responses.append(output_solution)
             latency = time() - start_time
             output_solution = ensemble.take_majority_vote(responses)
             correct = math_pre.check_answer(output_solution, sample['solution'])
