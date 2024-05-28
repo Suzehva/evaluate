@@ -91,9 +91,16 @@ def main():
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Run LLM model on a dataset')
+    parser = argparse.ArgumentParser(description='Specify pipeline properties')
+    parser.add_argument(
+        'model_version',
+        type=str,
+        choices=['gpt-3.5', 'gpt-4', 'gpt-4-turbo', 'gpt-4-o', 'all'],
+        help='Specify the GPT model version to use.'
+    )
     parser.add_argument('--dataset', type=str, required=True, help='Dataset to use (math or natural_questions)')
-    parser.add_argument('--model', type=str, required=True, help='LLM model to use (e.g., gpt-3.5-turbo, gpt-4)')
+
+    parser.add_argument('--model', type=str, required=True, choices=['gpt-3.5-turbo', 'gpt-4', 'gpt-4-turbo', 'gpt-4o'], help='LLM model to use (e.g., gpt-3.5-turbo, gpt-4)')
     parser.add_argument('--prompting_type', type=str, help='Type of prompting (FS, COT, TOT, COT_FS)')
     parser.add_argument('--sample_size', type=int, default=5, help='Number of data points to include')
     parser.add_argument('--use_ensemble', action='store_true', help='Optionally use ensembling for math')
