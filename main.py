@@ -8,14 +8,14 @@ import natural_questions_main
 import apis
 import argparse
 
-DATASET = "natural_questions"
+DATASET = "math"
 """
 Options:
     1. math (hendrycks/competition_math)
     2. natural_questions
 """
 
-MODEL = "gpt-4-turbo"
+MODEL = "gpt-3.5-turbo"
 """
 Options:
     1. gpt-3.5-turbo
@@ -37,8 +37,6 @@ Options:
 SAMPLE_SIZE = 5 # how many data points to include
 
 USE_ENSEMBLE = False # optionally use ensembling for math
-
-ENSEMBLE_SIZE = 5 # number of ensembles to use
 
 def main():
     
@@ -92,20 +90,37 @@ def main():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Specify pipeline properties')
-    parser.add_argument(
-        'model_version',
-        type=str,
-        choices=['gpt-3.5', 'gpt-4', 'gpt-4-turbo', 'gpt-4-o', 'all'],
-        help='Specify the GPT model version to use.'
-    )
-    parser.add_argument('--dataset', type=str, required=True, help='Dataset to use (math or natural_questions)')
-
+    parser.add_argument('--dataset', type=str, required=True, choices=['math', 'natural_questions'], help='Dataset to use (math or natural_questions)')
     parser.add_argument('--model', type=str, required=True, choices=['gpt-3.5-turbo', 'gpt-4', 'gpt-4-turbo', 'gpt-4o'], help='LLM model to use (e.g., gpt-3.5-turbo, gpt-4)')
-    parser.add_argument('--prompting_type', type=str, help='Type of prompting (FS, COT, TOT, COT_FS)')
     parser.add_argument('--sample_size', type=int, default=5, help='Number of data points to include')
-    parser.add_argument('--use_ensemble', action='store_true', help='Optionally use ensembling for math')
-    parser.add_argument('--ensemble_size', type=int, default=5, help='Number of ensembles to use')
-
+    parser.add_argument('--prompting_type', type=str, choices=['FS', 'COT', 'TOT', 'COT_FS', 'None'], help='Type of prompting (FS, COT, TOT, COT_FS)')
+    parser.add_argument('--prompting_arg', type=int, default=5, help='Optionally provide a number of prompts for COT_FS/FS, or number of experts for TOT')
+    parser.add_argument('--use_ensemble', action='store_true', help='Optionally use ensembling')
+    parser.add_argument('--ensemble_size', type=int, default=5, help='Number of models to use for ensembling')
     args = parser.parse_args()
 
+
+    DATASET = args.dataset
+    MODEL = args.model
+    SAMPLE_SIZE = args.sample_size
+    PROMPTING_T = args.prompting_type 
+    if PROMPTING_T == 'None':
+        PROMPTING_T = ''
+    elif PROMPTING_T == 'FS' or PROMPTING_T == 'COT_FS':
+        if DATASET == 'math':
+            math_main.FEWSHOT_SIZE = args.prompting_arg
+        elif DATASET == 'natural_questions':
+            natural_questions_main.FEWSHOT_SIZE = args.prompting_arg
+    elif PROMPTING_T == 'TOT':
+        if DATASET == 'math':
+            math_main.NUM_EXPERTS = args.prompting_arg
+        elif DATASET == 'natural_questions':
+            natural_questions_main.NUM_EXPERTS = args.prompting_arg
+    USE_ENSEMBLE = args.use_ensemble
+    if USE_ENSEMBLE:
+        if DATASET == 'math':
+            math_main.ENSEMBLE_SIZE = args.ensemble_size
+        elif DATASET == 'natural_questions':
+            pass
+    
     main()
