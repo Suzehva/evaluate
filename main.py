@@ -6,6 +6,7 @@ import pandas as pd
 import math_main
 import natural_questions_main
 import apis
+import argparse
 
 DATASET = "natural_questions"
 """
@@ -62,9 +63,13 @@ def main():
 
        
     df = pd.DataFrame(results)
-    df.to_csv(f"results/result_{DATASET}_{MODEL}_{PROMPTING_T}_.csv")
-
-    file_path = f'results/total_{DATASET}_{MODEL}_{PROMPTING_T}_.txt'
+    
+    if USE_ENSEMBLE:
+        df.to_csv(f"results/result_{DATASET}_{MODEL}_{PROMPTING_T}_ensemble.csv")
+        file_path = f'results/total_{DATASET}_{MODEL}_{PROMPTING_T}_ensemble.txt'
+    else:
+        df.to_csv(f"results/result_{DATASET}_{MODEL}_{PROMPTING_T}.csv")
+        file_path = f'results/total_{DATASET}_{MODEL}_{PROMPTING_T}_.txt'
     with open(file_path, 'w') as file:
         file.write(f"Model Version: {MODEL}\n")
         file.write(f"Average Latency (s): {average_latency}\n")
@@ -84,4 +89,14 @@ def main():
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Run LLM model on a dataset')
+    parser.add_argument('--dataset', type=str, required=True, help='Dataset to use (math or natural_questions)')
+    parser.add_argument('--model', type=str, required=True, help='LLM model to use (e.g., gpt-3.5-turbo, gpt-4)')
+    parser.add_argument('--prompting_type', type=str, help='Type of prompting (FS, COT, TOT, COT_FS)')
+    parser.add_argument('--sample_size', type=int, default=5, help='Number of data points to include')
+    parser.add_argument('--use_ensemble', action='store_true', help='Optionally use ensembling for math')
+    parser.add_argument('--ensemble_size', type=int, default=5, help='Number of ensembles to use')
+
+    args = parser.parse_args()
+
     main()
