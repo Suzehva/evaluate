@@ -18,7 +18,7 @@ def load_data():
     return train_dataset, test_dataset
 
 def run_model(train, test, model, sample_size, prompting_t):
-    #TODO: include close book
+    #TODO: include closed book
     results = []
     total_tokens = 0
     total_time = 0
@@ -62,12 +62,12 @@ def run_model(train, test, model, sample_size, prompting_t):
 
         f1 = 0
         answer = answers[0]['text'][0] # take 1st answer as default
-        for answer in answers:
+        for temp_ans in answers:
             # we take the f1 score of the output_answer combined with the answer that is the closest
-            f1_temp = evaluation.f1_score(output_answer, answer['text'][0])
+            f1_temp = evaluation.f1_score(output_answer, temp_ans['text'][0])
             if f1_temp > f1:
                 f1 = f1_temp
-                answer = answer['text'][0]
+                answer = temp_ans['text'][0]
 
         results.append(
             {

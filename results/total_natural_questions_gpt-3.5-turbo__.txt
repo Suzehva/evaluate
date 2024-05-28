@@ -1,5 +1,5 @@
 Model Version: gpt-3.5-turbo
-Average Latency (s): 0.49106764793395996
+Average Latency (s): 0.557035255432129
 Total Tokens Used: 295
 Eval Sample Size: 5
 F1 Score: 0.30666666666666664
