@@ -14,11 +14,11 @@ Options:
     2. natural_questions
 """
 
-MODEL = "gpt-3.5-turbo"
+MODEL = "gpt-4-turbo"
 """
 Options:
     1. gpt-3.5-turbo
-    2. ???
+    2. gpt-4-turbo
 """
 
 PROMPTING_T = ""
