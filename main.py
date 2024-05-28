@@ -57,7 +57,7 @@ def main():
     print("Total Tokens Used:", total_tokens)
     print("Number of datapoints used: ", SAMPLE_SIZE)
     if (PROMPTING_T == "FS"):
-        print("number of examples used per few_shot: ", apis.FEW_SHOT_SIZE)
+        print("number of examples used per few_shot: ", math_main.FEW_SHOT_SIZE)
 
        
     df = pd.DataFrame(results)
