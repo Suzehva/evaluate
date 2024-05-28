@@ -8,14 +8,14 @@ import natural_questions_main
 import apis
 import argparse
 
-DATASET = "natural_questions"
+DATASET = "math"
 """
 Options:
     1. math (hendrycks/competition_math)
     2. natural_questions
 """
 
-MODEL = "gpt-4-turbo"
+MODEL = "gpt-3.5-turbo"
 """
 Options:
     1. gpt-3.5-turbo
