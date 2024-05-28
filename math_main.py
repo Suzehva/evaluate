@@ -5,9 +5,11 @@ from openai import OpenAI
 import apis
 from prompting import math_prompts
 from preprocess import math_pre
+import ensemble
 
 FEWSHOT_SIZE = 5 # always set this to 0 if not using fewshot
 NUM_EXPERTS = 3 # tree of thought
+ENSEMBLE_SIZE = 4 # ensembling
 
 def load_data():
     train_dataset = load_dataset("hendrycks/competition_math", split="train", trust_remote_code=True)
@@ -16,7 +18,7 @@ def load_data():
     print("Loaded dataset")
     return train_dataset, test_dataset
 
-def run_model(train, test, model, sample_size, prompting_t):
+def run_model(train, test, model, sample_size, prompting_t, use_ensemble = False):
     results = []
     total_tokens = 0
     total_time = 0
@@ -30,12 +32,25 @@ def run_model(train, test, model, sample_size, prompting_t):
     for sample in train.select(range(sample_size)):
         problem = sample['problem']
 
-        start_time = time() # should I do this call and latency call later within if statements?
-        response = apis.call_default_api(problem, model, prompt)
-        latency = time() - start_time
-        output_solution = response.choices[0].message.content
-        num_tokens = response.usage.total_tokens
-        correct = math_pre.check_answer(output_solution, sample['solution'])
+        if use_ensemble:
+            start_time = time()
+            responses = []
+            num_tokens = 0
+            for i in range(ENSEMBLE_SIZE):
+                response = apis.call_default_api(problem, model, prompt)
+                output_solution = response.choices[0].message.content
+                num_tokens += response.usage.total_tokens
+                responses.append(response)
+            latency = time() - start_time
+            output_solution = ensemble.take_majority_vote(responses)
+            correct = math_pre.check_answer(output_solution, sample['solution'])
+        else:
+            start_time = time() # should I do this call and latency call later within if statements?
+            response = apis.call_default_api(problem, model, prompt)
+            latency = time() - start_time
+            output_solution = response.choices[0].message.content
+            num_tokens = response.usage.total_tokens
+            correct = math_pre.check_answer(output_solution, sample['solution'])
 
         results.append(
             {
