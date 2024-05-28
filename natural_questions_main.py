@@ -4,7 +4,7 @@ from time import time
 from openai import OpenAI
 import apis
 from prompting import natural_questions_prompts
-# from preprocess import natural_questions_pre #(nothing to preprocess for now)
+from preprocess import natural_questions_pre #(nothing to preprocess for now)
 import evaluation
 
 FEWSHOT_SIZE = 5 # amount of samples used for few_shot
@@ -57,17 +57,17 @@ def run_model(train, test, model, sample_size, prompting_t):
         response = apis.call_default_api(question, model, prompt)
         latency = time() - start_time
         output_answer = response.choices[0].message.content
+        output_answer = natural_questions_pre.extract_answer(output_answer)
         num_tokens = response.usage.total_tokens
 
         f1 = 0
-        answer = ""
+        answer = answers[0]['text'][0] # take 1st answer as default
         for answer in answers:
             # we take the f1 score of the output_answer combined with the answer that is the closest
             f1_temp = evaluation.f1_score(output_answer, answer['text'][0])
             if f1_temp > f1:
                 f1 = f1_temp
                 answer = answer['text'][0]
-            #f1 = max(f1, f1_score(output_answer, answer['text'][0]))
 
         results.append(
             {

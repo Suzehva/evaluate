@@ -21,7 +21,7 @@ Options:
     2. ???
 """
 
-PROMPTING_T = "COT_FS"
+PROMPTING_T = ""
 """
 Options:
     1. "FS" (few shot)
@@ -71,8 +71,10 @@ def main():
             file.write(f"F1 Score: {average_f1}\n")
         file.write(f"System Prompt: {prompt}\n")
         if PROMPTING_T == "FS" or PROMPTING_T == "COT_FS":
-            name = f"{DATASET}_main.FEWSHOT_SIZE"
-            file.write(f"Few Shot Examples: {name}\n")
+            if DATASET == "math":
+                file.write(f"Few Shot Examples: {math_main.FEWSHOT_SIZE}\n")
+            elif DATASET == "natural_questions":
+                file.write(f"Few Shot Examples: {natural_questions_main.FEWSHOT_SIZE}\n")
 
 
 if __name__ == "__main__":
