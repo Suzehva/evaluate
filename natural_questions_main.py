@@ -6,9 +6,7 @@ import apis
 from prompting import natural_questions_prompts
 from preprocess import natural_questions_pre #(nothing to preprocess for now)
 import evaluation
-
-FEWSHOT_SIZE = 5 # amount of samples used for few_shot
-NUM_EXPERTS = 3 # tree of thought
+import main
 
 def load_data():
     train_dataset = load_dataset("natural_questions", split="train", trust_remote_code=True, streaming=True)
@@ -17,7 +15,7 @@ def load_data():
     print("Loaded dataset")
     return train_dataset, test_dataset
 
-def run_model(train, test, model, sample_size, prompting_t):
+def run_model(train, test):
     #TODO: include closed book
     results = []
     total_tokens = 0
@@ -28,18 +26,18 @@ def run_model(train, test, model, sample_size, prompting_t):
 
     fewshot_counter = 0
 
-    prompt = natural_questions_prompts.get_prompt(prompting_t, train)
+    prompt = natural_questions_prompts.get_prompt(main.PROMPTING_T, train)
     #if prompting_t == "COT_FS" or prompting_t == "FS": # filter out fs examples from train
         #train = train.select(range(FEWSHOT_SIZE, len(train)))
     
     
     i = 0
-    sample_size_changing = sample_size
+    sample_size_changing = main.SAMPLE_SIZE
     #for sample in train.select(range(sample_size)):
     for sample in train:
         if i >= sample_size_changing:
             break
-        if (prompting_t == "COT_FS" or prompting_t == "FS") and fewshot_counter < FEWSHOT_SIZE:
+        if (main.PROMPTING_T == "COT_FS" or main.PROMPTING_T == "FS") and fewshot_counter < main.FEWSHOT_SIZE:
             fewshot_counter+= 1
             continue
 
@@ -54,7 +52,7 @@ def run_model(train, test, model, sample_size, prompting_t):
             continue
 
         start_time = time() # should I do this call and latency call later within if statements?
-        response = apis.call_default_api(question, model, prompt)
+        response = apis.call_default_api(question, main.MODEL, prompt)
         latency = time() - start_time
         output_answer = response.choices[0].message.content
         output_answer = natural_questions_pre.extract_answer(output_answer)
@@ -85,8 +83,8 @@ def run_model(train, test, model, sample_size, prompting_t):
         total_time += latency
         average_f1 += f1
         counter += 1
-        print(f"processed {counter}/{sample_size}")
+        print(f"processed {counter}/{main.SAMPLE_SIZE}")
 
-    average_f1 = average_f1 / sample_size
+    average_f1 = average_f1 / main.SAMPLE_SIZE
     return results, total_tokens, total_time, average_f1, prompt
 

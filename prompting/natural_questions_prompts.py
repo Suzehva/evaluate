@@ -1,6 +1,6 @@
 from typing import Optional
 from preprocess import math_pre
-import natural_questions_main
+import main
 
 def get_vanilla_prompt():
     prompt = "You answer questions and give short, concise answers. Give your shorest answer possible. Put your answer between double square brackets like this: [[ANSWER]].\n"
@@ -8,7 +8,7 @@ def get_vanilla_prompt():
 
 def get_fs_prompt(dataset):
     prompt = "You answer questions and give short, concise answers. Give your shortest answer possible. Put your answer between double square brackets like this: [[ANSWER]].\n"
-    prompt += get_examples("FS", dataset, natural_questions_main.FEWSHOT_SIZE)
+    prompt += get_examples("FS", dataset, main.FEWSHOT_SIZE)
     return prompt
 
 def get_cot_prompt():
@@ -17,12 +17,12 @@ def get_cot_prompt():
 
 def get_cot_fs_prompt(dataset):
     prompt = "You answer questions. Provide a step-by-step solution. Give your shortest final answer possible. Put your final answer between double square brackets like this: [[ANSWER]].\n"
-    prompt += get_examples("COT", dataset, natural_questions_main.FEWSHOT_SIZE)
+    prompt += get_examples("COT", dataset, main.FEWSHOT_SIZE)
     return prompt
 
 
 def get_tot_prompt():
-    prompt = f"Imagine {natural_questions_main.NUM_EXPERTS} different experts are answering a question. All experts will write down 1 step of their thinking,then share it with the group. Then all experts will go on to the next step, etc. If any expert realises they're wrong at any point then they leave. Once the experts have arrived at a final answer, put the answer between double square brackets like this: [[ANSWER]]. Give your shortest final answer possible\n"
+    prompt = f"Imagine {main.NUM_EXPERTS} different experts are answering a question. All experts will write down 1 step of their thinking,then share it with the group. Then all experts will go on to the next step, etc. If any expert realises they're wrong at any point then they leave. Once the experts have arrived at a final answer, put the answer between double square brackets like this: [[ANSWER]]. Give your shortest final answer possible\n"
     return prompt
 
 def get_examples(prompt_type, dataset, fewshot_size):

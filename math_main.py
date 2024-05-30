@@ -6,10 +6,7 @@ import apis
 from prompting import math_prompts
 from preprocess import math_pre
 import ensemble
-
-FEWSHOT_SIZE = 5 # always set this to 0 if not using fewshot
-NUM_EXPERTS = 3 # tree of thought
-ENSEMBLE_SIZE = 4 # ensembling
+import main
 
 def load_data():
     train_dataset = load_dataset("hendrycks/competition_math", split="train", trust_remote_code=True)
@@ -18,26 +15,26 @@ def load_data():
     print("Loaded dataset")
     return train_dataset, test_dataset
 
-def run_model(train, test, model, sample_size, prompting_t, use_ensemble = False):
+def run_model(train, test):
     results = []
     total_tokens = 0
     total_time = 0
     total_correct = 0
     counter = 0
 
-    prompt = math_prompts.get_prompt(prompting_t, train)
-    if prompting_t == "COT_FS" or prompting_t == "FS": # filter out fs examples from train
-        train = train.select(range(FEWSHOT_SIZE, len(train)))
+    prompt = math_prompts.get_prompt(main.PROMPTING_T, train)
+    if main.PROMPTING_T == "COT_FS" or main.PROMPTING_T == "FS": # filter out fs examples from train
+        train = train.select(range(main.FEWSHOT_SIZE, len(train)))
     
-    for sample in train.select(range(sample_size)):
+    for sample in train.select(range(main.SAMPLE_SIZE)):
         problem = sample['problem']
 
-        if use_ensemble:
+        if main.USE_ENSEMBLE:
             start_time = time()
             responses = []
             num_tokens = 0
-            for i in range(ENSEMBLE_SIZE):
-                response = apis.call_default_api(problem, model, prompt)
+            for i in range(main.ENSEMBLE_SIZE):
+                response = apis.call_default_api(problem, main.MODEL, prompt)
                 output_solution = response.choices[0].message.content
                 num_tokens += response.usage.total_tokens
                 responses.append(output_solution)
@@ -46,7 +43,7 @@ def run_model(train, test, model, sample_size, prompting_t, use_ensemble = False
             correct = math_pre.check_answer(output_solution, sample['solution'])
         else:
             start_time = time() # should I do this call and latency call later within if statements?
-            response = apis.call_default_api(problem, model, prompt)
+            response = apis.call_default_api(problem, main.MODEL, prompt)
             latency = time() - start_time
             output_solution = response.choices[0].message.content
             num_tokens = response.usage.total_tokens
@@ -70,7 +67,7 @@ def run_model(train, test, model, sample_size, prompting_t, use_ensemble = False
         total_time += latency
         total_correct += correct
         counter += 1
-        print(f"processed {counter}/{sample_size}")
+        print(f"processed {counter}/{main.SAMPLE_SIZE}")
 
     return results, total_tokens, total_time, total_correct, prompt
 

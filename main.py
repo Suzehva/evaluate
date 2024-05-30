@@ -38,18 +38,22 @@ SAMPLE_SIZE = 5 # how many data points to include
 
 USE_ENSEMBLE = False # optionally use ensembling for math
 
+FEWSHOT_SIZE = 5 # always set this to 0 if not using fewshot
+NUM_EXPERTS = 3 # tree of thought
+ENSEMBLE_SIZE = 4 # ensembling
+
 def main():
     
     if (DATASET == "math"):
         train, test = math_main.load_data()
-        results, total_tokens, total_time, total_correct, prompt = math_main.run_model(train, test, MODEL, SAMPLE_SIZE, PROMPTING_T, USE_ENSEMBLE)
+        results, total_tokens, total_time, total_correct, prompt = math_main.run_model(train, test)
        
         accuracy = total_correct / SAMPLE_SIZE
         print("\nAccuracy:", accuracy)
 
     elif (DATASET == "natural_questions"):
         train, validation = natural_questions_main.load_data()
-        results, total_tokens, total_time, average_f1, prompt = natural_questions_main.run_model(train, validation, MODEL, SAMPLE_SIZE, PROMPTING_T)
+        results, total_tokens, total_time, average_f1, prompt = natural_questions_main.run_model(train, validation)
         print("\naverage f1 score:", average_f1)
     
     average_latency = total_time / SAMPLE_SIZE
@@ -107,20 +111,11 @@ if __name__ == "__main__":
     if PROMPTING_T == 'None':
         PROMPTING_T = ''
     elif PROMPTING_T == 'FS' or PROMPTING_T == 'COT_FS':
-        if DATASET == 'math':
-            math_main.FEWSHOT_SIZE = args.prompting_arg
-        elif DATASET == 'natural_questions':
-            natural_questions_main.FEWSHOT_SIZE = args.prompting_arg
+        FEWSHOT_SIZE = args.prompting_arg
     elif PROMPTING_T == 'TOT':
-        if DATASET == 'math':
-            math_main.NUM_EXPERTS = args.prompting_arg
-        elif DATASET == 'natural_questions':
-            natural_questions_main.NUM_EXPERTS = args.prompting_arg
+        NUM_EXPERTS = args.prompting_arg
     USE_ENSEMBLE = args.use_ensemble
     if USE_ENSEMBLE:
-        if DATASET == 'math':
-            math_main.ENSEMBLE_SIZE = args.ensemble_size
-        elif DATASET == 'natural_questions':
-            pass
+        ENSEMBLE_SIZE = args.ensemble_size
     
     main()
