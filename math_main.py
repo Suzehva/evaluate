@@ -22,11 +22,11 @@ def run_model(train, test):
     total_correct = 0
     counter = 0
 
-    prompt = math_prompts.get_prompt(main.PROMPTING_T, train)
+    prompt = math_prompts.get_prompt(main.PROMPTING_T, test)
     if main.PROMPTING_T == "COT_FS" or main.PROMPTING_T == "FS": # filter out fs examples from train
-        train = train.select(range(main.FEWSHOT_SIZE, len(train)))
+        test = test.select(range(main.FEWSHOT_SIZE, len(test)))
     
-    for sample in train.select(range(main.SAMPLE_SIZE)):
+    for sample in test.select(range(main.SAMPLE_SIZE)):
         problem = sample['problem']
 
         if main.USE_ENSEMBLE:

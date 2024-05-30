@@ -61,14 +61,14 @@ def main():
     print("Total Tokens Used:", total_tokens)
     print("Number of datapoints used: ", SAMPLE_SIZE)
     if (PROMPTING_T == "FS"):
-        print("number of examples used per few_shot: ", math_main.FEW_SHOT_SIZE)
+        print("number of examples used per few_shot: ", FEWSHOT_SIZE)
 
        
     df = pd.DataFrame(results)
     
     if USE_ENSEMBLE:
-        df.to_csv(f"results/result_{DATASET}_{MODEL}_{PROMPTING_T}_ensemble.csv")
-        file_path = f'results/total_{DATASET}_{MODEL}_{PROMPTING_T}_ensemble.txt'
+        df.to_csv(f"results/result_{DATASET}_{MODEL}_{PROMPTING_T}_ensemble_{datetime.now()}.csv")
+        file_path = f'results/total_{DATASET}_{MODEL}_{PROMPTING_T}_ensemble_{datetime.now()}.txt'
     else:
         df.to_csv(f"results/result_{DATASET}_{MODEL}_{PROMPTING_T}.csv")
         file_path = f'results/total_{DATASET}_{MODEL}_{PROMPTING_T}_.txt'
@@ -83,13 +83,9 @@ def main():
             file.write(f"F1 Score: {average_f1}\n")
         file.write(f"System Prompt: {prompt}\n")
         if PROMPTING_T == "FS" or PROMPTING_T == "COT_FS":
-            if DATASET == "math":
-                file.write(f"Few Shot Examples: {math_main.FEWSHOT_SIZE}\n")
-            elif DATASET == "natural_questions":
-                file.write(f"Few Shot Examples: {natural_questions_main.FEWSHOT_SIZE}\n")
+            file.write(f"Few Shot Examples: {FEWSHOT_SIZE}\n")
         if USE_ENSEMBLE:
-            var_name = f"{DATASET}_main.ENSEMBLE_SIZE"
-            file.write(f"Ensemble Size: {var_name}\n")
+            file.write(f"Ensemble Size: {ENSEMBLE_SIZE}\n")
 
 
 if __name__ == "__main__":
@@ -97,7 +93,7 @@ if __name__ == "__main__":
     parser.add_argument('--dataset', type=str, required=True, choices=['math', 'natural_questions'], help='Dataset to use (math or natural_questions)')
     parser.add_argument('--model', type=str, required=True, choices=['gpt-3.5-turbo', 'gpt-4', 'gpt-4-turbo', 'gpt-4o'], help='LLM model to use (e.g., gpt-3.5-turbo, gpt-4)')
     parser.add_argument('--sample_size', type=int, default=5, help='Number of data points to include')
-    parser.add_argument('--prompting_type', type=str, choices=['FS', 'COT', 'TOT', 'COT_FS', 'None'], help='Type of prompting (FS, COT, TOT, COT_FS)')
+    parser.add_argument('--prompting_type', type=str, choices=['FS', 'COT', 'TOT', 'COT_FS', ''], help='Type of prompting (FS, COT, TOT, COT_FS)')
     parser.add_argument('--prompting_arg', type=int, default=5, help='Optionally provide a number of prompts for COT_FS/FS, or number of experts for TOT')
     parser.add_argument('--use_ensemble', action='store_true', help='Optionally use ensembling')
     parser.add_argument('--ensemble_size', type=int, default=5, help='Number of models to use for ensembling')
@@ -108,9 +104,7 @@ if __name__ == "__main__":
     MODEL = args.model
     SAMPLE_SIZE = args.sample_size
     PROMPTING_T = args.prompting_type 
-    if PROMPTING_T == 'None':
-        PROMPTING_T = ''
-    elif PROMPTING_T == 'FS' or PROMPTING_T == 'COT_FS':
+    if PROMPTING_T == 'FS' or PROMPTING_T == 'COT_FS':
         FEWSHOT_SIZE = args.prompting_arg
     elif PROMPTING_T == 'TOT':
         NUM_EXPERTS = args.prompting_arg
