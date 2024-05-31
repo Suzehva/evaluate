@@ -1,23 +1,8 @@
 Model Version: gpt-3.5-turbo
-Average Latency (s): 4.226728725433349
-Total Tokens Used: 3658
+Average Latency (s): 3.4162055969238283
+Total Tokens Used: 1351
 Eval Sample Size: 5
-Accuracy: 0.4
+Accuracy: 0.6
 System Prompt: You answer questions about math problems. Enclose your final answer in LaTeX's \boxed tag.
-Q: Let \[f(x) = \left\{
-\begin{array}{cl} ax+3, &\text{ if }x>2, \\
-x-5 &\text{ if } -2 \le x \le 2, \\
-2x-b &\text{ if } x <-2.
-\end{array}
-\right.\]Find $a+b$ if the piecewise function is continuous (which means that its graph can be drawn without lifting your pencil from the paper).
-A: 0
-Q: A rectangular band formation is a formation with $m$ band members in each of $r$ rows, where $m$ and $r$ are integers. A particular band has less than 100 band members. The director arranges them in a rectangular formation and finds that he has two members left over. If he increases the number of members in each row by 1 and reduces the number of rows by 2, there are exactly enough places in the new formation for each band member. What is the largest number of members the band could have?
-A: 98
-Q: What is the degree of the polynomial $(4 +5x^3 +100 +2\pi x^4 + \sqrt{10}x^4 +9)$?
-A: 4
-Q: Evaluate $\left\lceil3\left(6-\frac12\right)\right\rceil$.
-A: 17
-Q: Sam is hired for a 20-day period. On days that he works, he earns $\$$60. For each day that he does not work, $\$$30 is subtracted from his earnings. At the end of the 20-day period, he received $\$$660. How many days did he not work?
-A: 6
 
-Few Shot Examples: math_main.FEWSHOT_SIZE
+Few Shot Examples: 3

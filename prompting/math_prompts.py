@@ -1,6 +1,6 @@
 from typing import Optional
 from preprocess import math_pre
-import math_main
+import main
 
 def get_vanilla_prompt():
     prompt = "You answer questions about math problems. Enclose your final answer in LaTeX's \\boxed tag.\n"
@@ -8,7 +8,7 @@ def get_vanilla_prompt():
 
 def get_fs_prompt(dataset):
     prompt = "You answer questions about math problems. Enclose your final answer in LaTeX's \\boxed tag.\n"
-    prompt += get_examples("FS", dataset, math_main.FEWSHOT_SIZE)
+    prompt += get_examples("FS", dataset, main.FEWSHOT_SIZE)
     return prompt
 
 def get_cot_prompt():
@@ -17,12 +17,12 @@ def get_cot_prompt():
 
 def get_cot_fs_prompt(dataset):
     prompt = "You answer questions about math problems. Provide a step-by-step solution. Enclose your final answer in LaTeX's \\boxed tag.\n"
-    prompt += get_examples("COT", dataset, math_main.FEWSHOT_SIZE)
+    prompt += get_examples("COT", dataset, main.FEWSHOT_SIZE)
     return prompt
 
 
 def get_tot_prompt():
-    prompt = f"Imagine {math_main.NUM_EXPERTS} different experts are answering a question about a math problem. All experts will write down 1 step of their thinking,then share it with the group. Then all experts will go on to the next step, etc. If any expert realises they're wrong at any point then they leave. Once the experts have arrived at a final answer, enclose the final answer in LaTeX's \\boxed tag.\n"
+    prompt = f"Imagine {main.NUM_EXPERTS} different experts are answering a question about a math problem. All experts will write down 1 step of their thinking,then share it with the group. Then all experts will go on to the next step, etc. If any expert realises they're wrong at any point then they leave. Once the experts have arrived at a final answer, enclose the final answer in LaTeX's \\boxed tag.\n"
     return prompt
 
 def get_examples(prompt_type, dataset, fewshot_size):

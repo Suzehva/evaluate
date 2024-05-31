@@ -7,10 +7,7 @@ from prompting import natural_questions_prompts
 from preprocess import natural_questions_pre
 import evaluation
 import ensemble
-
-FEWSHOT_SIZE = 5 # amount of samples used for few_shot
-NUM_EXPERTS = 3 # tree of thought
-ENSEMBLE_SIZE = 4 #for exsembling
+import main
 
 def load_data():
     train_dataset = load_dataset("natural_questions", split="train", trust_remote_code=True, streaming=True)
@@ -19,7 +16,8 @@ def load_data():
     print("Loaded dataset")
     return train_dataset, test_dataset
 
-def run_model(train, test, model, sample_size, prompting_t, use_ensemble = False):
+
+def run_model(train, test):
     #TODO: include closed book
     results = []
     total_tokens = 0
@@ -29,12 +27,11 @@ def run_model(train, test, model, sample_size, prompting_t, use_ensemble = False
     average_f1 = 0
     fewshot_counter = 0
 
-    prompt = natural_questions_prompts.get_prompt(prompting_t, train)
-
+    prompt = natural_questions_prompts.get_prompt(main.PROMPTING_T, train)
     for sample in train:
-        if counter >= sample_size:
+        if counter >= main.SAMPLE_SIZE:
             break
-        if (prompting_t == "COT_FS" or prompting_t == "FS") and fewshot_counter < FEWSHOT_SIZE:
+        if (main.PROMPTING_T == "COT_FS" or main.PROMPTING_T == "FS") and fewshot_counter < main.FEWSHOT_SIZE:
             fewshot_counter+= 1
             continue
         counter += 1
@@ -47,14 +44,14 @@ def run_model(train, test, model, sample_size, prompting_t, use_ensemble = False
             continue
 
         start_time = time()
-        if use_ensemble:
+        if main.USE_ENSEMBLE:
             responses = []
             num_tokens = 0
             completion_tokens = 0
             prompt_tokens = 0
 
-            for i in range(ENSEMBLE_SIZE):
-                response = apis.call_default_api(question, model, prompt)
+            for i in range(main.ENSEMBLE_SIZE):
+                response = apis.call_default_api(question, main.MODEL, prompt)
 
                 num_tokens += response.usage.total_tokens
                 completion_tokens += response.usage.completion_tokens
@@ -67,7 +64,7 @@ def run_model(train, test, model, sample_size, prompting_t, use_ensemble = False
             output_answer = ensemble.take_highest_f1_natural_questions(responses, answers) 
 
         else:
-            response = apis.call_default_api(question, model, prompt)
+            response = apis.call_default_api(question, main.MODEL, prompt)
             latency = time() - start_time
             output_answer = response.choices[0].message.content
 
@@ -76,6 +73,12 @@ def run_model(train, test, model, sample_size, prompting_t, use_ensemble = False
             prompt_tokens = response.usage.prompt_tokens
 
             output_answer = natural_questions_pre.extract_answer(output_answer)
+        start_time = time() # should I do this call and latency call later within if statements?
+        response = apis.call_default_api(question, main.MODEL, prompt)
+        latency = time() - start_time
+        output_answer = response.choices[0].message.content
+        output_answer = natural_questions_pre.extract_answer(output_answer)
+        num_tokens = response.usage.total_tokens
 
         f1 = 0
         answer = answers[0]['text'][0] # take 1st answer as default
@@ -101,8 +104,8 @@ def run_model(train, test, model, sample_size, prompting_t, use_ensemble = False
         total_tokens += num_tokens
         total_time += latency
         average_f1 += f1
-        print(f"processed {counter}/{sample_size}")
+        print(f"processed {counter}/{main.SAMPLE_SIZE}")
 
-    average_f1 = average_f1 / sample_size
+    average_f1 = average_f1 / main.SAMPLE_SIZE
     return results, total_tokens, total_time, average_f1, prompt
 

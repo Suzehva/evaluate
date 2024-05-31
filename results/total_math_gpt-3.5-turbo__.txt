@@ -1,7 +1,12 @@
 Model Version: gpt-3.5-turbo
+<<<<<<< HEAD
 Average Latency (s): 3.458082914352417
 Total Tokens Used: 1389
+=======
+Average Latency (s): 2.5489088535308837
+Total Tokens Used: 881
+>>>>>>> a78b71e46084bfaaf3303112eb675852ce177851
 Eval Sample Size: 5
-Accuracy: 0.6
+Accuracy: 0.2
 System Prompt: You answer questions about math problems. Enclose your final answer in LaTeX's \boxed tag.
 
