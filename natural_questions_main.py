@@ -52,7 +52,7 @@ def run_model(train, test):
             prompt_tokens = 0
 
             for i in range(config.ENSEMBLE_SIZE):
-                response = apis.call_default_api(question, config.MODEL, prompt)
+                response = apis.call_default_api(question, config.MODEL, prompt, temperature=2)
 
                 num_tokens += response.usage.total_tokens
                 completion_tokens += response.usage.completion_tokens

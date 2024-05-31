@@ -35,7 +35,7 @@ def run_model(train, test):
             responses = []
             num_tokens = 0
             for i in range(config.ENSEMBLE_SIZE):
-                response = apis.call_default_api(problem, config.MODEL, prompt)
+                response = apis.call_default_api(problem, config.MODEL, prompt, temperature=2)
                 output_solution = response.choices[0].message.content
                 num_tokens += response.usage.total_tokens
                 responses.append(output_solution)
