@@ -9,7 +9,10 @@ from preprocess import math_pre
 
 def take_majority_vote_math(responses):
     responses_cleaned = [math_pre.get_answer(response) for response in responses]
+    for response_c in responses_cleaned:
+        print(response_c)
     majority_output = max(set(responses_cleaned), key=responses_cleaned.count)
+    print("majority output: " + majority_output)
     return majority_output
 
 def take_highest_f1_natural_questions(responses, answers):

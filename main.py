@@ -8,7 +8,7 @@ import natural_questions_main
 import apis
 import argparse
 
-DATASET = "natural_questions"
+DATASET = "math"
 """
 Options:
     1. math (hendrycks/competition_math)
@@ -36,7 +36,7 @@ Options:
 
 SAMPLE_SIZE = 5 # how many data points to include
 
-USE_ENSEMBLE = False # optionally use ensembling for math
+USE_ENSEMBLE = True # optionally use ensembling for math
 
 FEWSHOT_SIZE = 5 # always set this to 0 if not using fewshot
 NUM_EXPERTS = 3 # tree of thought

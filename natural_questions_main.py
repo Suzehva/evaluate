@@ -58,7 +58,7 @@ def run_model(train, test):
                 prompt_tokens += response.usage.prompt_tokens
 
                 response_str = response.choices[0].message.content
-                response_str = natural_questions_pre.extract_answer(response_str)
+                #response_str = natural_questions_pre.extract_answer(response_str)
                 responses.append(response_str)
             latency = time() - start_time
             output_answer = ensemble.take_highest_f1_natural_questions(responses, answers) 
