@@ -8,7 +8,7 @@ import natural_questions_main
 import apis
 import argparse
 
-DATASET = "math"
+DATASET = "natural_questions"
 """
 Options:
     1. math (hendrycks/competition_math)
@@ -24,7 +24,7 @@ Options:
     4. gpt-4o
 """
 
-PROMPTING_T = ""
+PROMPTING_T = "COT_FS"
 """
 Options:
     1. "FS" (few shot)
@@ -51,7 +51,7 @@ def main():
 
     elif (DATASET == "natural_questions"):
         train, validation = natural_questions_main.load_data()
-        results, total_tokens, total_time, average_f1, prompt = natural_questions_main.run_model(train, validation, MODEL, SAMPLE_SIZE, PROMPTING_T)
+        results, total_tokens, total_time, average_f1, prompt = natural_questions_main.run_model(train, validation, MODEL, SAMPLE_SIZE, PROMPTING_T, USE_ENSEMBLE)
         print("\naverage f1 score:", average_f1)
     
     average_latency = total_time / SAMPLE_SIZE
@@ -91,6 +91,7 @@ def main():
 
 
 if __name__ == "__main__":
+    """
     parser = argparse.ArgumentParser(description='Specify pipeline properties')
     parser.add_argument(
         'model_version',
@@ -107,5 +108,6 @@ if __name__ == "__main__":
     parser.add_argument('--ensemble_size', type=int, default=5, help='Number of ensembles to use')
 
     args = parser.parse_args()
+    """
 
     main()

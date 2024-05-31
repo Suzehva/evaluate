@@ -4,11 +4,13 @@ from time import time
 from openai import OpenAI
 import apis
 from prompting import natural_questions_prompts
-from preprocess import natural_questions_pre #(nothing to preprocess for now)
+from preprocess import natural_questions_pre
 import evaluation
+import ensemble
 
 FEWSHOT_SIZE = 5 # amount of samples used for few_shot
 NUM_EXPERTS = 3 # tree of thought
+ENSEMBLE_SIZE = 4 #for exsembling
 
 def load_data():
     train_dataset = load_dataset("natural_questions", split="train", trust_remote_code=True, streaming=True)
@@ -17,7 +19,7 @@ def load_data():
     print("Loaded dataset")
     return train_dataset, test_dataset
 
-def run_model(train, test, model, sample_size, prompting_t):
+def run_model(train, test, model, sample_size, prompting_t, use_ensemble = False):
     #TODO: include closed book
     results = []
     total_tokens = 0
@@ -25,40 +27,55 @@ def run_model(train, test, model, sample_size, prompting_t):
     total_correct = 0
     counter = 0
     average_f1 = 0
-
     fewshot_counter = 0
 
     prompt = natural_questions_prompts.get_prompt(prompting_t, train)
-    #if prompting_t == "COT_FS" or prompting_t == "FS": # filter out fs examples from train
-        #train = train.select(range(FEWSHOT_SIZE, len(train)))
-    
-    
-    i = 0
-    sample_size_changing = sample_size
-    #for sample in train.select(range(sample_size)):
+
     for sample in train:
-        if i >= sample_size_changing:
+        if counter >= sample_size:
             break
         if (prompting_t == "COT_FS" or prompting_t == "FS") and fewshot_counter < FEWSHOT_SIZE:
             fewshot_counter+= 1
             continue
-
-
-        i += 1
+        counter += 1
 
         question = sample['question']['text']
         answers = sample['annotations']['short_answers']
         if (len(answers[0]['text']) == 0):
             # we only consider samples with short_answers marked by annotator
-            sample_size_changing += 1
+            counter -= 1 # this iteration doesnt count
             continue
 
-        start_time = time() # should I do this call and latency call later within if statements?
-        response = apis.call_default_api(question, model, prompt)
-        latency = time() - start_time
-        output_answer = response.choices[0].message.content
-        output_answer = natural_questions_pre.extract_answer(output_answer)
-        num_tokens = response.usage.total_tokens
+        start_time = time()
+        if use_ensemble:
+            responses = []
+            num_tokens = 0
+            completion_tokens = 0
+            prompt_tokens = 0
+
+            for i in range(ENSEMBLE_SIZE):
+                response = apis.call_default_api(question, model, prompt)
+
+                num_tokens += response.usage.total_tokens
+                completion_tokens += response.usage.completion_tokens
+                prompt_tokens += response.usage.prompt_tokens
+
+                response_str = response.choices[0].message.content
+                response_str = natural_questions_pre.extract_answer(response_str)
+                responses.append(response_str)
+            latency = time() - start_time
+            output_answer = ensemble.take_highest_f1_natural_questions(responses, answers) 
+
+        else:
+            response = apis.call_default_api(question, model, prompt)
+            latency = time() - start_time
+            output_answer = response.choices[0].message.content
+
+            num_tokens = response.usage.total_tokens
+            completion_tokens = response.usage.completion_tokens
+            prompt_tokens = response.usage.prompt_tokens
+
+            output_answer = natural_questions_pre.extract_answer(output_answer)
 
         f1 = 0
         answer = answers[0]['text'][0] # take 1st answer as default
@@ -77,14 +94,13 @@ def run_model(train, test, model, sample_size, prompting_t):
                 'f1': f1,
                 'latency': latency,
                 'num_tokens': num_tokens,
-                'completion_tokens': response.usage.completion_tokens,
-                'prompt_tokens': response.usage.prompt_tokens
+                'completion_tokens': completion_tokens,
+                'prompt_tokens': prompt_tokens
             }
         )
         total_tokens += num_tokens
         total_time += latency
         average_f1 += f1
-        counter += 1
         print(f"processed {counter}/{sample_size}")
 
     average_f1 = average_f1 / sample_size
