@@ -6,7 +6,8 @@ import apis
 from prompting import math_prompts
 from preprocess import math_pre
 import ensemble
-import main
+#import main
+import config
 
 def load_data():
     train_dataset = load_dataset("hendrycks/competition_math", split="train", trust_remote_code=True)
@@ -22,19 +23,19 @@ def run_model(train, test):
     total_correct = 0
     counter = 0
 
-    prompt = math_prompts.get_prompt(main.PROMPTING_T, test)
-    if main.PROMPTING_T == "COT_FS" or main.PROMPTING_T == "FS": # filter out fs examples from train
-        test = test.select(range(main.FEWSHOT_SIZE, len(test)))
+    prompt = math_prompts.get_prompt(config.PROMPTING_T, test)
+    if config.PROMPTING_T == "COT_FS" or config.PROMPTING_T == "FS": # filter out fs examples from train
+        test = test.select(range(config.FEWSHOT_SIZE, len(test)))
     
-    for sample in test.select(range(main.SAMPLE_SIZE)):
+    for sample in test.select(range(config.SAMPLE_SIZE)):
         problem = sample['problem']
 
-        if main.USE_ENSEMBLE:
+        if config.USE_ENSEMBLE:
             start_time = time()
             responses = []
             num_tokens = 0
-            for i in range(main.ENSEMBLE_SIZE):
-                response = apis.call_default_api(problem, main.MODEL, prompt)
+            for i in range(config.ENSEMBLE_SIZE):
+                response = apis.call_default_api(problem, config.MODEL, prompt)
                 output_solution = response.choices[0].message.content
                 num_tokens += response.usage.total_tokens
                 responses.append(output_solution)
@@ -43,7 +44,7 @@ def run_model(train, test):
             correct = math_pre.check_answer(output_solution, sample['solution'])
         else:
             start_time = time() # should I do this call and latency call later within if statements?
-            response = apis.call_default_api(problem, main.MODEL, prompt)
+            response = apis.call_default_api(problem, config.MODEL, prompt)
             latency = time() - start_time
             output_solution = response.choices[0].message.content
             num_tokens = response.usage.total_tokens
@@ -67,7 +68,7 @@ def run_model(train, test):
         total_time += latency
         total_correct += correct
         counter += 1
-        print(f"processed {counter}/{main.SAMPLE_SIZE}")
+        print(f"processed {counter}/{config.SAMPLE_SIZE}")
 
     return results, total_tokens, total_time, total_correct, prompt
 

@@ -1,6 +1,6 @@
 from typing import Optional
 from preprocess import math_pre
-import main
+import config
 
 def get_vanilla_prompt():
     prompt = "You answer questions and give short, concise answers. Give your shorest answer possible. Put your answer between double square brackets like this: [[ANSWER]].\n"
@@ -8,7 +8,7 @@ def get_vanilla_prompt():
 
 def get_fs_prompt(dataset):
     prompt = "You answer questions and give short, concise answers. Give your shortest answer possible. Put your answer between double square brackets like this: [[ANSWER]].\n"
-    prompt += get_examples("FS", dataset, main.FEWSHOT_SIZE)
+    prompt += get_examples("FS", dataset, config.FEWSHOT_SIZE)
     return prompt
 
 def get_cot_prompt():
@@ -17,7 +17,7 @@ def get_cot_prompt():
 
 def get_cot_fs_prompt(dataset):
     prompt = "You answer questions. Provide a step-by-step solution. Give your shortest final answer possible. Put your final answer between double square brackets like this: [[ANSWER]].\n"
-    prompt += get_examples("COT", dataset, main.FEWSHOT_SIZE)
+    prompt += get_examples("COT", dataset, config.FEWSHOT_SIZE)
     return prompt
 
 

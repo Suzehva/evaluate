@@ -1,10 +1,11 @@
 Model Version: gpt-3.5-turbo
-Average Latency (s): 6.314039945602417
-Total Tokens Used: 1353
+Average Latency (s): 10.86260183652242
+Total Tokens Used: 2237
 Eval Sample Size: 3
-Accuracy: 0.3333333333333333
+Accuracy: 0.6666666666666666
 System Prompt: You answer questions about math problems. Provide a step-by-step solution. Enclose your final answer in LaTeX's \boxed tag.
 Q: How many vertical asymptotes does the graph of $y=\frac{2}{x^2+x-6}$ have?
 A: The denominator of the rational function factors into $x^2+x-6=(x-2)(x+3)$. Since the numerator is always nonzero, there is a vertical asymptote whenever the denominator is $0$, which occurs for $x = 2$ and $x = -3$.  Therefore, the graph has $\boxed{2}$ vertical asymptotes.
 
 Few Shot Examples: 1
+Ensemble Size: 2

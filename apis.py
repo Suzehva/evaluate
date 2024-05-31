@@ -20,5 +20,20 @@ def call_default_api(input, model, system_prompt):
                 {"role": "user", "content": input}
             ]
         )
-
+    elif (model == "gpt-4o"):
+        completion = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {"role": "user", "content": system_prompt},
+                {"role": "user", "content": input}
+            ]
+        )
+    elif (model == "gpt-4"):
+        completion = client.chat.completions.create(
+            model="gpt-4",
+            messages=[
+                {"role": "user", "content": system_prompt},
+                {"role": "user", "content": input}
+            ]
+        )
     return completion

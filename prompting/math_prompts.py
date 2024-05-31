@@ -1,6 +1,7 @@
 from typing import Optional
 from preprocess import math_pre
-import main
+#import main
+import config
 
 def get_vanilla_prompt():
     prompt = "You answer questions about math problems. Enclose your final answer in LaTeX's \\boxed tag.\n"
@@ -8,7 +9,7 @@ def get_vanilla_prompt():
 
 def get_fs_prompt(dataset):
     prompt = "You answer questions about math problems. Enclose your final answer in LaTeX's \\boxed tag.\n"
-    prompt += get_examples("FS", dataset, main.FEWSHOT_SIZE)
+    prompt += get_examples("FS", dataset, config.FEWSHOT_SIZE)
     return prompt
 
 def get_cot_prompt():
@@ -17,7 +18,7 @@ def get_cot_prompt():
 
 def get_cot_fs_prompt(dataset):
     prompt = "You answer questions about math problems. Provide a step-by-step solution. Enclose your final answer in LaTeX's \\boxed tag.\n"
-    prompt += get_examples("COT", dataset, main.FEWSHOT_SIZE)
+    prompt += get_examples("COT", dataset, config.FEWSHOT_SIZE)
     return prompt
 
 

@@ -1,6 +1,4 @@
 ,question,answer,model_output,f1,latency,num_tokens,completion_tokens,prompt_tokens
-0,what is the name of the most important jewish text,the Shulchan Aruch,Torah,0.0,0.8673925399780273,69,14,55
-1,what is the name of spain's most famous soccer team,Real Madrid,Real Madrid,1.0,0.5759141445159912,75,18,57
-2,when was the first robot used in surgery,1983,The first robot used in surgery was in 1985.,0.0,0.5241546630859375,65,12,53
-3,who sings the song i don't care i love it,Icona Pop and Charli XCX,Icona Pop,0.5714285714285715,0.5629243850708008,76,20,56
-4,who are uncle owen and aunt beru related to,Shmi,Uncle Owen and Aunt Beru are related to Luke Skywalker.,0.0,0.5071654319763184,69,13,56
+0,in greek mythology who was the goddess of spring growth,"Persephone (/pərˈsɛfəni/; Greek: Περσεφόνη), also called Kore (/ˈkɔːriː/; ""the maiden"")",Persephone,0.19999999999999998,0.5609700679779053,75,19,56
+1,what is the name of the most important jewish text,the Shulchan Aruch,The most important Jewish text is the Torah.,0.0,0.4536614418029785,64,12,55
+2,what is the name of spain's most famous soccer team,Real Madrid,FC Barcelona,0.0,0.6142499446868896,74,16,57

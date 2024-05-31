@@ -1,0 +1,38 @@
+,problem,level,type,solution,model_output,correct,latency,num_tokens,completion_tokens,prompt_tokens
+0,What is the positive difference between $120\%$ of 30 and $130\%$ of 20?,Level 1,Algebra,"One hundred twenty percent of 30 is $120\cdot30\cdot\frac{1}{100}=36$, and $130\%$ of 20 is $ 130\cdot 20\cdot\frac{1}{100}=26$.  The difference between 36 and 26 is $\boxed{10}$.","To find $120\%$ of 30, we multiply 30 by 1.2. 
+
+$120\%$ of 30 = 30 * 1.2 = 36
+
+To find $130\%$ of 20, we multiply 20 by 1.3. 
+
+$130\%$ of 20 = 20 * 1.3 = 26
+
+The positive difference between $120\%$ of 30 and $130\%$ of 20 is $36 - 26 = 10$. 
+
+Therefore, the positive difference is $\boxed{10}$.",1.0,2.325446844100952,294,128,166
+1,Find $x$ such that $\lceil x \rceil + x = \dfrac{23}{7}$. Express $x$ as a common fraction.,Level 4,Algebra,"First, we note that $x$ must be positive, since otherwise $\lceil x \rceil + x$ is nonpositive. Next, we know that the decimal part of $x$ must be $\dfrac{2}{7}$. We write $x$ as $n+\dfrac{2}{7}$, where $n$ is the greatest integer less than $x.$ Then, $\lceil x \rceil = n + 1.$ Therefore, we can write $\lceil x \rceil + x$ as $n+1+n+\dfrac{2}{7}=\dfrac{23}{7}$. Solving, we get $n=1$. Therefore, the only value $x$ that satisfies the equation is $1+\dfrac{2}{7}=\boxed{\dfrac{9}{7}}$.","The brackets $\lceil x \rceil$ represent the ceiling function, which means the smallest integer that is greater than or equal to $x$. Let $n = \lceil x \rceil$. Then, $n \leq x < n + 1$.
+
+Since $\lceil x \rceil + x = n + x = \frac{23}{7}$, we have $x = \frac{23}{7} - n$.
+
+Now, since $n \leq x < n + 1$, we have $$\frac{23}{7} - 1 \leq n \leq \frac{23}{7}$$ $$\frac{16}{7} \leq n \leq \frac{23}{7}.$$
+
+Let's check feasible values for $n$: 
+$n = \frac{16}{7}$ results in $x = \frac{23}{7} - \frac{16}{7} = \frac{7}{7} = 1$, OK.
+$n = \frac{17}{7}$ results in $x = \frac{23}{7} - \frac{17}{7} = \frac{6}{7}$, which is invalid.
+$n = \frac{18}{7}$ results in $x = \frac{23}{7} - \frac{18}{7} = \frac{5}{7}$, which is invalid.
+$n = \frac{19}{7}$ results in $x = \frac{23}{7} - \frac{19}{7} = \frac{4}{7}$, which is invalid.
+$n = \frac{20}{7}$ results in $x = \frac{23}{7} - \frac{20}{7} = \frac{3}{7}$, which is invalid.
+$n = \frac{21}{7}$ results in $x = \frac{23}{7} - \frac{21}{7} = \frac{2}{7}$, which is invalid.
+$n = \frac{22}{7}$ results in $x = \frac{23}{7} - \frac{22}{7} = \frac{1}{7}$, which is invalid.
+$n = \frac{23}{7}$ results in $x = \frac{23}{7} - \frac{23}{7} = 0$, which doesn't satisfy the original equation.
+
+Therefore, the only valid solution is when $n = \boxed{\frac{16}{7}}$ which results in $x = \frac{7}{7} = 1$.",0.0,11.473132371902466,723,547,176
+2,Evaluate $i^5+i^{-25}+i^{45}$.,Level 5,Algebra,"We have $i^5 = i^4\cdot i = 1\cdot (i) = i$.  We also have $i^{-25} = 1/i^{25} = 1/(i^{24}\cdot i) = 1/[1\cdot (i)] = 1/i = \frac1{i}\cdot\frac{i}{i} = i/(-1) = -i$ and $i^{45} = (i^{44})\cdot i= 1\cdot i =i$, and . So, adding these three results gives $i^5 + i^{-25} + i^{45} = i+-i+i = \boxed{i}$.","Since $i$ is the imaginary unit with $i^2 = -1$, we have $i^5 = i^4 \cdot i = 1 \cdot i = i$. 
+
+Since $i^{4k} = (i^4)^k = (1)^k = 1$, where $k$ is an integer, we can say $i^{-25} = i^{-24} \cdot i = 1 \cdot i = i$. 
+
+Similarly, since $i^{4k+1} = i$, we can see that $i^{45} = i^{44} \cdot i = 1 \cdot i = i$. 
+
+Therefore, $i^5 + i^{-25} + i^{45} = i + i + i = 3i$. 
+
+Thus, $\boxed{3i}$ is our final answer.",0.0,5.143540620803833,336,179,157

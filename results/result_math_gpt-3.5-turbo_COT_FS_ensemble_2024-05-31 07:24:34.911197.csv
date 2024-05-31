@@ -1,0 +1,62 @@
+,problem,level,type,solution,model_output,correct,latency,num_tokens,completion_tokens,prompt_tokens
+0,"What is the 100th term of the arithmetic sequence 6, 10, 14, 18, ...?",Level 2,Algebra,"The common difference is $10 - 6 = 4$, so the 100th term is $6+99\cdot 4=\boxed{402}$.","The common difference is $10-6=4$, $14-10=4$, $18-14=4$, and so on. 
+
+Therefore, in general, the $n$th term of an arithmetic sequence with first term $a$ and common difference $d$ is $a+(n-1)d$. In this case, the first term $a=6$ and the common difference $d=4$. 
+
+The 100th term is $6 + (100-1) \cdot 4 = 6 + 99 \cdot 4 = 6 + 396 = \boxed{402}$.",1.0,10.64083218574524,3477,147,722
+1,For what values of $x$ is it true that $x^2 - 5x - 4 \le 10$? Express your answer in interval notation.,Level 4,Algebra,"Re-arranging, $x^2 - 5x - 14 \le 0$. The left-hand quadratic factors as $x^2 - 5x - 14 = (x - 7)(x + 2) \le 0$. Thus, $x-7$ and $x+2$ have opposite signs, so $-2 \le x \le 7$ and $\boxed{x \in [-2,7]}$.","To solve the inequality $x^2 - 5x - 4 \le 10$, we first rewrite this as $x^2 - 5x - 14 \le 0$. Then, we find the roots of the quadratic by setting $x^2 - 5x - 14 = 0$:
+\[
+(x-7)(x+2) = 0
+\]
+This gives $x=7$ and $x=-2$ as the roots of the quadratic.
+
+Now, we test the intervals created by the roots and check the sign of the inequality in those intervals.
+
+For $x<-2$, pick $x=-3$:
+\[
+(-3-7)(-3+2) = (-10)(-1) = 10 > 0
+\]
+For $-2<x<7$, pick $x=0$:
+\[
+(0-7)(0+2) = (-7)(2) = -14 < 0
+\]
+For $x>7$, pick $x=8$:
+\[
+(8-7)(8+2) = (1)(10) = 10 > 0
+\]
+
+Since the sign of the inequality changes at $x=-2$ and $x=7$, we have that $x^2 - 5x - 4 \le 10$ is true in the interval $\boxed{[-2,7]}$.",0.0,20.733375310897827,4171,426,732
+2,"Mr. Madoff invests 1000 dollars in a fund that compounds annually at a constant interest rate.  After three years, his investment has grown to 1225 dollars.  What is the annual interest rate, as a percentage?  (Round your answer to the nearest integer.)",Level 4,Algebra,"Let $r$ be the annual interest rate.  Then after three years, Mr. Madoff's investment is $1000 \cdot \left( 1 + \frac{r}{100} \right)^3$, so \[1000 \cdot \left( 1 + \frac{r}{100} \right)^3 = 1225.\]Then \[\left( 1 + \frac{r}{100} \right)^3 = 1.225,\]so \[1 + \frac{r}{100} = \sqrt[3]{1.225} = 1.069987 \dots,\]which means $r = \boxed{7}$, to the nearest integer.","Let $r$ be the annual interest rate, as a decimal. After 3 years, Mr. Madoff's investment will grow to $1000(1+r)^3 = 1225$, which we can simplify as $(1+r)^3 = 1.225$. Taking the cubic root of both sides gives $1+r=1.1$, so $r=0.1$. Converting this to a percentage and rounding to the nearest integer, we find that the annual interest rate is $\boxed{10\%}$.",0.0,12.42003321647644,3688,182,756
+3,"Four distinct integers $a$, $b$, $c$ and $d$ have the property that when added in pairs, the sums 10, 18, 19, 20, 21, and 29 are obtained. What are the four integers in increasing order? (place a comma and then a space between each integer)",Level 4,Algebra,"WLOG, let $a<b<c<d$. The smallest sum is $a+b=10$. The second-smallest sum is $a+c=18$. The second-largest sum is $b+d=21$. The largest sum is $c+d=29$. In summary, \begin{align*}\tag{1}
+a+b&=10\\ \tag{2}
+a+c&=18\\ \tag{3}
+b+d&=21\\ \tag{4}
+c+d&=29
+\end{align*} There are two sums left, $a+d$ and $b+c$. We will break this problem into two cases, the first case in which the first of the two sums is smaller than the second, and the second case in which the first of the two sums is larger than the second.
+
+In the first case \begin{align*} \tag{5}
+a+d&=19\\ \tag{6}
+b+c&=20
+\end{align*} Adding Equations (1) and (6) and subtracting (2), we have $(a+b)+(b+c)-(a+c)=10+20-18\Rightarrow b = 6$. Plugging this value into Equation (1), we find that $a+6=10 \Rightarrow a=4$. Plugging the value of $a$ into Equation (2), we find that $4+c=18 \Rightarrow c=14$. Plugging the value of $c$ into Equation (4), we find that $14+d=29 \Rightarrow d=15$. Thus, the four integers are $4,6,14,15$.
+
+In the second case, \begin{align*} \tag{7}
+b+c&=19\\ \tag{8}
+a+d&=20
+\end{align*} Adding Equations (1) and (7) and subtracting Equation (2), we have $(a+b)+(b+c)-(a+c)=10+19-18 \Rightarrow b=5.5$. This case is impossible because $b$ is defined to be an integer.
+
+Thus, the only solution is $\boxed{4,6,14,15}$.","Let the four integers be $a<b<c<d$ and let $a+b = 10$, $a+c=18$, $a+d=19$, $b+c=20$, $b+d=21$, and $c+d=29$.
+
+Adding these six equations, we have: $4(a+b+c+d) = 117 \Rightarrow a+b+c+d = \frac{117}{4} = 29.25$. Since $a, b, c,$ and $d$ are integers, we have a contradiction. 
+
+Therefore, the initial assumption was wrong and the problem does not have a solution.",0.0,18.408875226974487,4006,235,766
+4,What is the smallest value of $x$ such that $|5x - 1| = |3x + 2|$? Express your answer as a common fraction.,Level 5,Algebra,"There are two cases, when $5x-1=3x+2$ and when $5x-1=-(3x+2).$ The two equations yield $x=\frac{3}{2}$ and $x=-\frac{1}{8},$ respectively, of which $x=\boxed{-\frac{1}{8}}$ is the smaller solution.","We have two cases to consider:
+
+Case 1: $5x - 1 = 3x + 2$
+
+Solving for $x$, we get $2x = 3$ which implies $x = \frac{3}{2}$.
+
+Case 2: $5x - 1 = -(3x + 2)$
+
+Solving for $x$, we get $8x = -1$ which implies $x = -\frac{1}{8}$.
+
+Thus, the smallest value of $x$ satisfying the equation is $\boxed{-\frac{1}{8}}$.",1.0,13.002930164337158,3493,176,733
