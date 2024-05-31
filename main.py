@@ -71,8 +71,8 @@ def main():
         df.to_csv(f"results/result_{config.DATASET}_{config.MODEL}_{config.PROMPTING_T}_ensemble_{datetime.now()}.csv")
         file_path = f'results/total_{config.DATASET}_{config.MODEL}_{config.PROMPTING_T}_ensemble_{datetime.now()}.txt'
     else:
-        df.to_csv(f"results/result_{config.DATASET}_{config.MODEL}_{config.PROMPTING_T}.csv")
-        file_path = f'results/total_{config.DATASET}_{config.MODEL}_{config.PROMPTING_T}_.txt'
+        df.to_csv(f"results/result_{config.DATASET}_{config.MODEL}_{config.PROMPTING_T}_{datetime.now()}.csv")
+        file_path = f'results/total_{config.DATASET}_{config.MODEL}_{config.PROMPTING_T}_{datetime.now()}.txt'
     with open(file_path, 'w') as file:
         file.write(f"Model Version: {config.MODEL}\n")
         file.write(f"Average Latency (s): {average_latency}\n")

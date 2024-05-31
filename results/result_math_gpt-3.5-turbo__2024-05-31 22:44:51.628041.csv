@@ -1,0 +1,56 @@
+,problem,level,type,solution,model_output,correct,latency,num_tokens,completion_tokens,prompt_tokens
+0,How many vertical asymptotes does the graph of $y=\frac{2}{x^2+x-6}$ have?,Level 3,Algebra,"The denominator of the rational function factors into $x^2+x-6=(x-2)(x+3)$. Since the numerator is always nonzero, there is a vertical asymptote whenever the denominator is $0$, which occurs for $x = 2$ and $x = -3$.  Therefore, the graph has $\boxed{2}$ vertical asymptotes.","To find the vertical asymptotes of the graph of $y=\frac{2}{x^2+x-6}$, we need to determine where the denominator is equal to zero since division by zero is undefined.
+
+The denominator, $x^2+x-6$, can be factored as $(x+3)(x-2)$.
+
+Setting this equal to zero, we get:
+
+$x+3=0 \Rightarrow x=-3$
+
+$x-2=0 \Rightarrow x=2$
+
+Therefore, the function has vertical asymptotes at $x=-3$ and $x=2$.
+
+Hence, the graph of $y=\frac{2}{x^2+x-6}$ has $\boxed{2}$ vertical asymptotes at $x=-3$ and $x=2$.",1.0,2.3862569332122803,217,162,55
+1,What is the positive difference between $120\%$ of 30 and $130\%$ of 20?,Level 1,Algebra,"One hundred twenty percent of 30 is $120\cdot30\cdot\frac{1}{100}=36$, and $130\%$ of 20 is $ 130\cdot 20\cdot\frac{1}{100}=26$.  The difference between 36 and 26 is $\boxed{10}$.","To find the positive difference between $120\%$ of 30 and $130\%$ of 20, we first calculate each value:
+
+$120\%$ of 30 is $1.2 \times 30 = 36$.
+
+$130\%$ of 20 is $1.3 \times 20 = 26$.
+
+Now, we find the positive difference between these two values:
+
+$36 - 26 = 10$.
+
+Therefore, the positive difference is $\boxed{10}$.",1.0,1.926527976989746,162,108,54
+2,Find $x$ such that $\lceil x \rceil + x = \dfrac{23}{7}$. Express $x$ as a common fraction.,Level 4,Algebra,"First, we note that $x$ must be positive, since otherwise $\lceil x \rceil + x$ is nonpositive. Next, we know that the decimal part of $x$ must be $\dfrac{2}{7}$. We write $x$ as $n+\dfrac{2}{7}$, where $n$ is the greatest integer less than $x.$ Then, $\lceil x \rceil = n + 1.$ Therefore, we can write $\lceil x \rceil + x$ as $n+1+n+\dfrac{2}{7}=\dfrac{23}{7}$. Solving, we get $n=1$. Therefore, the only value $x$ that satisfies the equation is $1+\dfrac{2}{7}=\boxed{\dfrac{9}{7}}$.","Let $n$ be the greatest integer less than or equal to $x$. That is, $n \leq x < n+1$. Then we have $n + x = \frac{23}{7}$. Since $n$ is an integer, $\lceil x \rceil = n$. Thus, $\lceil x \rceil + x = n + x = \frac{23}{7}$. 
+
+Subtracting $n$ from both sides gives $x = \frac{23}{7} - n$. Since $n$ is an integer, we rewrite $\frac{23}{7}$ as its mixed number form: $\frac{23}{7} = 3\frac{2}{7}$. Therefore, $x = 3\frac{2}{7} - n$. 
+
+Since $n$ is the greatest integer less than or equal to $x$, we have $3\frac{2}{7} - 1 \leq x < 3\frac{2}{7}$. Thus, $2\frac{2}{7} \leq x < 3\frac{2}{7}$. 
+
+Therefore, we get \[ x = \boxed{\frac{16}{7}}. \]",0.0,3.3832485675811768,327,263,64
+3,Evaluate $i^5+i^{-25}+i^{45}$.,Level 5,Algebra,"We have $i^5 = i^4\cdot i = 1\cdot (i) = i$.  We also have $i^{-25} = 1/i^{25} = 1/(i^{24}\cdot i) = 1/[1\cdot (i)] = 1/i = \frac1{i}\cdot\frac{i}{i} = i/(-1) = -i$ and $i^{45} = (i^{44})\cdot i= 1\cdot i =i$, and . So, adding these three results gives $i^5 + i^{-25} + i^{45} = i+-i+i = \boxed{i}$.","To simplify each term, we first recall that $i$ is the imaginary unit, such that $i^2 = -1$, $i^3 = -i$, $i^4 = 1$. 
+
+For $i^5$, we can rewrite $i^5$ as $i^4 \cdot i = 1 \cdot i = i$.
+
+For $i^{-25}$, we know that $i^{-1} = \frac{1}{i}$. Multiplying numerator and denominator by $i$ gives us $\frac{i}{i^2} = \frac{i}{-1} = -i$.
+
+For $i^{45}$, we can divide the exponent by 4 to find that $i^{45} = i^{4 \cdot 11 + 1} = (i^4)^{11} \cdot i = 1^{11} \cdot i = i$.
+
+Therefore, the sum simplifies to $i - i + i = i$. 
+
+$$\boxed{i}$$",1.0,3.312345266342163,260,215,45
+4,"If $2^8=4^x$, what is the value of $x$?",Level 1,Algebra,"Rewrite $4$ as $2^2$ to find $4^x=2^{2x}$.  Since $2^8=2^{2x}$, we have $2x=8$ which implies $x=\boxed{4}$.","To solve this equation, we can rewrite $4$ as $2^2$:
+
+$2^8 = (2^2)^x$
+
+Using the property of exponents $(a^m)^n = a^{m \cdot n}$, we have:
+
+$2^8 = 2^{2x}$
+
+Now, we can see that $8 = 2x$, so:
+
+$x = \frac{8}{2} = 4$
+
+Therefore, the value of $x$ is $\boxed{4}$.",1.0,1.4760587215423584,158,109,49
