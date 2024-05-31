@@ -35,7 +35,7 @@ def run_model(train, test):
             num_tokens = 0
             for i in range(main.ENSEMBLE_SIZE):
                 response = apis.call_default_api(problem, main.MODEL, prompt)
-                output_solution = response.choices[0].message.content #bug: we never cleaned the response from chatgpt
+                output_solution = response.choices[0].message.content
                 num_tokens += response.usage.total_tokens
                 responses.append(output_solution)
             latency = time() - start_time

@@ -9,11 +9,13 @@ from preprocess import math_pre
 
 def take_majority_vote_math(responses):
     responses_cleaned = [math_pre.get_answer(response) for response in responses]
-    for response_c in responses_cleaned:
-        print(response_c)
+    #for response_c in responses_cleaned:
+    #    print(response_c)
     majority_output = max(set(responses_cleaned), key=responses_cleaned.count)
-    print("majority output: " + majority_output)
-    return majority_output
+    
+    # we have to return the uncleaned version of our response since we will be cleaning later on
+    majority_index = responses_cleaned.index(majority_output) 
+    return responses[majority_index]
 
 def take_highest_f1_natural_questions(responses, answers):
     responses_cleaned = [natural_questions_pre.extract_answer(response) for response in responses]
