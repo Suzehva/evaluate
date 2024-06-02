@@ -1,0 +1,1007 @@
+,question,answer,model_output,f1,latency,num_tokens,completion_tokens,prompt_tokens
+0,when is the last episode of season 8 of the walking dead,"March 18, 2018","The last episode of season 8 of The Walking Dead aired on April 15, 2018.",0.125,0.5366537570953369,79,83,174
+1,in greek mythology who was the goddess of spring growth,"Persephone (/pərˈsɛfəni/; Greek: Περσεφόνη), also called Kore (/ˈkɔːriː/; ""the maiden"")",Persephone,0.19999999999999998,0.5186891555786133,75,51,168
+2,what is the name of the most important jewish text,the Shulchan Aruch,The most important Jewish text is the Torah.,0.0,0.46849966049194336,64,27,165
+3,what is the name of spain's most famous soccer team,Real Madrid,Spain's most famous soccer team is Real Madrid.,0.4,0.4571692943572998,67,52,171
+4,when was the first robot used in surgery,1983,1985,0.0,0.709601640701294,90,81,159
+5,who sings the song i don't care i love it,Icona Pop and Charli XCX,Icona Pop featuring Charli XCX,0.8000000000000002,0.7543222904205322,86,82,168
+6,who are uncle owen and aunt beru related to,Shmi,Uncle Owen and Aunt Beru are Luke Skywalker's uncle and aunt.,0.0,0.46744203567504883,71,39,168
+7,where is zimbabwe located in the world map,"in southern Africa, between the Zambezi and Limpopo Rivers, bordered by South Africa, Botswana, Zambia and Mozambique",Southern Africa,0.2222222222222222,0.4074110984802246,66,133,162
+8,100 acres is equal to how many hectares,1 square hectometre (hm2),40.47 hectares,0.0,1.0343029499053955,119,199,159
+9,where was donovan mitchell picked in the draft,13th,13th overall,0.6666666666666666,0.7081193923950195,94,93,168
+10,where did the beatles final live performance take place,the roof of the headquarters of the band's multimedia corporation Apple Corps at 3 Savile Row,Apple Corps headquarters rooftop,0.3529411764705882,0.6375100612640381,88,115,165
+11,who is the president of costa rica 2017,Luis Guillermo Solís Rivera,The president of Costa Rica in 2017 was Luis Guillermo Solís.,0.4285714285714285,0.38669848442077637,72,57,168
+12,when did power rangers tv show come out,"August 28, 1993","August 28, 1993",1.0,0.46993136405944824,78,82,162
+13,how many beverly hills cops movies are there,three,There are three Beverly Hills Cop movies.,0.25,0.4324147701263428,63,28,165
+14,who holds the most women's wimbledon titles,Martina Navratilova,Martina Navratilova holds the most women's Wimbledon titles with 9 titles.,0.33333333333333337,0.706446647644043,94,95,162
+15,where does jinx you owe me a coke come from,Jinx is a children's game with varying rules and penalties that occur when two people unintentionally speak the same word or phrase simultaneously,"Originates from the superstition that the person who says ""jinx"" first after saying the same thing as someone else is entitled to receive a treat, such as a soda.",0.17777777777777778,1.5885772705078125,183,350,168
+16,where does the last name hickey come from,Irish origin,"Irish origin, derived from the Gaelic ""O hIcidhe"" meaning ""descendant of Icidhe"", from the word ""seic"" meaning ""battle axe"".",0.21052631578947367,2.6815671920776367,160,191,162
+17,where is the greatest royal rumble taking place,"Jeddah, Saudi Arabia","Jeddah, Saudi Arabia",1.0,0.5530939102172852,78,86,162
+18,who sang my name is tallulah in bugsy malone,"Louise ""Liberty"" Williams",Jodie Foster,0.0,0.5650763511657715,83,69,174
+19,what is andy's sisters name in toy story,Molly,Molly,1.0,0.722710132598877,68,40,165
+20,who sings with shaggy on it wasn me,English-Jamaican singer Rikrok,"The song ""It Wasn't Me"" by Shaggy features vocals from singer RikRok.",0.28571428571428575,0.6897237300872803,77,76,165
+21,what is the largest catholic high school in america,St. Francis Preparatory School,Brother Rice High School,0.25,0.6905882358551025,89,85,162
+22,who established the peoples republic of china in 1949,Mao Zedong,The People's Republic of China was established in 1949 by the Chinese Communist Party led by Mao Zedong.,0.2222222222222222,0.5945541858673096,80,102,168
+23,who sang take that look off your face,Marti Webb,"The song ""Take That Look Off Your Face"" was performed by Marti Webb.",0.2857142857142857,0.53456711769104,70,88,159
+24,who plays percy in the lost city of z,Charlie Hunnam,Charlie Hunnam,1.0,0.5910220146179199,82,84,165
+25,who plays the first lady on house of cards,Joanna C. Going,Robin Wright,0.0,0.4811735153198242,71,64,162
+26,who owns st andrews golf course in scotland,The St Andrews Links Trust,The St Andrews Links Trust owns and operates the St Andrews golf course in Scotland.,0.47058823529411764,0.5425026416778564,72,85,168
+27,which city and state hosts the annual college world series,"Omaha, Nebraska","Omaha, Nebraska",1.0,0.47487306594848633,73,60,165
+28,who is ted talking about in how i met your mother,Tracy McConnell,Tracy,0.6666666666666666,0.507246732711792,75,118,168
+29,when does grey's anatomy season 14 premiere,"September 28, 2017","September 28, 2017",1.0,0.5749185085296631,80,78,162
+30,the partial pressure of carbon dioxide in arterial blood is approximately,at sea level (765 mmHg) in arterial blood is between 35 mmHg and 45 mmHg,35-45 mmHg,0.11764705882352941,0.8937809467315674,106,252,168
+31,what was uncle jesse's original last name on full house,Cochran,Cochran,1.0,0.49110865592956543,76,59,171
+32,who pays the judgements on the judge mathis show,Greg Mathis,Production company,0.0,0.6684930324554443,82,77,168
+33,who made up the elf on the shelf,Chanda Bell,Carol Aebersold and Chanda Bell,0.5714285714285715,0.5981173515319824,82,116,159
+34,who warned concord that the british were coming,Samuel Prescott,Paul Revere and William Dawes,0.0,0.5796325206756592,79,72,162
+35,who lasted the longest on alone season 2,David McIntyre,Dave McIntyre,0.5,0.554023265838623,80,47,162
+36,where is the us military base in japan,"Yokota Air Base, Fussa, Western Tokyo",The US military base in Japan is located in Okinawa.,0.13333333333333333,0.5285496711730957,66,101,159
+37,who determines the size of the supreme court,Congress,The size of the Supreme Court is determined by Congress.,0.2222222222222222,0.4213218688964844,64,46,159
+38,who is the actor that plays lucifer on tv,Thomas John Ellis,Tom Ellis,0.4,0.49474120140075684,63,47,165
+39,who designed the national coat of arms of south africa,Iaan Bekker,Iaan Bekker,1.0,0.5789690017700195,78,68,165
+40,when does model code of conduct come into force,immediately on announcement of the election schedule by the commission,Upon announcement of election schedule.,0.6153846153846154,0.5531785488128662,81,131,162
+41,when did now thats what i call music come out,28 November 1983,"November 27, 1983",0.6666666666666666,1.992821455001831,89,113,165
+42,where is the 2018 grey cup being played,"The Brick Field at Commonwealth Stadium in Edmonton, Alberta","Commonwealth Stadium, Edmonton, Alberta, Canada",0.6153846153846154,0.6161375045776367,86,83,165
+43,where did the band bastille get their name,Bastille Day,Bastille Day,1.0,0.8727860450744629,106,149,162
+44,where is arkansas river located on a map,"The Arkansas River flows through Colorado, Kansas, Oklahoma, and Arkansas, and its watershed also drains parts of Texas, New Mexico and Missouri.",Central United States,0.0,0.726647138595581,93,234,162
+45,who plays nicholas in the princess diaries 2,Chris Pine,Chris Pine,1.0,0.4515106678009033,72,49,168
+46,the p-wave phase of an electrocardiogram (ecg) represents,atrial depolarization,Atrial depolarization,1.0,0.6372182369232178,89,83,180
+47,when did star trek the next generation first air,"September 28, 1987","September 28, 1987",1.0,0.7579972743988037,81,83,162
+48,who sang the most wonderful summer of my life,Jackie Ward,Carlo Rustichelli,0.0,0.6400659084320068,85,76,162
+49,how many oscars did on golden pond win,three,3 Oscars,0.0,0.829754114151001,100,135,162
+50,who won season 4 of america's got talent,Kevin Skinner,Kevin Skinner,1.0,0.6479957103729248,91,57,165
+51,how many episodes on queen of the south season 1,13,13,1.0,0.4718341827392578,74,53,168
+52,who is the existing prime minister of pakistan,Imran Khan,Imran Khan,1.0,0.5627758502960205,77,51,159
+53,who is known as the father of texas,Stephen Fuller Austin,Stephen F. Austin,0.6666666666666666,0.5054545402526855,72,51,159
+54,what is the orange stuff on my sushi,tobiko,Tobiko,1.0,0.5405948162078857,77,91,159
+55,when did nsw last won a state of origin series,2018,NSW last won a State of Origin series in 2019.,0.0,0.44687891006469727,70,142,168
+56,when does life is strange before the storm part 2,October 2017,"October 19, 2017",0.8,0.8870377540588379,108,158,168
+57,where is sodom and gomorrah located in the bible,on the Jordan River plain in the southern region of the land of Canaan,Jordan Valley near the Dead Sea,0.12500000000000003,0.7249290943145752,104,114,171
+58,when did the xbox 360 slim come out,in 2010,"June 18, 2010",0.4,0.559406042098999,80,72,162
+59,who spread the theory that one is a product of the mind and body,René Descartes,Descartes,0.6666666666666666,0.6631999015808105,89,79,177
+60,how many goals scored ronaldo in his career,over 670,800+,0.0,0.5005826950073242,75,85,165
+61,who played tess on touched by an angel,"Delloreese Patricia Early (July 6, 1931 – November 19, 2017), known professionally as Della Reese",Della Reese,0.23529411764705882,0.5000779628753662,76,63,159
+62,when did the hornets move to new orleans,2002–03 season,2002,0.0,0.5823581218719482,82,113,165
+63,fish appeared in the fossil record during the,the Cambrian explosion,Cambrian period,0.5,1.0777487754821777,108,138,159
+64,who died from the band faith no more,singer Chuck Mosley,Chuck Mosley died in 2017.,0.5,0.771573543548584,90,103,159
+65,who signed the gun control act of 1968,President Lyndon B. Johnson,Lyndon B. Johnson,0.8571428571428571,0.6698324680328369,83,92,165
+66,where do frankenstein and the monster first meet,the mountains,Frankenstein and the monster first meet in Frankenstein's laboratory.,0.0,0.4349069595336914,67,89,162
+67,the human tendency to mimic other people’s behavior is an example of,Mirroring,social learning,0.0,0.5617530345916748,79,48,174
+68,when does season five of the killing come out,a fourth season consisting of six episodes to conclude the series,"Season five of ""The Killing"" has not been officially confirmed or announced by the creators or network yet, so there is no release date available at this time.",0.1142857142857143,0.6712887287139893,86,108,162
+69,how is the head of the church of england,the monarch is the supreme governor,The head of the Church of England is the reigning monarch of the United Kingdom.,0.26666666666666666,1.0644848346710205,130,236,165
+70,how to remove a methyl group from benzene,replacement of a methyl group by a hydrogen atom,C6H5Cl,0.0,1.7861309051513672,192,469,162
+71,what does a nose ring mean in india,"a mark of beauty and social standing as well as a Hindu's honor to Parvati, the goddess of marriage",It can have different meanings based on the specific cultural context.,0.0,0.971461296081543,126,253,159
+72,the cuban missile crisis began in 1962 when which country placed nuclear missiles in cuba,Soviet Union,Soviet Union,1.0,0.6043002605438232,90,78,192
+73,when did fasb codification become authoritative u.s. gaap,"after September 15, 2009","July 1, 2009",0.28571428571428575,0.6411302089691162,89,95,174
+74,who plays frank in f is for family,Bill Burr,Bill Burr,1.0,0.5034427642822266,76,63,159
+75,android operating system was acquired by google in,July 2005,2005,0.6666666666666666,0.3446033000946045,61,17,159
+76,where does the flexor digitorum superficialis distally attach,The tendons attach to the anterior margins on the bases of the intermediate phalanges of the four fingers. These tendons have a split (Camper's Chiasm) at the end of them through which the tendons of flexor digitorum profundus pass.,The flexor digitorum superficialis distally attaches to the middle phalanges of the four medial digits.,0.27906976744186046,2.8545982837677,292,182,174
+77,who played daniel in the bible mini series,Jake Canuso,Jake Canuso,1.0,0.5240967273712158,74,65,162
+78,what does the star on the ghana flag mean,"adopted from the flag of the Black Star Line, a shipping line incorporated by Marcus Garvey that operated from 1919 to 1922",African freedom,0.0,0.8512771129608154,88,82,165
+79,when is the last movie of divergent coming out,TBA,UNCERTAIN,0.0,0.9962060451507568,130,138,165
+80,the former peterlee campus of east durham college,East Durham & Houghall Community College,What is your question about the former Peterlee Campus of East Durham College?,0.35294117647058826,0.4535996913909912,70,56,165
+81,the amount of light reflected from the front surface of common window glass is about,about 4% per surface,4-8%,0.0,1.5954549312591553,180,120,180
+82,how many cm is a 24 inch tv,61,The 24 inch TV is 60.96 cm.,0.0,0.9364006519317627,106,226,162
+83,where was the walking dead season 7 filmed,Georgia,"Georgia, USA",0.6666666666666666,0.49438953399658203,73,68,162
+84,who plays male lead in far from the madding crowd,Carey Mulligan,Matthias Schoenaerts,0.0,0.6788265705108643,87,77,168
+85,who is in the cast of the handmaid's tale,Elisabeth Moss,"Elisabeth Moss, Joseph Fiennes, Yvonne Strahovski, Alexis Bledel, Madeline Brewer, Ann Dowd, O.T. Fagbenle",0.25,1.335848331451416,144,356,168
+86,who owned the first casino in las vegas,local Las Vegas business owners,The first casino in Las Vegas was owned by a man named Tommy Hull.,0.23529411764705882,0.40964555740356445,68,77,159
+87,who is the lead singer of portugal the man,John Baldwin Gourley,John Gourley,0.8,0.6008853912353516,76,63,165
+88,who does billy russo become on the punisher,Jigsaw,Jigsaw,1.0,0.5243203639984131,78,119,168
+89,who was the founder of chick fil a,S. Truett Cathy,S. Truett Cathy,1.0,0.5840482711791992,77,71,159
+90,when was asbestos first found to be dangerous,began with the 20th century and escalated during the 1920s and 1930s,1920s,0.18181818181818182,0.9586465358734131,122,104,159
+91,where is the black box located on an airplane,usually mounted in the aircraft's tail section,Tail section,0.5,0.55157470703125,75,109,162
+92,when did the brewers go to national league,1998,1998,1.0,0.5071313381195068,71,63,159
+93,who are the songwriters for the greatest showman,Benj Pasek,Benj Pasek and Justin Paul,0.5714285714285715,0.5594208240509033,84,91,165
+94,who plays dylan in now you see me,Mark Ruffalo,Mark Ruffalo,1.0,0.583111047744751,79,71,162
+95,where was the ark of the covenant taken,Kiriath-Jearim,Jerusalem,0.0,0.4259660243988037,68,79,159
+96,harrow on the hill height above sea level,124 metres (408 ft),129 meters (423 feet) above sea level,0.0,1.288512945175171,132,81,162
+97,who plays hitler in man in the high castle,Wolf Muser,Wolf Muser,1.0,0.6069655418395996,81,76,165
+98,lowest city below sea level in the world,"Jericho, West Bank","Jericho, West Bank is the lowest city below sea level in the world.",0.42857142857142855,0.9023864269256592,106,179,159
+99,who voiced jack in rise of the guardians,Chris Pine,Chris Pine,1.0,0.2895669937133789,59,50,159
+100,what type of hybrid is the ford fusion,gasoline-electric,The Ford Fusion is a plug-in hybrid vehicle.,0.0,0.39273858070373535,63,40,159
+101,how many states is there in united states,50,50,1.0,0.3715651035308838,67,40,159
+102,what is the first harry potter book called in england,Harry Potter and the Philosopher's Stone,Harry Potter and the Philosopher's Stone,1.0,0.6556580066680908,88,60,174
+103,when did montgomery ward's go out of business,2001,2001,1.0,0.4741041660308838,72,53,165
+104,who won series 7 of great british bake off,Candice Brown,Candice Brown,1.0,0.5134379863739014,78,69,165
+105,who does the voice of special ed on crank yankers,Jim Florentine,Jim Florentine,1.0,0.5454988479614258,81,74,171
+106,what does the ministry of trade and industry do,directs the formulation of policies related to the development of trade and industry in Singapore,"Promotes economic development through trade, investment, and industrial policies.",0.3636363636363637,1.3363063335418701,156,261,162
+107,who sings nothings gonna hurt you baby,Cigarettes After Sex,"The song ""Nothing's Gonna Hurt You Baby"" is sung by the band Cigarettes After Sex.",0.375,0.5252516269683838,75,75,159
+108,where in the bible does it talk about manna from heaven,Exodus 16:1–36,Exodus 16,0.5,1.707430124282837,191,147,171
+109,winds that blow predominantly from the northeast and the southeast are the,The trade winds,trade winds,1.0,0.3702514171600342,66,14,174
+110,what is the use of symbolic link in linux,to reorder the file system hierarchy,For creating references to files or directories elsewhere in the filesystem.,0.13333333333333333,1.1167242527008057,134,345,162
+111,time after time song was in what movie,John Tucker Must Die,Romy and Michele's High School Reunion,0.0,1.018146276473999,117,89,159
+112,who sings i'm the one your mother warned you about,Mickey Gilley,Shelley West,0.0,0.5716269016265869,83,72,168
+113,who is considered a foreign official under fcpa,"any officer or employee of a foreign government or any department, agency, or instrumentality thereof, or of a public international organization, or any person acting in an official capacity for or on behalf of any such government or department, agency, or instrumentality, or for or on behalf of any such public international organization",It is important to consult legal experts for specific cases or for any uncertainty.,0.125,1.2006268501281738,127,276,165
+114,who made the song london bridge is falling down,Unknown,Unknown,1.0,1.0168626308441162,114,129,162
+115,when does love simon come out in canada,"March 16, 2018","March 16, 2018",1.0,0.6891529560089111,89,79,162
+116,what were the major components of clays american system,a tariff to protect and promote American industry,"TARIFFS, NATIONAL BANK, INTERNAL IMPROVEMENTS",0.0,1.2282495498657227,144,177,165
+117,where was pirates of the carribean on stranger tides filmed,"Principal photography began on June 14, 2010, in Hawaii.[17][47] Filming was moved to California in August 2010,[48] primarily at the Long Beach shore[33] and a recreation of Whitecap Bay done in the Universal Studios backlot,[17] as the original Hawaiian location on Halona Cove was plagued with strong tides.[22] After a brief shoot in Puerto Rico,[33] with locations in both Palomino Island and the Fort of San Cristóbal in San Juan,[49] production moved to the United Kingdom in September, where principal photography wrapped on November 18 after 106 days of shooting.[17] Locations included Hampton Court Palace in London,[23] Knole House in Kent,[33] and Old Royal Naval College at Greenwich.[50] Interiors were shot at London's Pinewood Studios, and a replica of an 18th-century London street was built on the backlot alongside the soundstages","Multiple locations including Hawaii, Puerto Rico, and the UK.",0.04687500000000001,0.8427379131317139,97,119,174
+118,who sings i wanna be like you jungle book,Louis Prima,"""I Wanna Be Like You"" from The Jungle Book is performed by Louis Prima and Phil Harris.",0.2222222222222222,0.49528002738952637,74,75,162
+119,who wrote the book of philippians in the bible,Paul of Tarsus,Paul,0.5,0.5325057506561279,75,54,168
+120,who sold more albums carrie underwood vs kelly clarkson,Carrie Underwood,Carrie Underwood sold more albums than Kelly Clarkson,0.4,1.0362060070037842,128,170,177
+121,who is the oldest child in queen sugar,Nova Bordelon,CHARLEY,0.0,0.4774041175842285,70,52,159
+122,when did second world war start and end,1 September 1939 – 2 September 1945,"September 1, 1939 - September 2, 1945",0.923076923076923,0.7303779125213623,96,128,159
+123,a spider with a skull on its back,Steatoda nobilis,Spooky spider with a skull on its back!,0.0,0.9766168594360352,118,222,159
+124,when did the waltz become popular in england,the Regency period,The waltz became popular in England in the early 19th century.,0.0,0.4665210247039795,72,62,168
+125,what is expelled out of the body as faeces through the anus,"solid, semisolid, or liquid waste material",Feces,0.0,0.641068696975708,90,49,177
+126,who was the chief guest of the official ceremony in the republic day,Crown Prince Mohammed bin Zayed Al Nahyan,The Chief Guest of the official ceremony of the Republic Day in India changes every year. Some recent Chief Guests have been heads of state or government from various countries. You would need to specify the exact year to know who the Chief Guest was for that particular ceremony.,0.0,0.9772677421569824,110,98,174
+127,who wrote the practice of the presence of god,"Brother Lawrence (born Nicholas Herman), a 17th-century Carmelite monk",Brother Lawrence,0.4,0.47055721282958984,73,82,162
+128,what cities have been capital of the united states,New York City,"Washington, D.C.",0.0,0.5922086238861084,83,102,162
+129,when did india conduct the nuclear test at pokhran,May 1998,India conducted nuclear tests at Pokhran in May 1998.,0.3636363636363636,0.4232926368713379,70,55,168
+130,nhl record for shots on goal in a game,"Ray Bourque (March 21, 1991), 19",96,0.0,0.7603957653045654,94,100,165
+131,where does the sagging pants trend come from,1990s,PRISON SYSTEM,0.0,0.8550083637237549,113,207,162
+132,who has played in the most nba finals games,Bill Russell,Bill Russell,1.0,0.5535435676574707,80,93,165
+133,moment of inertia of a rod about a point,radius of gyration,\frac{1}{3} \cdot M \cdot L^2,0.0,1.2483551502227783,143,356,162
+134,list of hum tv dramas based on novels,Dayar-e-Dil,5 dramas based on novels from Hum TV.,0.0,1.6639113426208496,185,281,159
+135,when does mark show up in grey anatomy,season two,"Season 2, episode 18",0.3333333333333333,0.8040754795074463,98,205,159
+136,where is the iguazu falls located on a map,on the border of the Argentine province of Misiones and the Brazilian state of Paraná,SOUTH AMERICA,0.0,1.0051522254943848,117,178,168
+137,in the 1st century bc egypt became a colony of,the Roman Empire,Roman Republic,0.5,0.740969181060791,79,52,174
+138,who is the cheif minister of uttar pradesh up,Yogi Adityanath,The current Chief Minister of Uttar Pradesh is Yogi Adityanath.,0.3636363636363636,0.4936487674713135,72,74,171
+139,who played jono on star trek next generation,Chad Allen,Chad Allen,1.0,0.5296144485473633,77,87,162
+140,this bear lives in the hundred acre wood,Winnie-the-Pooh,Winnie the Pooh,0.0,0.435687780380249,69,48,159
+141,what is the holy book of lslam called,Quran,Quran,1.0,0.5540614128112793,70,45,165
+142,who won the women's championship at wimbledon this year,Garbiñe Muguruza,Ashleigh Barty,0.0,0.6419627666473389,82,67,168
+143,who won second place in miss universe 2017,Laura González,"Miss Colombia, Laura González",0.6666666666666666,0.5694169998168945,82,73,165
+144,when does the new wheel of fortune season start,"September 10, 2018",SEPTEMBER,0.5,0.802523136138916,101,128,162
+145,who has been elected next president of united nations 2018,María Fernanda Espinosa,Maria Fernanda Espinosa Garcés from Ecuador,0.4444444444444444,1.1676559448242188,143,116,171
+146,when was the myers briggs type indicator developed,during World War II,1940s,0.0,0.7305600643157959,92,115,165
+147,when was the last time australia won the rugby world cup,1999,1999,1.0,0.4918217658996582,72,50,168
+148,where was the movie it's complicated filmed,New York City,California,0.0,0.5648729801177979,82,115,159
+149,who wrote the story for the shape of water,Guillermo del Toro,Guillermo del Toro and Vanessa Taylor,0.6666666666666666,0.7160358428955078,85,88,162
+150,when do fifty shades of freed come out,"February 9, 2018","February 9, 2018",1.0,0.5667197704315186,78,71,159
+151,where is the lighthouse in lighthouse point fl,Hillsboro Beach,"Hillsboro Inlet, Lighthouse Point, FL",0.28571428571428575,0.8436665534973145,108,154,165
+152,who founded the first university in the world,Fatima bint Muhammad Al-Fihriya Al-Qurashiya,Fatima al-Fihri,0.28571428571428575,1.0077109336853027,113,129,159
+153,when did tiger win his last pga tournament,2007,"Tiger Woods won his last PGA Tour tournament on October 28, 2019 at the Zozo Championship in Japan.",0.0,0.565244197845459,79,109,162
+154,who wrote aerosmith i don't want to miss a thing,Diane Warren,Diane Warren,1.0,0.5523726940155029,81,53,171
+155,what was the capital of brazil before brasilia,Rio de Janeiro,Rio de Janeiro,1.0,0.48938632011413574,71,54,162
+156,where was the kath and kim movie filmed,Positano,Italy,0.0,0.6296565532684326,78,88,162
+157,what is red's real name on that 70's show,"Reginald Albert ""Red"" Forman",Reginald Albert Forman,0.8571428571428571,0.574347734451294,84,92,171
+158,when did nhl start 3 on 3 overtime,2015–16 NHL season,2015-2016 season,0.4,0.5650134086608887,86,92,168
+159,who is the founder of red cross society,Henry Dunant,Henry Dunant,1.0,0.5171995162963867,71,54,159
+160,what are the three rivers of pittsburgh pennsylvania,Allegheny,"Allegheny River, Monongahela River, Ohio River",0.2857142857142857,0.7098090648651123,98,126,168
+161,what were the two super powers during the cold war,Soviet Union,United States and Soviet Union,0.5714285714285715,0.4660463333129883,74,67,165
+162,at present who is the speaker of lok sabha,Sumitra Mahajan,Om Birla,0.0,0.5519986152648926,80,73,165
+163,who voices the faceless old woman who secretly lives in your home,Mara Wilson,Mara Wilson,1.0,0.5150752067565918,82,72,174
+164,when did sweet dreams are made of this come out,1983,1983,1.0,0.7059969902038574,85,84,165
+165,when were catholic churches allowed back in england,Dioceses (replacing districts) were re-established by Pope Pius IX in 1850,1829,0.0,0.5147781372070312,79,89,162
+166,who plays wendy the waitress in how i met your mother,Charlene Amoia,Charlene Amoia,1.0,0.6235406398773193,90,91,174
+167,where did the night at the museum take place,New York City's American Museum of Natural History,American Museum of Natural History in New York City,0.823529411764706,1.663048505783081,88,124,162
+168,what are freshmen called at the air force academy,Fourth class cadets,"Freshmen at the Air Force Academy are referred to as ""fourth-class cadets.""",0.14285714285714288,0.5960617065429688,72,61,162
+169,how many gold medals did nz win in the 2018 commonwealth,46,15,0.0,0.49443531036376953,78,56,177
+170,who is the actor playing terry on general hospital,Cassandra James,Cassandra James,1.0,0.45476365089416504,72,51,165
+171,who is the leader of the state government in australia,the Queen of Australia,The leader of the state government in Australia is known as the Premier.,0.30769230769230765,0.4410593509674072,69,37,165
+172,when was national food security act introduced in rajasthan,22 December 2011,"September 1, 2013",0.0,0.6059830188751221,83,75,165
+173,good morning america what time does it start,7:00 to 9:00 a.m. in all U.S. time zones (live in the Eastern Time Zone and on tape delay elsewhere across the country),"Good morning! ""Good Morning America"" typically starts at 7:00 AM Eastern Time. Is there anything else I can help you with?",0.19047619047619047,0.6016449928283691,82,114,159
+174,what are the main sources of vitamin k,green leafy vegetables,"Green leafy vegetables, vegetable oils, fruits, and meat",0.5454545454545454,0.8991720676422119,105,205,159
+175,when did the edwardian era start and end,1901 to 1910,1901-1914,0.0,0.5174770355224609,79,103,165
+176,what was the copperheads position on fighting the war,opposed the American Civil War and wanted an immediate peace settlement with the Confederates,Opposed to fighting the war,0.26666666666666666,0.827378511428833,110,142,165
+177,when was rudolph the red nosed reindeer written,1939,1939,1.0,0.6326620578765869,85,143,168
+178,when does season 3 of lucifer come out,"October 2, 2017","October 2, 2017",1.0,0.5555329322814941,80,75,165
+179,what kind of currency is used in new zealand,New Zealand dollar,NZD,0.0,0.5148799419403076,74,68,165
+180,when was the last time mount shasta was active,about two centuries ago,1786,0.0,0.8223135471343994,73,60,165
+181,which is first dawn of the planet of the apes or rise of the planet of the apes,Rise of the Planet of the Apes,Rise of the Planet of the Apes,1.0,0.8711879253387451,109,234,195
+182,coriolosis component of acceleration can be found in,the Earth,equation for Coriolis component of acceleration: 2\(\Omega\) \times V,0.0,1.2805848121643066,146,418,165
+183,who sings i always feel like somebody's watching me,TRU,Rockwell,0.0,0.5670666694641113,82,76,165
+184,where is lebron on the all time scoring list,7,LeBron James is third on the all-time scoring list.,0.0,1.1047470569610596,132,95,165
+185,who wrote there's nothing holdin me back,Shawn Mendes,"Shawn Mendes, Scott Harris, Teddy Geiger, Geoff Warburton",0.4,0.7759110927581787,105,99,162
+186,when was silicon added to the periodic table,1823,1824,0.0,0.5755243301391602,71,62,159
+187,where do the golden knights hockey team play,"at T-Mobile Arena on the Las Vegas Strip in Paradise, Nevada","T-Mobile Arena, Las Vegas, Nevada",0.6666666666666666,0.6707408428192139,79,64,159
+188,where is black sea located in the world,"between Eastern Europe, the Caucasus, and Western Asia",In Eurasia.,0.0,0.4523277282714844,71,108,159
+189,when can a person be held for a capital crime without benefit of presentment,"in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger",ONLY WHEN THEY ARE INDICTED BY A GRAND JURY,0.06666666666666667,0.7272648811340332,99,177,180
+190,when was central statistical organisation of india established,2 May 1951,1951,0.5,0.5009887218475342,71,73,159
+191,who plays red's voice in angry birds,Jason Sudeikis,Jason Sudeikis,1.0,0.5248458385467529,77,93,159
+192,what was the first book that charles dickens published,The Pickwick Papers,The Pickwick Papers,1.0,0.7851564884185791,100,130,168
+193,how many episodes is there in season 14 of greys anatomy,24,24,1.0,0.6267521381378174,76,55,174
+194,who is the highest paid nba player in 2016,LeBron James,LeBron James,1.0,0.6602644920349121,86,119,171
+195,who has been on the throne the longest in england,Queen Elizabeth II,Queen Elizabeth II,1.0,0.820946216583252,105,93,168
+196,where is earth within the milky way galaxy,Orion Arm,"Earth is located in the Milky Way Galaxy's Orion Arm, also known as the Local Arm.",0.25,0.4934992790222168,73,136,162
+197,who plays shiv's ex boyfriend on succession,Ashley Zukerman,Kieran Culkin,0.0,0.5271213054656982,75,57,162
+198,what is the population of yukon in 2017,"35,874 people","The population of Yukon in 2017 was 38,858.",0.0,0.8638503551483154,116,169,171
+199,when was a whiter shade of pale recorded,1967,April 1967,0.6666666666666666,0.6525077819824219,81,69,162
+200,when did the song all by myself come out,in 1975,"The song ""All By Myself"" was first released by Eric Carmen in 1975.",0.2857142857142857,0.462496280670166,73,71,162
+201,what is the meaning of region in english,"areas that are broadly divided by physical characteristics (physical geography), human impact characteristics (human geography), and the interaction of humanity and the environment (environmental geography)",AREA,0.0,0.48791956901550293,74,110,159
+202,when does arrow season 6 episode 21 air,"May 3, 2018","May 3, 2018",1.0,0.5100200176239014,81,150,165
+203,who starred in the original movie cape fear,Robert Mitchum,Gregory Peck and Robert Mitchum starred in the original movie Cape Fear.,0.3076923076923077,0.7826266288757324,96,97,159
+204,who is the bloke in the go compare advert,Wynne Evans,Gio Compario,0.0,0.5316939353942871,75,74,165
+205,where does a jury of her peers take place,"fictional Dickson County (representing Dickinson County, Iowa)",rural farmhouse in the early 1900s,0.0,0.6641130447387695,88,109,162
+206,what language do they speak in the czech republic,Czech,"In the Czech Republic, they speak Czech.",0.2857142857142857,0.3793771266937256,64,38,165
+207,who is el senor de los cielos based on,Amado Carrillo Fuentes,Amado Carrillo Fuentes,1.0,0.6920123100280762,93,140,171
+208,what year did the drummer lose his arm,1985,1984,0.0,0.7948849201202393,106,82,159
+209,where is redding california located on a map,"along the Sacramento River, 162 miles (261 kilometers) north of Sacramento, and 120 miles (190 km) south of California's northern border, shared with the state of Oregon","Redding, California is located at approximately 40.5865° N latitude and 122.3917° W longitude.",0.052631578947368425,0.9907095432281494,118,124,162
+210,when does celebs go dating series 3 start,4 September 2017,"September 4, 2017",1.0,0.6162264347076416,86,96,165
+211,what is the newest jurassic park movie called,Jurassic World: Fallen Kingdom,Jurassic World: Dominion,0.5714285714285715,0.46947765350341797,74,58,162
+212,who wrote the song one wing from sparkle,R. Kelly,R. Kelly,1.0,0.5447714328765869,76,52,159
+213,who sang wish you were here pink floyd,David Gilmour,David Gilmour and Roger Waters,0.5714285714285715,1.2415509223937988,111,83,162
+214,who won the women's 400 meter dash in the olympics,Shaunae Miller,"To find out the winner of the women's 400 meter dash in the Olympics, you can search for the specific event and year you are referring to. Once you have that information, you can provide the final answer.",0.0,0.7490909099578857,103,203,177
+215,who has the most points in nba history career,LeBron James,Kareem Abdul-Jabbar,0.0,0.6439483165740967,89,119,165
+216,who is paige on days of our lives,True O'Brien,"Paige Larson was a character on Days of Our Lives, portrayed by True O'Brien.",0.2666666666666667,0.9115371704101562,100,199,162
+217,bible verse if your hand causes you sin cut off,Matthew 5:30,Matthew 5:30,1.0,0.8782975673675537,95,166,168
+218,when did the first slender game come out,2012,"June 26, 2012",0.5,0.6707372665405273,88,92,159
+219,when do the red sox play sweet caroline,in the middle of the eighth inning,Middle of the eighth inning,0.888888888888889,0.9167923927307129,114,170,165
+220,who plays the black knight in monty python,John Cleese,John Cleese,1.0,0.5939137935638428,79,75,162
+221,secreted by cells in the walls of the hearts atria,Atrial natriuretic peptide (ANP),What substance is secreted by cells in the walls of the heart's atria?,0.0,0.4661386013031006,74,74,171
+222,which nba player has scored the most points,Kareem Abdul-Jabbar,Kareem Abdul-Jabbar,1.0,0.7498154640197754,87,105,162
+223,who did the soviet union support in china civil war,the CCP,Communist Party of China,0.0,0.6700172424316406,85,74,171
+224,when was the last time a total eclipse happened,"August 21, 2017","December 14, 2020",0.0,0.9417831897735596,104,99,162
+225,who played the scare crow in wizard of oz,Raymond Wallace Bolger,Ray Bolger,0.4,0.6049606800079346,79,66,162
+226,where is the femur located on the human body,proximal (closest to the hip joint) bone of the leg,thigh,0.0,0.5698308944702148,74,74,165
+227,who said truth justice and the american way,the comic-book character Superman,Superman,0.5,0.5067663192749023,70,70,159
+228,who won the first stage of the 2018 tour de france,Fernando Gaviria of Quick-Step Floors,Fernando Gaviria,0.5714285714285715,0.7394695281982422,88,93,174
+229,where is kuala lumpur located on a map,3°8′N 101°41′E﻿ / ﻿3.133°N 101.683°E,"Malaysia, Southeast Asia",0.0,0.6184954643249512,82,140,165
+230,when did falcon first appear in the mcu,in the 2014 film Captain America: The Winter Soldier,2014,0.25,0.6388471126556396,84,96,165
+231,when did the battle of bannockburn take place,24 June 1314,"June 23-24, 1314",0.6666666666666666,0.7367846965789795,88,84,168
+232,who does danny end up with in just go with it,Katherine,Palmer,0.0,0.5295844078063965,77,71,171
+233,who played tj on head of the class,Rain Pryor,Maestro Harrell,0.0,0.6064152717590332,81,52,159
+234,what is free trade area of the americas,agreement to eliminate or reduce the trade barriers,"The Free Trade Area of the Americas (FTAA) was a proposed trade agreement to eliminate or reduce trade barriers among countries in the Americas, excluding Cuba.",0.4827586206896552,1.36171555519104,132,205,162
+235,who was the first to suggest an atom existed,the ancient Greek philosophers Leucippus and his pupil Democritus,Democritus,0.2222222222222222,0.5724427700042725,78,77,162
+236,what percentage of the us population is east of the mississippi,58.28%,This percentage will vary depending on the most recent population data available.,0.0,1.3216791152954102,135,264,171
+237,who is gertrude bell queen of the desert,"an English writer, traveller, political officer, administrator, and archaeologist","British explorer, archaeologist, and diplomat who played a key role in shaping the Middle East during the early 20th century.",0.15999999999999998,1.4700288772583008,155,220,165
+238,what is the name given to the rows in the periodic table,periods,periods,1.0,0.46350622177124023,72,45,171
+239,who is the current director of the national park service,"Mike Reynolds, Acting Director",Charles Sams,0.0,0.4836726188659668,72,69,165
+240,who was the first person who discovered gravitational pull,Aryabhata,Sir Isaac Newton,0.0,0.5261058807373047,72,96,162
+241,can't help falling in love who wrote it,Hugo Peretti,"The song ""Can't Help Falling in Love"" was written by Hugo Peretti, Luigi Creatore, and George David Weiss.",0.21052631578947367,0.6367402076721191,80,92,162
+242,where is finland located on a map of europe,Northern Europe,Finland is located in the northern part of Europe.,0.4,0.733489990234375,87,179,165
+243,who wrote the i had a dream speech,Martin Luther King Jr.,"The ""I Have a Dream"" speech was delivered by Martin Luther King Jr. at the March on Washington for Jobs and Freedom on August 28, 1963.",0.29629629629629634,0.6638665199279785,87,73,159
+244,who is the highest paid player in all of sports,Cristiano Ronaldo,Conor McGregor,0.0,0.7967319488525391,92,66,165
+245,who won the battle of charleston in the revolutionary war,the British,British forces won the Battle of Charleston in the Revolutionary War.,0.19999999999999998,0.6275215148925781,86,58,168
+246,which of the following are components of the pns,nerves and ganglia outside the brain and spinal cord,"Cranial nerves, Spinal nerves, Autonomic nervous system",0.26666666666666666,0.8865907192230225,102,162,165
+247,who wrote the song come thou fount of every blessing,18th century pastor and hymnist Robert Robinson,"Robert Robinson]] wrote the song ""Come Thou Fount of Every Blessing.",0.23529411764705882,0.7763073444366455,97,71,168
+248,a series of unfortunate events season 1 episode 2,The Bad Beginning: Part Two,The Bad Beginning: Part Two,1.0,1.3423678874969482,130,219,168
+249,who is the present speaker in lok sabha,Sumitra Mahajan of the Bharatiya Janata Party,Om Birla,0.0,0.5997591018676758,83,82,162
+250,who is said be the father of volleyball,William George Morgan,William G. Morgan,0.6666666666666666,0.5919890403747559,70,54,159
+251,who has the most medals in this year's winter olympics,Norway,"To find out who has the most medals in this year's Winter Olympics, you can check the official Winter Olympics website or a reliable sports news source to get the most up-to-date information.",0.0,0.7951023578643799,96,118,174
+252,when was the internet introduced in the philippines,"on March 29, 1994",1994,0.4,0.5125687122344971,70,63,159
+253,who is the heroine of quit india movement,Aruna Asaf Ali,The heroine of the Quit India Movement was Aruna Asaf Ali.,0.5,0.36837267875671387,67,50,159
+254,when can a med student be called doctor,Upon successful completion of medical school,After completing medical school and earning a Doctor of Medicine (MD) degree.,0.3529411764705882,1.4590377807617188,133,183,159
+255,who played piggy in lord of the flies,Hugh Edwards,"Piggy is played by actor Hugh Edwards in the 1963 film adaptation of ""Lord of the Flies.""",0.23529411764705882,0.5735490322113037,78,98,162
+256,when did disney's 101 dalmations come out,"January 25, 1961","January 25, 1961",1.0,0.6243181228637695,87,87,171
+257,when did they stop putting cigarettes in rations,1975,1975,1.0,1.7284255027770996,154,165,162
+258,when did reese's peanut butter cups first come out,1928,1928,1.0,0.5249860286712646,75,57,168
+259,who does christopher walken play in the jungle book,King Louie,King Louie,1.0,0.562736988067627,84,80,168
+260,what is the name of the island of haiti and dominican republic,Hispaniola,Hispaniola,1.0,0.4075813293457031,72,39,180
+261,where have the mescalero apache settled in new mexico,Mescalero Apache Reservation,Mescalero Reservation in south-central New Mexico,0.4444444444444444,0.8011114597320557,88,112,168
+262,where is the new texas rangers stadium being built,Arlington,"The new Texas Rangers stadium is being built in Arlington, Texas.",0.18181818181818182,0.4754455089569092,68,88,165
+263,where was mash 4077 supposed to be in korea,"Uijeongbu, South Korea",Not specified,0.0,0.9674546718597412,108,116,171
+264,theme of the movie akeelah and the bee,overcoming obstacles despite difficult challenges along the way,"Perseverance and self-belief are the main themes of ""Akeelah and the Bee"".",0.0,1.167428970336914,136,168,165
+265,who has the most nba championships in nba history,Bill Russell,Boston Celtics,0.0,0.5464377403259277,79,65,168
+266,when will ios 10 be released for ipad mini,"September 13, 2016","Already released on September 13, 2016",0.6666666666666666,1.2633864879608154,132,224,165
+267,when did north america arrive at the location it is in today,mid-Cretaceous period,IMPOSSIBLE TO DETERMINE,0.0,0.984384298324585,108,205,171
+268,who said off with their heads in alice in wonderland,The Queen of Hearts,Queen of Hearts,1.0,0.5781373977661133,83,66,168
+269,who devised the first test for detection of arsenic in 1775,Carl Wilhelm Scheele,The first test for detection of arsenic was devised by Carl Wilhelm Scheele in 1775.,0.35294117647058826,0.5680809020996094,79,85,177
+270,who plays the bad guy in looney tunes back in action,Steve Martin,Steve Martin,1.0,0.5597128868103027,82,80,171
+271,when did dr seuss wrote his first book,1936,1937,0.0,0.7218027114868164,86,96,162
+272,what is the average age to die in the uk,81.2,81.05,0.0,2.1252670288085938,190,167,165
+273,when do we use the process of centrifugation,"to separate two miscible substances, but also to analyze the hydrodynamic properties of macromolecules",Centrifugation is used to separate particles based on their density.,0.17391304347826086,3.7473955154418945,368,551,165
+274,who sings the theme song for miami vice,Jan Hammer,Jan Hammer,1.0,0.4827399253845215,72,84,162
+275,where is red dog mine located in alaska,68°04′19″N 162°52′34″W﻿ / ﻿68.071989°N 162.876044°W,Northwest Alaska,0.0,0.7539925575256348,98,101,162
+276,where does the name iron maiden come from,iron maiden torture device,"The name ""Iron Maiden"" comes from a medieval torture device resembling a coffin with spikes on the inside. It is said to have been used to execute criminals or captives.",0.2666666666666667,0.7652087211608887,88,219,159
+277,where is orange county choppers located in new york,"the town of Newburgh, located in Orange County, New York","Newburgh, New York",0.5,0.5558135509490967,76,62,165
+278,when did my girl by the temptations come out,"December 21, 1964","""My Girl"" by The Temptations was released in December 1964.",0.3333333333333333,0.4762403964996338,71,77,165
+279,when did the first winter olympic games take place,1924,1924,1.0,0.54280686378479,79,69,168
+280,when is the raiders first game in las vegas,2020,"September 13, 2020",0.5,1.1661710739135742,97,126,165
+281,who is chief executive of marks and spencer,Stephen Joseph Rowe,The Chief Executive of Marks and Spencer is Steve Rowe.,0.16666666666666666,0.44547128677368164,65,44,162
+282,what race is aaron judge of the new york yankees,African-American,"Aaron Judge is biracial, his mother is white and his father is black.",0.0,0.4363689422607422,73,67,171
+283,when did the secret service start guarding the president,After the 1901 assassination of President William McKinley,1901,0.25,0.5583956241607666,79,73,162
+284,what percent of the english language is greek,5.32%,Answer,0.0,1.660670518875122,142,294,162
+285,who played alice in seven brides for seven brothers,Nancy Kilgas,Jane Powell,0.0,0.5080957412719727,72,60,162
+286,when does the 2018 mn legislative session end,"January 7, 2019","May 20, 2018",0.0,0.6909258365631104,82,81,165
+287,when did dallas cowboys go to the superbowl,1970,8 times,0.0,0.9103951454162598,114,191,168
+288,when did the last episode of code black air,"July 18, 2018","July 18, 2018",1.0,0.5727300643920898,79,78,162
+289,who plays marnie in bring it on again,Bethany Joy Lenz,Bethany Joy Lenz,1.0,0.5499632358551025,79,74,165
+290,when was the last time byu won utah,"November 28, 2009","September 11, 2009",0.3333333333333333,0.7307741641998291,94,110,165
+291,who flew to close to the sun and his wings melted,Icarus,Icarus,1.0,1.0899944305419922,117,82,168
+292,when was amen first used in the bible,Numbers 5:22,Numbers 5:22,1.0,1.113936424255371,113,180,159
+293,who sings don't get around much anymore,Duke Ellington,"The song ""Don't Get Around Much Anymore"" is originally sung by Duke Ellington.",0.2857142857142857,0.5067172050476074,73,106,159
+294,when did the battle of fort sumter happen,"April 12–13, 1861","April 12-13, 1861",0.6666666666666666,0.7756774425506592,84,82,162
+295,tallest person in the world guinness world record,Robert Wadlow,Sultan Kösen - 8 feet 2.8 inches,0.0,1.1246299743652344,111,163,165
+296,at what output is marginal product of labour the highest,at the point of diminishing returns,At the point where total output starts to increase at a decreasing rate.,0.25000000000000006,1.372229814529419,135,354,165
+297,who sing the theme song for good times,Jim Gilstrap,"Good Times theme song was performed by ""Good Times"" featuring Jim Gilstrap and Blinky Williams.",0.23529411764705882,0.9311709403991699,103,90,159
+298,what is area code 01446 in the uk,Barry,Barry,1.0,0.524777889251709,77,72,165
+299,when is halley's comet coming around again,mid-2061,2061,0.0,2.627281427383423,107,74,162
+300,is tomato a fruit or vegetable us supreme court,vegetable,Fruit,0.0,2.2760679721832275,103,246,162
+301,who plays dean and sam dad in supernatural,Jeffrey Dean Morgan,Jeffrey Dean Morgan,1.0,0.6176671981811523,82,86,159
+302,the first railway line between karachi and kotri was constructed in,April 1858,1861,0.0,0.5839390754699707,80,82,174
+303,when does jacob find out he's a werewolf,In the second book of the series (New Moon),"In ""New Moon""",0.6,0.6572690010070801,86,235,168
+304,who is the creator of star vs the forces of evil,Daron Nefcy,Daron Nefcy,1.0,0.5223085880279541,79,61,168
+305,where does it always sunny in philadelphia take place,Philadelphia,"Philadelphia, Pennsylvania",0.6666666666666666,0.4972071647644043,75,60,165
+306,who is the longest reigning wwe united states champion,Lex Luger,Lex Luger,1.0,0.5341453552246094,79,147,165
+307,when did we start the pledge of allegiance,1942,1892,0.0,1.0520503520965576,120,171,159
+308,total number of articles in indian constitution at present,448,470,0.0,0.41143012046813965,68,49,162
+309,who teaches defense against the dark arts after snape,Amycus Carrow,Multiple teachers,0.0,1.835437297821045,183,195,165
+310,who does the voice for the aflac duck,Gilbert Gottfried,Dan Castellaneta,0.0,0.8347578048706055,100,69,162
+311,when was the last time celtics won nba championship,2008,2008,1.0,0.5549395084381104,78,62,171
+312,when was the national world war ii memorial built,"April 29, 2004",2004,0.5,0.6129703521728516,76,157,162
+313,who wrote the book of obadiah in the bible,Obadiah,The authorship of the book of Obadiah is traditionally attributed to the prophet Obadiah himself.,0.15384615384615385,0.5572779178619385,77,74,168
+314,who plays janine's mom on house of payne,Anne-Marie Johnson,Denise Burse,0.0,0.5089607238769531,78,81,168
+315,where was the lowest temperature ever recorded on earth,Soviet Vostok Station in Antarctica,Vostok Station in Antarctica,0.888888888888889,0.9198348522186279,104,145,162
+316,who wrote the strange case of dr jekyll and mr hyde,Robert Louis Stevenson,Robert Louis Stevenson,1.0,0.5841026306152344,82,75,174
+317,a large collection of servers is called a(n),server farm or server cluster,data center,0.0,0.47908902168273926,71,29,165
+318,when did the first rocket launched into space,1944,"October 4, 1957",0.0,1.0588765144348145,120,147,159
+319,daniel bedingfield if you're not the one album,Gotta Get Thru This,Gotta Get Thru This,1.0,0.7626104354858398,98,132,171
+320,when did winning colors win the kentucky derby,1988,1988,1.0,0.4892385005950928,76,72,165
+321,when was the last time the la kings made the playoffs,2017–18,2018,0.0,0.6889266967773438,82,111,168
+322,list three offices included in the executive office of the president,Office of Administration,"White House Chief of Staff, Counselor to the President, Press Secretary",0.15384615384615383,0.7635161876678467,93,111,168
+323,how many national parks are there in karnataka,five,5,0.0,0.8208575248718262,106,107,165
+324,where was the french connection car chase filmed,"in Bensonhurst, Brooklyn roughly running under the BMT West End Line (currently the D train, then the B train) which runs on an elevated track above Stillwell Avenue, 86th Street and New Utrecht Avenue in Brooklyn, with the chase ending just north of the 62nd Street station.","The French Connection car chase scene was filmed in Brooklyn, New York City, USA.",0.14814814814814817,0.5321276187896729,70,66,159
+325,how many sports are there in the 2018 commonwealth games,19 Commonwealth sports,18,0.0,0.5603179931640625,74,46,174
+326,queer eye for the straight guy catch phrase,American reality television series,"Five gay guys, one straight guy, it's the ultimate social experiment.",0.0,0.7732315063476562,104,55,162
+327,who won britain's got talent 2012 winner,Ashleigh and Pudsey,Ashleigh and Pudsey won Britain's Got Talent in 2012.,0.5,0.4609198570251465,72,81,168
+328,what three offices made up virginia's representative government,lieutenant governor and attorney general,"House of Burgesses, Governor's Council, Governor",0.1818181818181818,0.5690720081329346,83,105,165
+329,who plays the evil queen on once upon a time,Lana Maria Parrilla,Lana Parrilla,0.8,0.6209702491760254,76,66,165
+330,what children's book was set in camp green lake texas,Holes,Holes,1.0,0.602968692779541,82,79,168
+331,who sings the song hey ho let's go,Ramones,The Ramones,1.0,0.6156728267669678,79,69,162
+332,when was harry potter first published in the us,1 September 1998,1998,0.5,0.6217951774597168,84,93,168
+333,when was oman given the official name sultanate of oman,9 August 1970,1970,0.5,0.6109721660614014,81,74,177
+334,who sang backing vocals on you're so vain,Mick Jagger,Mick Jagger and Merry Clayton,0.5714285714285715,0.9851922988891602,113,89,162
+335,what episode did jim die on ghost whisperer,"""Imaginary Friends and Enemies""","Jim Clancy, played by David Conrad, dies in Season 4, Episode 23 titled ""Book of Changes"" on Ghost Whisperer.",0.0,0.6972236633300781,83,124,162
+336,who plays becky on the us cellular commercial,Darien Sills-Evans,The actress who plays Becky in the US Cellular commercial is Milana Vayntrub.,0.0,0.5429930686950684,73,66,162
+337,where does battle of the gods fit in,during the time skip in chapter 517 of the original manga,The Battle of the Gods fits in various mythologies as a significant event where powerful deities or supernatural beings engage in conflict to establish dominance or determine the fate of the world.,0.1111111111111111,2.6484172344207764,212,265,159
+338,what is an example of a natural climate record/proxy,ice cores,Tree rings (dendrochronology),0.0,1.1789891719818115,131,55,168
+339,where does the book of daniel take place,Babylon,Babylon,1.0,0.6008048057556152,74,58,162
+340,who plays victoria in young and the restless,Amelia Heinle Luckinbill,Amelia Heinle,0.8,0.6137502193450928,75,64,162
+341,who won the cfp national championship last year,Alabama,The Alabama Crimson Tide won the CFP National Championship last year.,0.19999999999999998,0.42160868644714355,67,43,162
+342,where was last song filmed on tybee island,on the island's beach and pier,"Tybee Island, Georgia",0.0,1.517481803894043,163,119,162
+343,who led the brewers in home runs in 1982,Gorman Thomas,Gorman Thomas,1.0,0.6523177623748779,81,84,168
+344,who won season 3 rupaul's drag race all stars,Trixie Mattel,Trixie Mattel,1.0,0.5761754512786865,87,87,174
+345,how far is the horsehead nebula from earth,approximately 1500 light years,"1,500 light-years",0.3333333333333333,0.6146025657653809,81,74,165
+346,who was the song i'll be missing you about,"Christopher ""The Notorious B.I.G."" Wallace","The song ""I'll Be Missing You"" by Puff Daddy (P. Diddy) was written in memory of The Notorious B.I.G. (Christopher Wallace), who was murdered in 1997.",0.2857142857142857,0.7440669536590576,98,184,165
+347,who played sunshine in the movie harlem nights,Rochon,Richard Pryor,0.0,0.5710005760192871,78,63,162
+348,where do the chicago white sox play spring training,Camelback Ranch–Glendale,"Camelback Ranch in Glendale, Arizona",0.28571428571428575,0.6874592304229736,86,81,165
+349,where does the last name haugen come from,the old Norse word haugr,"Norwegian origin, derived from the Old Norse word ""haugr"" meaning hill or mound.",0.5,1.233030080795288,113,198,162
+350,when was the last time north korea fired a missile,September 15,"September 12, 2021",0.4,0.798891544342041,96,84,168
+351,who played professor wilder on dawson's creek,"Kenneth Joseph ""Ken"" Marino",Michael Pitt,0.0,0.506781816482544,77,77,168
+352,who sang can't get enough of your love baby,Barry White,Barry White,1.0,0.5338008403778076,78,73,165
+353,who is nana saheb in bajirao mastani movie,Ayush Tandon,Tanvi Azmi,0.0,0.8732900619506836,106,133,177
+354,what is the color of hyperlink in html,blue,blue,1.0,0.4760310649871826,68,33,159
+355,what is the control unit function in the cpu,"tells the computer's memory, arithmetic/logic unit and input and output devices how to respond to the instructions that have been sent to the processor",Coordinates activities and controls data flow within the CPU.,0.06896551724137931,1.0133910179138184,121,179,162
+356,who is the managing director of hdfc bank,Aditya Puri,I'm unable to provide real-time information about specific individuals. You may want to visit the official website of HDFC Bank or check the latest news updates for the most current information.,0.0,0.7072360515594482,90,115,162
+357,how old do you have to be to run for the president of the united states,thirty-five Years,35 years old,0.4,0.5923182964324951,87,67,183
+358,when did israel adopt the star of david,"October 28, 1948",1949,0.0,0.5012063980102539,75,80,162
+359,the idea that the moons development began when a large object collided with earth is called the,"The giant-impact hypothesis, sometimes called the Big Splash, or the Theia Impact",Giant Impact Hypothesis,0.3333333333333333,0.6110970973968506,94,94,186
+360,where are the ascii characters found in the utf-8 code points,The first 128 characters,U+0000 to U+007F.,0.0,1.1096017360687256,135,221,174
+361,is an encoding for english alphanumeric characters as 7-bit numbers,ASCII,False,0.0,0.916663408279419,102,333,171
+362,who played lucky on king of the hill,Tom Petty,Tom Petty,1.0,0.5074613094329834,71,56,159
+363,when did they start the draft for the vietnam war,"December 1, 1969",1969,0.5,1.0797231197357178,124,55,168
+364,who plays the mother in a monster calls,Felicity Jones,Felicity Jones,1.0,0.49258923530578613,75,51,159
+365,when does the 16 days of activism campaign start,25 November,November 25th,0.5,0.7849242687225342,102,122,165
+366,when did bud lose his leg in jag,2002,"Bud Roberts lost his leg in Season 8, Episode 23 of JAG, which originally aired on May 11, 2003.",0.0,0.7481880187988281,83,145,159
+367,who does mary camden marry in 7th heaven,Carlos Rivera,Mary Camden marries Carlos Rivera in the show 7th Heaven.,0.3636363636363636,0.4288501739501953,70,53,168
+368,who wrote the music for dances with wolves,John Barry Prendergast,John Barry,0.8,0.5390655994415283,73,56,159
+369,who did the donkey talk to in the bible,Balaam,Balaam,1.0,0.5807287693023682,80,156,165
+370,what movie has the song here comes the sun,Sgt. Pepper's Lonely Hearts Club Band,Forrest Gump,0.0,0.6742711067199707,83,82,162
+371,when did the song colt 45 come out,"September 6, 2001","The song ""Colt 45"" by Afroman was released in 2000.",0.0,0.6070263385772705,74,140,165
+372,what is the main train station in milan,Milan Central,Milano Centrale,0.0,0.5127692222595215,71,52,159
+373,who handles the money in the us government,Department of the Treasury,The U.S. Department of Treasury handles the money in the U.S. government.,0.5,0.5636117458343506,70,52,159
+374,when did the center of the roman empire moved from rome to constantinople,11 May 330 AD,330 AD,0.6666666666666666,0.5832240581512451,87,113,183
+375,what is the day of the dead festival in mexico,"a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States",Day of the Dead is a Mexican holiday celebrated on November 1st and 2nd to honor deceased loved ones.,0.24390243902439027,1.48341965675354,168,257,165
+376,will a xbox 360 game work in a xbox one,"The Xbox One gaming console has received updates from Microsoft since its launch in 2013 that enable it to play select games from its two predecessor consoles, Xbox and Xbox 360.",No,0.0,0.5688402652740479,74,83,168
+377,where did they film the first twilight movie,"primarily in Portland, Oregon",Oregon and Washington,0.28571428571428575,0.8989763259887695,107,82,159
+378,the evil queen's name in snow white,Queen Grimhilde,Queen Grimhilde,1.0,0.5130455493927002,73,63,159
+379,who was the ruler of india when east india company was set up,Queen Elizabeth I,Jahangir,0.0,0.7679073810577393,83,76,174
+380,who is considered to be the first pope,St Peter,Saint Peter,0.5,0.45604681968688965,68,243,159
+381,where does the red river begin and end,"Harmon County, Oklahoma",High Plains of Eastern New Mexico to Mississippi River in Louisiana,0.0,0.8351373672485352,91,101,159
+382,when did sachin tendulkar win the world cup,2011,2011,1.0,0.5674333572387695,78,62,168
+383,when did beverly hills cop 2 come out,1987,"May 20, 1987",0.5,0.619758129119873,85,85,168
+384,which leader halted the muslim invasion of western europe at the battle of tours,Charles Martel,Charles Martel,1.0,0.5220246315002441,85,316,177
+385,what is the largest state in america by size,Alaska,Alaska,1.0,0.45935797691345215,69,45,162
+386,actor who plays jack in will and grace,Sean Patrick Hayes,Sean Hayes,0.8,0.491652250289917,73,59,159
+387,who was the first person to die in romeo and juliet,Mercutio,Tybalt,0.0,0.5045418739318848,79,99,177
+388,who does chris griffin's voice on family guy,Seth Green,Seth Green,1.0,0.5298666954040527,76,53,168
+389,how many republicans are in the senate in 2018,51,51,1.0,0.6434638500213623,79,61,171
+390,who did cleveland play in the finals last year,Golden State Warriors,Golden State Warriors,1.0,0.5101027488708496,76,65,165
+391,what is the joint commission and what do they do,"a United States-based nonprofit tax-exempt 501(c) organization[1] that accredits more than 21,000 US health care organizations and programs",Accredits and certifies healthcare organizations,0.2727272727272727,2.2883877754211426,117,191,165
+392,how many athletes does great britain have in the 2018 olympics,58,59 athletes,0.0,0.47280311584472656,84,100,183
+393,who got the highest paid contract in the nba,Stephen Curry,Stephen Curry,1.0,0.8448717594146729,99,88,165
+394,the south african institute of tax practitioners was constituted as,a Not for Profit professional body,"I'm sorry, I'm not sure what you are asking. Can you please provide more context or clarify your question?",0.08333333333333333,0.7304255962371826,79,138,165
+395,which president was the president of columbia university,Dwight D. Eisenhower,Dwight D. Eisenhower,1.0,0.650660514831543,83,80,162
+396,who played spur in man from snowy river,Kirk Douglas,"Kirk Douglas played the character Spur in the movie ""The Man from Snowy River.""",0.3076923076923077,0.48038434982299805,72,60,159
+397,where is xanthophyll found in a plant's cell,leaves,Chloroplast,0.0,0.4998652935028076,79,84,171
+398,who pioneered the little black dress or lbd back in 1926,Coco Chanel,Coco Chanel,1.0,0.8008947372436523,82,57,177
+399,who were the first to start a company to trade with india,the Portuguese Estado da Índia,British East India Company,0.0,0.5684878826141357,83,114,171
+400,pay scale of section officer in central secretariat,Junior Time Scale,"Basic Pay Scale for Section Officer in Central Secretariat: Rs. 47,600 - Rs. 1,51,100",0.125,2.3645198345184326,234,407,162
+401,who is the actor that plays jax in sons of anarchy,Charles Matthew Hunnam,Charlie Hunnam,0.4,0.5722994804382324,82,67,174
+402,who is the yankees all-time leader in pitching wins,Roger Clemens,Whitey Ford,0.0,0.5279290676116943,76,84,168
+403,where did the 2010 world cup take place,South Africa,South Africa,1.0,0.5229654312133789,73,53,165
+404,who plays the character dog in game of thrones,Rory McCann,Rory McCann,1.0,0.5230941772460938,75,72,165
+405,the president of the united states is a member of what branch of government,the executive branch of the federal government,Executive branch,0.5714285714285715,0.5261893272399902,79,66,177
+406,who sings the song ain't no stopping us now,McFadden & Whitehead,McFadden & Whitehead,1.0,0.6715540885925293,88,91,165
+407,who drove the number 33 car in nascar,"Harold Phil Gant[1] (born January 10, 1940), better known as ""Handsome Harry""","The number 33 car in NASCAR has been driven by several different drivers, including Tony Stewart, Clint Bowyer, and Ty Dillon.",0.0,0.7410867214202881,82,122,165
+408,what kind of boat is used in the everglades,Airboats,Airboat,0.0,0.857414960861206,84,139,168
+409,why is rifling present in the bore of the barrel,for the purpose of exerting torque and thus imparting a spin to a projectile around its longitudinal axis during shooting,To increase accuracy and stability of the projectile.,0.3333333333333333,1.0991032123565674,122,112,168
+410,where do the amino acids come from in protein synthesis,tRNA molecules,Dietary protein sources or synthesized by the body,0.0,0.5861349105834961,83,211,165
+411,who replaced ringo starr on thomas the tank engine,Michael Angelis,Michael Angelis,1.0,0.5821483135223389,81,80,171
+412,who was the first president born a citizen of the united states,Martin Van Buren,Martin Van Buren,1.0,0.5799908638000488,80,79,171
+413,who sings the song reunited and it feels so good,Peaches & Herb,Peaches & Herb,1.0,0.6582539081573486,78,70,165
+414,where do the st louis cardinals do spring training,Roger Dean Stadium,"Jupiter, Florida at Roger Dean Stadium",0.6666666666666666,0.5912570953369141,84,90,165
+415,when was the last time the mavericks made the playoffs,2015–16,2019-2020,0.0,0.8356826305389404,98,114,171
+416,when did the age of majority change from 21 to 18 in the uk,1970,1970,1.0,0.6316556930541992,94,82,183
+417,who plays taylor on bold and the beautiful,Hunter Tylo,The character of Taylor Hayes is played by actress Hunter Tylo on The Bold and the Beautiful.,0.25,0.5332348346710205,73,69,162
+418,who played phil in phil of the future,Raviv Ullman,Ricky Ullman,0.5,0.5711791515350342,74,63,159
+419,what is the clean up hitter in baseball,fourth player in the batting order,Fourth batter in the lineup.,0.4444444444444445,1.0900213718414307,111,204,159
+420,what is the song anything you can do from,Annie Get Your Gun,"The song ""Anything You Can Do"" is from the musical ""Annie Get Your Gun.""",0.5,0.49157118797302246,73,87,162
+421,what is the most popular car in russia,the classic Lada Riva,Lada Granta,0.4,0.5447311401367188,79,46,162
+422,what was mrs howell's first name on gilligan's island,Lovey,Lovey,1.0,0.48001837730407715,80,66,180
+423,who plays ruby on anne with an e,Kyla Matthews,"Ruby Gillis is played by Kyla Matthews in the series ""Anne with an E.""",0.2857142857142857,0.49353861808776855,71,59,159
+424,how many points did robert parish score in his career,"23,334","23,334",1.0,0.5568413734436035,77,114,165
+425,where is folic acid absorbed in the body,intestine,Small intestine,0.6666666666666666,0.6081595420837402,80,135,162
+426,why did they kill off fran on mama's family,"Rue McClanahan (Aunt Fran) and Betty White (Ellen Jackson) had both gone on to star in the NBC sitcom The Golden Girls, rendering them unavailable to return",Actress Rue McClanahan left the show to pursue other projects.,0.1764705882352941,0.879547119140625,105,143,165
+427,what is the website for the united states postal service,www.usps.com,www.usps.com,1.0,0.561302900314331,76,74,165
+428,who owns the rio casino in las vegas,Caesars Entertainment Corporation,The Rio Casino in Las Vegas is currently owned by Dreamscape Companies LLC.,0.0,0.38271212577819824,68,73,159
+429,who has scored the most goals in the world cup final,Geoff Hurst,Just Fontaine,0.0,0.7283792495727539,93,141,168
+430,what was the name of the last planet of the apes movie,War for the Planet of the Apes,"The last Planet of the Apes movie is ""War for the Planet of the Apes.""",0.625,0.5138101577758789,77,72,174
+431,the condemnation of private property for public use is allowed under the state's right of,Eminent domain,eminent domain,1.0,0.9748411178588867,121,100,183
+432,how long did it take pioneers on the oregon trail,about 160 days in 1849 to 140 days 10 years later,4 to 6 months,0.13333333333333333,0.5093812942504883,80,79,168
+433,what is a levite according to the bible,a Jewish male whose descent is traced by tradition to Levi,A Levite is a member of the tribe of Levi chosen by God to serve in religious duties.,0.32,1.3562042713165283,151,334,162
+434,how much is a table spoon in ounces,0.50 US fl oz,0.5 ounces,0.0,0.4798305034637451,70,92,159
+435,what is the wimbledon runner up prize money,"£1,125,000",£1.2 million,0.0,0.5689806938171387,81,131,162
+436,who stars in the man in the high castle,Alexa Davalos,VARIES,0.0,0.6294126510620117,87,156,162
+437,when was the lion the witch and the wardrobe first published,16 October 1950,"October 16, 1950",1.0,0.6148042678833008,88,79,168
+438,this refers to an old ritual of formalizing an engagement to marry,Betrothal (also called espousal),The old ritual of formalizing an engagement to marry is known as a betrothal ceremony. It was a significant part of traditional marriage customs in many cultures.,0.07407407407407408,1.4999403953552246,170,177,174
+439,how many years is the term for a member of the house of representatives,two-year terms,2 years,0.0,0.6523473262786865,80,60,177
+440,where did piss up a rope come from,a song by the band Ween in 1996 from the album 12 Golden Country Greats,Originated in the United States in the mid-20th century as a vulgar expression of frustration or dismissal.,0.07692307692307691,1.3704822063446045,157,250,159
+441,what is the moon festival called in chinese,Mid-Autumn Festival,"The Moon Festival is called ""Mid-Autumn Festival"" in Chinese.",0.4,0.46042370796203613,68,86,159
+442,spain and portugal divide the world between them in,The Treaty of Tordesillas,"Sorry, I cannot provide a solution for an incomplete question. If you need help with a specific problem or topic, please provide more details.",0.0,0.6352028846740723,84,661,168
+443,who plays the clown in american horror story season 4,John Carroll Lynch,John Carroll Lynch,1.0,0.6583819389343262,86,74,168
+444,when was dragon ball z first aired in the us,"September 13, 1996","September 13, 1996",1.0,0.642155647277832,82,81,165
+445,who played the kangaroo in horton hears a who,Carol Burnett,Carol Burnett,1.0,0.6649692058563232,80,71,168
+446,who sang the theme song to quantum of solace,Jack White,The theme song for Quantum of Solace was performed by British singer-songwriter Alicia Keys and Jack White from The White Stripes.,0.1904761904761905,0.6762270927429199,81,67,165
+447,where is cape verde located on the african map,570 kilometres (350 mi) west of the Cape Verde Peninsula in West Africa,Off the northwest coast of Africa in the Atlantic Ocean.,0.3,0.8481900691986084,94,102,162
+448,who was the song hey jude written for,"John Lennon's son, Julian","The song ""Hey Jude"" was written by Paul McCartney for John Lennon's son, Julian.",0.47058823529411764,0.4802699089050293,73,96,162
+449,who said this quote ask not what your country can do for you,John F. Kennedy,John F. Kennedy,1.0,0.5875060558319092,85,127,174
+450,where did helium come from the early universe,Primordial nucleosynthesis,Big Bang nucleosynthesis,0.4,1.1011176109313965,118,161,159
+451,what is meant by cyst in the ovary,a fluid-filled sac within the ovary,Fluid-filled sac in the ovary.,0.75,1.0488762855529785,125,282,162
+452,who plays the little girl in field of dreams,Gabrielle Mary Hoffmann,Gaby Hoffmann,0.4,0.5068955421447754,74,72,162
+453,who produced as long as you love me,"Rodney ""Darkchild"" Jerkins",Max Martin and Kristian Lundin,0.0,0.7848951816558838,88,91,159
+454,what does the speed of a lens mean,"maximum aperture diameter, or minimum f-number, of a photographic lens. A lens with a larger maximum aperture (that is, a smaller minimum f-number)",Maximum aperture of a lens is determined by its f-number.,0.42857142857142855,1.4089443683624268,148,260,159
+455,when is season 3 of star vs the forces of evil come out,"July 15, 2017","July 15, 2017",1.0,0.6824984550476074,92,96,177
+456,most points ever averaged in a nba season,"1,389",50.4,0.0,0.7595629692077637,91,120,162
+457,where was the titanic going when it sunk,New York City,"The Titanic was headed to New York City from Southampton, England when it sank.",0.375,0.4849214553833008,70,63,162
+458,who sings it all started with a beer,Frankie Ballard,Frankie Ballard,1.0,0.5373642444610596,76,53,159
+459,who was the first sri lankan politician who held the office of the prime minister for four times,Ranil Wickramasinghe,Ranil Wickremesinghe,0.5,0.7212374210357666,101,224,195
+460,how many games did the cowboys win last year,9,"I'm sorry, but I don't have real-time data at the moment to provide the exact number of games the Cowboys won last year. You may need to look up this information from a sports website or official resources. If you have any other questions or need help with a math problem, feel free to ask!",0.0,1.0891523361206055,118,132,165
+461,where is the aqueous humor located in a cow eye,ciliary epithelium,Anterior chamber,0.0,0.5635828971862793,79,81,168
+462,which branch of government commands the army and navy,executive branch,The branch of government that commands the army and navy is the executive branch.,0.3076923076923077,0.4454364776611328,69,67,162
+463,who played lincoln in steven spielberg's lincoln,Daniel Day-Lewis, Daniel Day-Lewis ,1.0,0.8369905948638916,78,58,171
+464,who plays daniel in descendants of the sun,Cho Tae-gwan,Jin Goo,0.0,0.5324795246124268,78,93,162
+465,who plays leonard snart in legends of tomorrow,Wentworth Earl Miller III,Wentworth Miller,0.6666666666666666,0.5629925727844238,76,61,168
+466,what was the composition of the estate general of france,clergy,"First Estate - Clergy, Second Estate - Nobility, Third Estate - Commoners",0.19999999999999998,2.9134979248046875,148,193,165
+467,who won season one of rupaul's drag race,BeBe Zahara Benet,Bebe Zahara Benet,1.0,0.5098013877868652,81,72,168
+468,who plays 15 cent in the proud family movie,Omarion,Alonzon Bodden,0.0,0.5034217834472656,77,56,165
+469,who won the gold metal for men's ice hockey in 2014,Canada,Canada,1.0,0.6533608436584473,83,67,177
+470,what is the name of the pig in charlotte's web,Wilbur,Wilbur,1.0,0.4803645610809326,75,54,171
+471,who sang i want to change the world,Alvin Lee,Ten Years After,0.0,0.603398323059082,81,63,159
+472,who has won the race to liquefy helium,Heike Kamerlingh Onnes,Heike Kamerlingh Onnes,1.0,0.611914873123169,88,133,162
+473,who voices captain dog in puppy dog pals,Patrick Warburton,Harland Williams,0.0,0.4895164966583252,73,68,159
+474,who is known as the father of the internet,Vinton Gray Cerf,The father of the internet is Vint Cerf.,0.2222222222222222,0.48099303245544434,65,49,162
+475,when was the first speed camera introduced in the uk,1991,The first speed camera was introduced in the UK in 1992.,0.0,0.43495965003967285,69,42,165
+476,when is the new year day celebrated according to the indian national calendar,March 22/21,Chaitra 1,0.0,0.8288178443908691,109,137,174
+477,willy wonka and the chocolate factory 1971 cast charlie,Peter Ostrum,Peter Ostrum,1.0,0.5773050785064697,89,108,177
+478,who sings the most wonderful time of the year,Andy Williams,Andy Williams,1.0,0.44721412658691406,73,67,162
+479,in the kansas city style of jazz arrangements were based on,memory,Riff-based structures and a swinging feel.,0.0,0.8470940589904785,103,108,171
+480,when did they start putting vin numbers on cars,1954,Early 1950s,0.0,1.0766823291778564,109,190,162
+481,where did the concept of informed consent first appear officially,a medical malpractice United States court case in 1957,Nuremberg Code,0.0,0.8666503429412842,101,110,165
+482,who played roxy in the story of tracy beaker,Sophie Borja,Sophie Borja-Edwards,0.5,0.5411050319671631,80,70,171
+483,when does the regular season start for the nfl 2018,"September 6, 2018","The regular season for the NFL started on Thursday, September 6, 2018.",0.4615384615384615,0.5548226833343506,75,90,171
+484,what is the source of the yangtze river,Qinghai,"The source of the Yangtze River is the Geladaindong Peak in the Tanggula Mountains in Qinghai province, China.",0.13333333333333333,0.6549403667449951,83,81,165
+485,when does season 2 of spirit riding free come out,"September 8, 2017","September 8, 2017",1.0,0.6144344806671143,83,83,168
+486,who does flag go to at a military funeral,the next of kin,The flag is typically presented to the next of kin at a military funeral.,0.42857142857142855,0.43373775482177734,69,86,162
+487,whose voice is the robot on the orville,Rachael MacFarlane,Seth MacFarlane,0.5,0.7743432521820068,79,70,162
+488,every morning in africa a gazelle wakes up author,Abe Gubegna,"The full quote is: ""Every morning in Africa, a gazelle wakes up, it knows it must outrun the fastest lion or it will be killed. Every morning in Africa, a lion wakes up. It knows it must run faster than the slowest gazelle, or it will starve. It doesn't matter whether you're the lion or a gazelle-when the sun comes up, you'd better be running."" This quote has been attributed to various authors, but it is commonly associated with a Kenyan proverb.",0.0,1.4200184345245361,162,99,165
+489,who did sweet pea belong to on popeye,Popeye,Sweet Pea belonged to Popeye and Olive Oyl.,0.2222222222222222,0.5072219371795654,66,44,162
+490,average salary of a person in the united states,"$31,099",This calculation requires specific data and cannot be determined without it.,0.0,1.064206838607788,137,213,162
+491,where did the saudi foreign minister go to school,University of North Texas,Georgetown University and MIT,0.25,0.9550004005432129,115,154,165
+492,who is bone thugs n harmony signed to,eOne Entertainment,eOne Music,0.5,0.49396276473999023,74,70,159
+493,winner of comedy circus ke ajoobe grand finale,Krishna Abhishek,"Sorry, I am unable to provide real-time updates on specific TV show outcomes. You can check the official website or social media platforms for the latest information.",0.0,0.6823647022247314,86,115,165
+494,who wrote the song don t want to miss a thing,Diane Warren,Diane Warren,1.0,0.6003613471984863,80,83,168
+495,who won the most fa cups in england,Arsenal,Arsenal,1.0,0.5665223598480225,76,81,162
+496,how long does it take grape juice to ferment into wine,from 5 to 14 days for primary fermentation and potentially another 5 to 10 days for a secondary fermentation,"The time it takes grape juice to ferment into wine can vary, but typically it takes approximately 1 to 3 weeks.",0.10526315789473685,2.2892160415649414,233,439,168
+497,when is the last time an 11 seed made it to the elite 8,2018,2021,0.0,0.5597820281982422,88,94,183
+498,where was avril lavigne's head above water video filmed,Iceland,Iceland,1.0,0.5302064418792725,78,67,168
+499,who are the associate justices of the supreme court,Anthony Kennedy,"Clarence Thomas, Stephen Breyer, Samuel Alito, Sonia Sotomayor, Elena Kagan, Neil Gorsuch, Brett Kavanaugh, Amy Coney Barrett",0.0,1.5727653503417969,160,302,162
+500,college that has produced the most nfl quarterbacks,Purdue,USC,0.0,1.7730493545532227,139,150,159
+501,who's opening for justin timberlake in chicago,The Shadowboxers,Francesco Yates,0.0,0.7278194427490234,90,80,165
+502,who is representing mexico in little league world series,"Matamoros, Tamaulipas",I am not able to provide real-time updates on specific events or individuals participating in them. I recommend checking the official Little League World Series website or news sources for the most up-to-date information on the team representing Mexico in the Little League World Series. Is there anything else I can assist you with today?,0.0,0.913287878036499,115,100,162
+503,the fa premier league is owned by 20 shareholders who are,the 20 member clubs,"I'm sorry, but I cannot provide private information about individuals. How can I assist you with a different question?",0.0,0.5953960418701172,80,290,171
+504,who plays jack on secret life of the american teenager,Gregory P. Finley II,Greg Finley,0.3333333333333333,0.5999419689178467,87,79,165
+505,who has the most grammys of all time,Sir Georg Solti,Georg Solti,0.8,0.6973631381988525,82,118,162
+506,who wrote dr dre verse on forgot about dre,Eminem,Eminem,1.0,0.5835492610931396,80,44,162
+507,who does the voice of elsa on frozen,primarily by Broadway actress and singer Idina Menzel,The voice of Elsa in Frozen is provided by actress and singer Idina Menzel.,0.5714285714285714,0.5547726154327393,71,62,162
+508,what does code red mean in the emergency room,fire has broken out somewhere in the hospital facility,Fire emergency.,0.2,0.8114335536956787,96,162,162
+509,who played the frog in gnomeo and juliet,Ashley Jensen,Ashley Jensen,1.0,0.48917484283447266,75,67,165
+510,when is super girl season three coming out,"October 9, 2017","Oct 9, 2017",0.6666666666666666,0.6040012836456299,79,82,159
+511,who received the most electoral votes in the 2000 presidential election,George Walker Bush,George W. Bush,0.6666666666666666,0.571927547454834,82,86,174
+512,where did the battle of chattanooga take place,October and November 1863,"The Battle of Chattanooga took place in and around Chattanooga, Tennessee.",0.14285714285714288,0.4470062255859375,67,63,162
+513,when did the cross become a symbol of christianity,from the 4th century,Early 4th century AD,0.5714285714285715,0.6920578479766846,87,112,165
+514,when did anime become popular in the west,The 1960s,Early to mid-2000s,0.0,1.545647382736206,161,281,159
+515,where has the us manufacturing belt been traditionally located (specific cities),Chicago,Midwest and Northeastern cities,0.0,0.6431832313537598,91,129,174
+516,punjab and haryana high court chief justice name,Krishna Murari,Ravi Shankar Jha,0.0,0.6503641605377197,90,99,165
+517,who is the highest ranking member of the senate,president pro tempore,Vice President,0.4,0.7411775588989258,82,61,162
+518,who was the president when nafta was passed,Clinton,George H.W. Bush,0.0,0.46674466133117676,76,65,165
+519,when is a breast cancer patient considered a survivor,"""living with or beyond cancer""",Throughout their lifetime,0.0,0.5456678867340088,78,118,162
+520,where did system of a down come from,"Glendale, California","System of a Down was formed in Glendale, California in 1994.",0.33333333333333337,0.4438059329986572,69,61,159
+521,who played katherine chancellor's son on y&r,Beau Kazer,Beau Kazer,1.0,0.6700682640075684,86,79,165
+522,who is the original singer of sitting on the dock of the bay,Otis Redding,Otis Redding,1.0,0.662825345993042,85,74,174
+523,where is bile made and what does it do,produced by the liver of most vertebrates,Liver; digestion of fats,0.4,0.6556127071380615,91,139,162
+524,who is dr altman on grey's anatomy,Kim Raver,"Dr. Altman is Dr. Teddy Altman, a cardiothoracic surgeon on the television show Grey's Anatomy.",0.0,0.5631999969482422,79,128,162
+525,when does the haunted mansion turn to nightmare before christmas,late summer,Late September to early January,0.28571428571428575,0.6642165184020996,88,217,165
+526,when was the united states founded as a country,1776,"July 4, 1776",0.5,0.6919281482696533,89,84,162
+527,who plays it in stephen king's it,Bill Skarsgård,Bill Skarsgård,1.0,0.6660876274108887,91,157,162
+528,when can we say that an object is at rest,When the position of a body with respect to its surroundings does not change with time,An object is considered to be at rest when its velocity is zero.,0.23076923076923075,0.4718358516693115,69,91,165
+529,what happens in the battle between beowulf and the dragon,the dragon wounds Beowulf fatally,Beowulf defeats the dragon but dies from his injuries.,0.3333333333333333,2.3404438495635986,210,536,171
+530,who plays the old lady in jackass 2,Spike Jonze,Spike Jonze,1.0,0.49721574783325195,77,91,165
+531,where is the wheel and axle plant of indian railway situated,"Yelahanka, Bangalore in the Indian state of Karnataka","Bangalore, Karnataka, India",0.4,0.6184611320495605,83,78,168
+532,present chairman of public accounts committee of lok sabha,Mapanna Mallikarjun Kharge,Adhir Ranjan Chowdhury,0.0,0.5810096263885498,85,97,165
+533,when did india win the first t20 world cup,2007,"September 24, 2007",0.5,0.8906450271606445,108,62,165
+534,who got the biggest contract in the nfl,"Johnson, Calvin",Patrick Mahomes,0.0,0.79888916015625,93,118,159
+535,where was the salvation army founded in australia,"a small house in Lygon Street, Carlton","Adelaide, South Australia",0.0,0.5473294258117676,74,64,159
+536,the average length of life of members of a species is called,mean life span,life expectancy,0.4,0.466705322265625,77,67,171
+537,where did they film war for planet of the apes,"in the Lower Mainland in Vancouver,","British Columbia, Canada",0.0,0.8756396770477295,105,107,168
+538,barney in how i met your mother real name,Neil Patrick Harris,Neil Patrick Harris,1.0,0.6479794979095459,89,77,165
+539,how many cards do you get when you play uno,seven cards,7 cards,0.5,0.9034090042114258,92,87,165
+540,who provided the voice of the geico insurance company geico in its tv-ad debut,"Kelsey Grammer,",Kelsey Grammer,1.0,0.5624032020568848,90,84,186
+541,who is the present captain of indian army,General Bipin Rawat,General Manoj Mukund Naravane,0.28571428571428575,0.6547448635101318,85,90,159
+542,how much impact does the tourist industry have on the icelandic economy,10 percent to the Icelandic GDP,Significant impact,0.0,1.4912383556365967,148,457,177
+543,what type of government do we have in the united states today,Republic,The United States has a federal republic type of government.,0.2222222222222222,0.5383875370025635,68,106,171
+544,where is the ileum located in the body,the final section of the small intestine,lower abdomen,0.0,0.6317780017852783,87,106,162
+545,when does season 2 a series of unfortunate events come out,"March 30, 2018","March 30, 2018",1.0,0.7149627208709717,91,101,171
+546,who plays the goblin in harry potter 8,Warwick Ashley Davis,Warwick Davis,0.8,0.6673398017883301,88,70,171
+547,how did american popular culture change around the turn of the 20th century,developed a series of new forms of music,"American popular culture around the turn of the 20th century changed due to industrialization, urbanization, mass media, new forms of entertainment, technological advancements, and cultural movements.",0.25806451612903225,2.236044406890869,221,922,180
+548,how soon after death does rigamortis set in,as soon as 4 hours post mortem,2-6 hours,0.22222222222222224,0.8343503475189209,100,127,168
+549,who played cotton in pirates of the caribbean,David Bailie,Lee Arenberg played the character Cotton in the Pirates of the Caribbean film series.,0.0,0.5079238414764404,70,49,162
+550,who is sasha on dancing with the stars engaged to,Emma Slater,"Sasha Farber is engaged to fellow ""Dancing with the Stars"" pro Emma Slater.",0.2857142857142857,0.5365591049194336,75,68,168
+551,when was the 22nd amendment proposed and ratified,"March 21, 1947","March 24, 1947 - Proposal
+February 27, 1951 - Ratification
+ANSWER: The 22nd Amendment was proposed on March 24, 1947, and ratified on February 27, 1951.",0.15384615384615383,1.5258972644805908,136,135,165
+552,who played little jack in meet the fockers,Spencer and Bradley Pickren,Ray Santiago and Spencer and Bradley Pickren,0.7272727272727273,0.7933483123779297,105,79,165
+553,when did the pixel 2 xl come out,"October 19, 2017","November 15, 2017",0.3333333333333333,0.5624001026153564,81,79,162
+554,who beat the carolina panthers in the super bowl,New England Patriots,Denver Broncos,0.0,0.4685039520263672,74,56,168
+555,when does iron and wines new album come out,August 2017,I'm not sure about the release date of Iron and Wine's new album. Would you like me to help with something else?,0.0,0.7822198867797852,80,113,162
+556,the joy of life was painted in which style,early modernism,Pointillism,0.0,0.5347142219543457,73,64,162
+557,camila cabello - crying in the club album,Camila,"The album ""Crying in the Club"" by Camila Cabello was released on May 19, 2017.",0.14285714285714288,2.3489997386932373,263,240,165
+558,who wrote the kill by 30 seconds to mars,Jared Leto,Jared Leto,1.0,0.5816328525543213,81,73,165
+559,who was the owner of the dodgers when jackie robinson played,Wesley Branch Rickey,Branch Rickey,0.8,0.4867746829986572,78,60,177
+560,who figured out a way to determine the type of blood,Karl Landsteiner,Karl Landsteiner,1.0,1.3811314105987549,158,241,168
+561,to vote an election a person should be above the age of,18,18,1.0,0.6047775745391846,83,8,171
+562,the children's online privacy protection act (1998) is a law designed to protect consumers' right to,privacy,Protect children's online privacy.,0.4,0.915522575378418,114,101,198
+563,1 million dollar winner on who wants to be a millionaire,John Carpenter,"$1,000,000",0.0,1.3050799369812012,127,157,168
+564,where is wall drug located in south dakota,in the town of Wall,"Wall, South Dakota",0.28571428571428575,0.5019943714141846,71,50,162
+565,which is the nearest star to earth after sun,Proxima Centauri,Proxima Centauri,1.0,0.5767319202423096,77,91,162
+566,when is season 6 of voltron coming out,"June 15, 2018","June 15, 2018",1.0,0.7226724624633789,84,179,165
+567,when is ariana grande's album sweetener coming out,"August 17, 2018","Ariana Grande's album ""Sweetener"" was released on August 17, 2018.",0.4615384615384615,0.5034174919128418,78,79,171
+568,when does the 2018 19 nba schedule come out,"August 10, 2018","August 10, 2018",1.0,0.5939242839813232,86,77,174
+569,what is the hierarchy in the roman catholic church,"bishops, priests, and deacons","Pope, Cardinals, Bishops, Priests, Deacons, Laity",0.6,0.9759035110473633,111,198,162
+570,when is the new barbie movie coming out,"May 8, 2020",Check the official Barbie website or social media pages for the release date of the new movie.,0.0,1.0098752975463867,114,115,162
+571,how many new zealand soldiers died in ww1,"16,697","18,166",0.0,0.45862793922424316,76,87,165
+572,how many secondary schools are there in wales,205,210,0.0,0.5629715919494629,75,119,162
+573,where is the oval office in the white house,at the West Wing's southeast corner,The Oval Office is located in the West Wing of the White House.,0.13333333333333333,0.48105597496032715,68,96,162
+574,who was the queen of britain during ww1,George V,Queen Mary,0.0,0.5074295997619629,78,72,165
+575,who is the minister of karnataka in 2018,H. D. Kumaraswamy,The Chief Minister of Karnataka in 2018 was H.D. Kumaraswamy.,0.16666666666666666,0.5462436676025391,75,122,171
+576,who wrote beauty is truth truth is beauty,Keats,"John Keats wrote ""Beauty is truth, truth beauty"".",0.2222222222222222,1.424987554550171,161,106,159
+577,who is the speaker of the house in the house of representatives,Congressman Paul Ryan from Wisconsin,Nancy Pelosi,0.0,0.5302548408508301,77,67,171
+578,who wrote the song can't you see,Toy Caldwell,Toy Caldwell,1.0,0.7010152339935303,84,110,159
+579,who plays grace in grace stirs up success,Olivia Rodrigo,Olivia Rodrigo,1.0,0.5210566520690918,75,54,162
+580,what is the biggest convention center in the us,McCormick Place,"The biggest convention center in the US is the McCormick Place in Chicago, Illinois.",0.3076923076923077,0.4694225788116455,71,114,162
+581,harry potter the name that cannot be said,Voldemort,Lord Voldemort,0.6666666666666666,0.4896376132965088,74,59,165
+582,what area of san diego is sdsu in,The College Area,SDSU is located in the College Area neighborhood of San Diego.,0.33333333333333337,0.4196033477783203,69,60,168
+583,what mlb team has the most perfect games,Dodgers,New York Yankees,0.0,0.8689205646514893,106,94,162
+584,when was the last time jacksonville jaguars went to superbowl,2017,NEVER,0.0,0.4595935344696045,74,46,177
+585,what is the boy's name in paw patrol,Ryder,Ryder,1.0,0.45436811447143555,70,48,162
+586,who was mission san juan capistrano named after,Saint John the Baptist,Mission San Juan Capistrano was named after Saint John of Capistrano.,0.28571428571428575,0.44868016242980957,72,76,168
+587,who wrote the poem a host of golden daffodils,William Wordsworth,William Wordsworth,1.0,0.7496082782745361,92,94,171
+588,who starred in one flew over the cuckoos nest,Jack Nicholson,Jack Nicholson,1.0,0.5274946689605713,75,51,168
+589,who plays my old kentucky home at the derby,the University of Louisville Marching Band,University of Louisville Marching Band,1.0,0.6128811836242676,86,62,168
+590,who wrote if a picture paints a thousand words,David Gates,David Gates,1.0,0.49610257148742676,73,56,162
+591,how many cigarettes in a pack in the us,at least 20,20,0.5,0.4596850872039795,72,54,162
+592,when did the song rubberband man come out,August 1976,1976,0.6666666666666666,0.5677807331085205,78,69,162
+593,how many times have spain won world cup,one,1,0.0,0.5225429534912109,72,55,162
+594,the federal depository insurance corporation (fdic) has the power to close a bank when,When the bank becomes critically undercapitalized,to protect depositors’ funds and maintain the stability in the financial system.,0.0,1.505223035812378,162,226,189
+595,where do they film still open all hours,MediaCityUK in Salford,The Dockyard in MediaCityUK,0.6666666666666666,0.6646156311035156,80,119,159
+596,when did we become the united states of america,1776,"July 4, 1776",0.5,0.7384588718414307,89,132,162
+597,who was the leader of the bolsheviks when they overthrew the russian monarchy,Vladimir Lenin,The leader of the Bolsheviks when they overthrew the Russian monarchy was Vladimir Lenin.,0.3076923076923077,0.5391075611114502,80,68,186
+598,when did the song 99 problems come out,"April 27, 2004","The song ""99 Problems"" was released on April 27, 2004.",0.5,0.5299520492553711,71,85,162
+599,where is shooting of yeh rishta kya kehlata hai,Mumbai,"Mumbai, India",0.6666666666666666,0.5335273742675781,86,85,177
+600,who served as president of the united states from 1901 to 1909,Theodore Roosevelt Jr.,Theodore Roosevelt,0.8,0.5768532752990723,85,68,183
+601,who played harmonica on the wizard black sabbath,Ozzy Osbourne,Ozzy Osbourne,1.0,0.6476976871490479,84,83,168
+602,my life as a teenage robot series finale,Turncoats,Jenny decides to stay on Earth to continue protecting the people of Tremorton.,0.0,1.4407494068145752,154,185,159
+603,where is catholic university of east africa located,Nairobi Kenya,"Nairobi, Kenya",1.0,0.4715697765350342,72,60,159
+604,when did the kings of comedy come out,2000,"""The Kings of Comedy"" came out in 2000.",0.25,0.38159751892089844,65,57,159
+605,when was the first issue of vogue published,1892,"December 17, 1892",0.5,0.5897958278656006,80,78,162
+606,where is the united kingdom located on the world map,off the north-western coast of the European mainland,Europe,0.0,0.6477549076080322,86,165,165
+607,when is bring your daughter to work day,the fourth Thursday in April every year,Fourth Thursday in April,0.8,0.541454553604126,80,124,159
+608,who were the two scientists who proposed the theory of seafloor spreading in the early 1960s,Harry Hess,Harry Hess and Robert Dietz,0.5714285714285715,0.6716508865356445,101,108,198
+609,what was number one on 21st march 1999,"""Believe""",Believe by Cher,0.5,1.6120390892028809,148,188,171
+610,queen of the south season 3 episode 12 air date,"September 6, 2018","August 30, 2018",0.3333333333333333,0.6354596614837646,90,96,171
+611,where's washington dc located on a map,"bordered by Montgomery County, Maryland, to the northwest; Prince George's County, Maryland, to the east; and Arlington and Alexandria, Virginia, to the south and west",Washington D.C. is located in the Mid-Atlantic region of the United States.,0.0,1.2371749877929688,123,219,159
+612,who got second place on the world cup,Croatia,"I am sorry, but I would need more specific information such as the year or the sport in order to provide an accurate answer.",0.0,0.6625127792358398,79,83,159
+613,what percentage of the uk population say they have no religion,26.1,Final Answer: The percentage of the UK population who say they have no religion is approximately 52%.,0.0,1.0478432178497314,116,201,168
+614,when did the tax free savings account start in canada,"January 1, 2009",2009,0.5,0.5485751628875732,78,72,165
+615,who get the flag at a military funeral,the next of kin,Next of kin receives the flag at a military funeral.,0.5454545454545454,0.7982356548309326,105,162,159
+616,who was indian president when first nuclear test were conduct,Dr. Abdul Kalam,The Indian president during the first nuclear test conducted by India in 1974 was Fakhruddin Ali Ahmed.,0.0,0.5624136924743652,79,143,165
+617,when did great britain win the davis cup,2015,2015,1.0,0.5226273536682129,71,81,165
+618,a quorum for a decision in the supreme court is,six,6,0.0,0.49680423736572266,79,122,168
+619,where are receptors for water soluble hormones located,on the plasma membrane,Receptors for water-soluble hormones are located on the cell membrane.,0.3333333333333333,0.4781017303466797,68,50,159
+620,what are the different kinds of mike's hard lemonade,lemonade,"There are various flavors and versions of Mike's Hard Lemonade, each with its own unique taste and profile.",0.10526315789473684,1.83170485496521,186,282,168
+621,what percentage of blood is composed of plasma,55%,55%,1.0,1.3161702156066895,123,190,159
+622,who was the winner of season 1 skin wars,Natalie Fletcher,Natalie Fletcher,1.0,0.5051724910736084,75,60,165
+623,where was the movie lady in white filmed,"Wayne County, New York","Rochester, New York",0.5714285714285715,0.5624606609344482,77,80,159
+624,when was steph curry drafted in the nba,2009,2009,1.0,0.5711586475372314,81,82,165
+625,the first public playhouse ( the theatre ) is built in london,1576,The Theatre,0.0,0.5529851913452148,78,144,174
+626,who is the current chief minister of kerala,Pinarayi Vijayan,Pinarayi Vijayan,1.0,0.5367512702941895,77,53,162
+627,who played entwistle in last of the summer wine,"Herbert Tsangtse ""Burt"" Kwouk",Danny O'Dea,0.0,0.5293517112731934,82,86,168
+628,where does the last name shinn come from,Korea,"The last name Shinn is of English origin, derived from the Old English word ""scinn"" meaning bright or shining.",0.0,0.6151711940765381,79,259,162
+629,when does the new season of legion come out,February 2018,"June 24, 2019",0.0,0.5279974937438965,78,77,162
+630,game of thrones season 7 season 3 release date,"July 30, 2017","March 31, 2013 / July 16, 2017",0.4444444444444444,1.0919387340545654,106,200,171
+631,where did the king of france live before versailles,Tuileries Palace,Louvre Palace in Paris,0.3333333333333333,0.5534734725952148,78,97,165
+632,who won season 11 of food network star,Eddie Jackson,Eddie Jackson,1.0,0.6161637306213379,71,55,162
+633,when is the last time the capitals made it to the stanley cup,2017–18,2018,0.0,0.7599887847900391,99,112,177
+634,who played the clown on american horror story,John Carroll Lynch,John Carroll Lynch,1.0,0.7110378742218018,90,55,159
+635,who managed the estate when the lord was away,the steward,Steward,1.0,0.5016942024230957,70,52,162
+636,how do you say great britain in french,Grande-Bretagne,La Grande-Bretagne,0.6666666666666666,0.6102111339569092,75,71,162
+637,when was the last time man u was in the champions league,2017–18,2020-2021 season,0.0,0.7153835296630859,93,105,171
+638,when did i can only imagine get released,2001,"August 14, 2001",0.5,1.3384425640106201,115,78,159
+639,who played the ice queen in once upon a time,Elizabeth Mitchell,Elizabeth Mitchell,1.0,0.4647994041442871,76,62,165
+640,where is dirty dancing supposed to take place,a resort in the Catskill Mountains,"Catskill Mountains, New York",0.5,0.7093191146850586,90,115,159
+641,who did the marlins beat in the 2003 world series,New York Yankees,New York Yankees,1.0,0.5528590679168701,80,74,177
+642,david tennant's last episode of doctor who,The End of Time,"The End of Time, Part Two",0.7499999999999999,0.7488605976104736,97,126,168
+643,who is the actor that plays the hound,Rory McCann,Rory McCann,1.0,0.6106007099151611,76,60,162
+644,who wrote love so soft by kelly clarkson,Mozella,"Kelly Clarkson, Mozella, Priscilla Renea",0.33333333333333337,0.7794008255004883,94,101,168
+645,who is the home minister of india 2013,Sushilkumar Shinde,The Home Minister of India in 2013 was Sushilkumar Shinde.,0.3636363636363636,0.5394406318664551,72,78,165
+646,who survives the plane crash on grey's anatomy,Dr. Meredith Grey (Ellen Pompeo),"Meredith, Cristina, Alex, and Derek survive.",0.1818181818181818,0.6467206478118896,86,99,162
+647,where is the united states located on earth,38°00′00″N 97°00′00″W﻿ / ﻿38.000°N 97.000°W,North America,0.0,0.4368288516998291,67,70,159
+648,who is the famous painter who painted shakunthala,Raja Ravi Varma.,Raja Ravi Varma,1.0,0.610344409942627,82,77,171
+649,the highest yield of rice per hectare in india is in which state,West Bengal,Punjab,0.0,0.5608487129211426,80,216,177
+650,who wrote have a little talk with jesus,Cleavant Derricks,"""Had a Little Talk with Jesus"" was written by Cleavant Derricks.",0.33333333333333337,0.4705169200897217,72,83,162
+651,who owns the pawn shop on pawn stars,Richard (Rick) Kevin Harrison,The pawn shop on Pawn Stars is owned by Rick Harrison.,0.28571428571428575,0.4151742458343506,65,107,159
+652,who wrote the song i'm coming home,Jermaine Cole,Bob Dylan,0.0,0.5190608501434326,72,71,159
+653,who has won the mens single title in the australian open tennis tournament 2018,Roger Federer,Roger Federer,1.0,0.5584559440612793,90,163,186
+654,when does episode 5 come out for game of thrones,"April 12, 2015",Check the official Game of Thrones website or HBO's schedule for the release date of episode 5.,0.0,1.2797646522521973,118,90,171
+655,who sang best of my love by the eagles,Don Henley,"""Best of My Love"" by The Eagles was sung by Don Henley, Glenn Frey, and J.D. Souther.",0.2222222222222222,0.6019136905670166,82,101,165
+656,where is the baseball all-star game being played,"July 11, 2017","Coors Field in Denver, Colorado",0.0,0.6665287017822266,84,84,162
+657,who plays second base for the boston red sox,Dustin Luis Pedroia,The current second baseman for the Boston Red Sox is Christian Arroyo.,0.0,0.4742109775543213,71,48,168
+658,when did the transcontinental railroad start being built,"January 8, 1863","The Transcontinental Railroad was first built on January 8, 1863.",0.5,0.4542975425720215,70,51,162
+659,who plays the role of julian on instinct,Naveen Andrews,Alan Cumming,0.0,0.5643887519836426,72,62,162
+660,when does dynasty come back for season 2,"October 12, 2018","October 12, 2018",1.0,0.5849425792694092,80,73,162
+661,who was prime minister when we joined europe,Edward Heath,Edward Heath,1.0,0.6240882873535156,83,104,159
+662,who wrote turn me on by norah jones,John D. Loudermilk,John D. Loudermilk,1.0,0.7533707618713379,85,78,165
+663,who sings the song tequila makes my clothes fall off,Joe Nichols,Joe Nichols,1.0,0.49463582038879395,78,66,168
+664,when is the next dragonball movie coming out,January 2019 (January 2019) (U.S. theatrical),I am unable to provide real-time information on future movie releases. I recommend checking with official sources such as the movie studios or entertainment news websites for updates on the next Dragonball movie.,0.0,0.6620068550109863,91,96,162
+665,where did the day of the dead originate from,celebrations in Mexico developed from ancient traditions among its pre-Columbian cultures,Mexico,0.16666666666666669,0.6140844821929932,92,96,162
+666,what country has the most medals in olympic history,United States,United States,1.0,0.6836526393890381,89,222,168
+667,what do the aliens from toy story say,"You have saved our lives, we are eternally grateful,""",Ooohhhhh... The Clawwww...,0.0,0.6500792503356934,85,69,159
+668,which country has the largest population in europe,Germany,Russia,0.0,0.4690737724304199,67,43,159
+669,who directed taylor swift out of the woods,Joseph Kahn,Joseph Kahn,1.0,0.5161929130554199,73,56,162
+670,who plays tom buchanan in the great gatsby 2013,Joel Edgerton,Joel Edgerton,1.0,0.5958898067474365,84,78,177
+671,when does greys anatomy season 13 come on now tv,"September 22, 2016",CHECK NOW TV WEBSITE FOR CURRENT AVAILABILITY,0.0,0.9895591735839844,112,122,171
+672,what type of paint are cars painted with,Enamel,Cars are typically painted with automotive paint. It is a type of paint specifically formulated for use on vehicles.,0.0,0.47499608993530273,74,72,159
+673,phase of the moon during a lunar eclipse,a lunar eclipse can occur only the night of a full moon,full moon,0.3636363636363636,0.4721546173095703,71,127,159
+674,what transmission is in a 2003 jeep liberty,manual transmission,Varies - based on the specific model and trim level,0.0,0.7134971618652344,91,95,165
+675,what family is rosaline from in romeo and juliet,Capulet,Capulet,1.0,0.5351006984710693,82,72,177
+676,when does the next godzilla anime come out,November 2018,"March 25, 2021",0.0,1.4839634895324707,103,104,162
+677,how many harry potter rides are at universal,four,TWO,0.0,0.6107654571533203,89,125,165
+678,when did what happens in vegas stays in vegas start,2004,2002,0.0,0.5811669826507568,80,112,165
+679,where did the shot heard around the world happen,at the Polo Grounds in New York City,Massachusetts,0.0,0.5765953063964844,76,101,162
+680,where is area code 708 located in the usa,western and southern Cook County and eastern and southern Will County in the state of Illinois,"Area code 708 is located in the state of Illinois, USA.",0.32,0.4131779670715332,69,44,165
+681,who sings i'm trying to leave something behind,Sean Rowe,Benjamin Booker,0.0,0.5256748199462891,77,51,162
+682,when did sendong enter the philippine area of responsibility,Early on December 15,"December 15, 2011",0.5714285714285715,0.6150920391082764,87,90,171
+683,who played the godfather in the movie the godfather,Marlon Brando,Marlon Brando,1.0,0.5180654525756836,78,76,168
+684,when did the pepsi max open in blackpool,28 May 1994,1994,0.5,0.4610555171966553,72,151,165
+685,when has the eagles been to the super bowl,1960,"The Philadelphia Eagles have been to the Super Bowl three times: in 1981, 2005, and 2018. They won their first Super Bowl in 2018.",0.0,0.7464053630828857,92,167,165
+686,composition of the inner core of the earth,iron–nickel alloy and some light elements,Iron and Nickel,0.2222222222222222,0.5422012805938721,72,125,159
+687,who was nominated first woman for rajya sabha,Rukmini Devi Arundale,The first woman nominated to the Rajya Sabha was Violet Alva in 1953.,0.0,0.5575218200683594,73,143,165
+688,which is the first news paper in malayalam,Rajyasamacharam,Rajya Samacharam,0.0,0.6775436401367188,85,94,165
+689,who is the girl in the bon jovi it's my life video,Shiri Appleby,Carla Gugino,0.0,0.6957738399505615,87,83,177
+690,an animal that eat both plants and animals,Omnivore,Omnivore,1.0,0.47006988525390625,68,55,159
+691,who plays the little girl in christopher robin,Elsa Minell Solak,Bronte Carmichael,0.0,0.538088321685791,76,63,162
+692,taarak mehta ka ooltah chashmah sonu original name,Jheel Mehta as Sonalika Aatmaram Bhide (Sonu),Jheel Mehta,0.4444444444444445,0.3616316318511963,71,85,180
+693,who plays gwen stacy in into the spiderverse,Hailee Steinfeld,Hailee Steinfeld,1.0,0.5925641059875488,81,73,168
+694,when does kanye come on keeping up with the kardashians,season seven,No fixed schedule. Check listings for updates.,0.0,1.1821751594543457,149,201,174
+695,what does mono no aware mean in japanese,the pathos of things,The pathos of things,1.0,1.0587875843048096,129,270,159
+696,who sings i always feel like someone is watching me,Rockwell,Rockwell,1.0,0.567612886428833,81,70,165
+697,the blueprint of any database system is the,schema,Blueprint of any database system is the Entity-Relationship Diagram (ERD).,0.0,1.2115929126739502,138,76,159
+698,where is the groundhog for groundhog's day located,Punxsutawney in western Pennsylvania,Pennsylvania,0.4,0.6721689701080322,89,137,168
+699,what does the dc in washington dc stand for,District of Columbia,District of Columbia,1.0,0.8014461994171143,94,62,162
+700,what is the medical term for webbed toes,syndactyly,Syndactyly,1.0,0.5512232780456543,75,61,162
+701,who was president of the united states when katrina hit louisiana,President George W. Bush,George W. Bush,0.8571428571428571,0.561286449432373,85,69,174
+702,voice of peggy on king of the hill,Kathy Ann Najimy,Kathy Najimy,0.8,0.6208486557006836,81,80,162
+703,when did the chinese new year start 2018,15 Feb,"February 16, 2018",0.0,0.5730044841766357,79,82,165
+704,who has the power to create post offices,Congress,The United States Congress has the power to create post offices.,0.19999999999999998,1.3969237804412842,147,94,159
+705,when does the new season of major crimes start 2015,"June 8, 2015","The new season of Major Crimes started on June 8, 2015.",0.4615384615384615,0.42443180084228516,73,78,171
+706,how many seats do the democrats hold in the senate,46,50,0.0,0.8226184844970703,92,48,168
+707,when does once upon a time season 7 episode 11 come on,"March 2, 2018","The series has concluded, so there will be no more new episodes of Once Upon a Time.",0.0,0.9098951816558838,120,92,177
+708,what were the original m and m colors,tan,"Red, yellow, green, brown, orange",0.0,0.6257917881011963,82,191,159
+709,who landed the first 900 on a skateboard,Tony Hawk,Tony Hawk,1.0,1.127739429473877,70,162,162
+710,why do the british wear a red flower,commemorate their servicemen and women killed in all conflicts,To commemorate Remembrance Day and honor fallen members of the armed forces.,0.19999999999999998,1.4731438159942627,159,158,159
+711,which team won most of the fifa world cup,Brazil,Brazil has won the most FIFA World Cup titles with a total of 5 wins.,0.14285714285714288,0.43634939193725586,72,93,165
+712,who developed the great man theory of leadership,Scottish writer Thomas Carlyle,Thomas Carlyle,0.6666666666666666,0.5604052543640137,78,52,159
+713,what is the function of the super vena cava,carries deoxygenated blood from the upper half of the body,Returns deoxygenated blood from the upper body back to the heart.,0.5882352941176471,0.914736270904541,113,208,168
+714,who is doing the half time super bowl,Justin Timberlake,The Weeknd is performing at the halftime show of the Super Bowl LV.,0.0,0.49143528938293457,68,124,159
+715,when did gareth southgate first play for england,1995,"September 16, 1995",0.5,0.5773029327392578,83,94,168
+716,what is the elevation of klamath falls oregon,"4,099 ft (1,249.4 m)","4,099 feet",0.3333333333333333,0.5633506774902344,84,92,168
+717,when did phantom of the opera take place,in the 1890s,"Late 19th century, 1880s.",0.0,0.8155372142791748,95,81,159
+718,oriental bank of commerce is govt or private,public sector,"Oriental Bank of Commerce is a public sector bank, which means it is a government bank.",0.25,0.5142397880554199,75,75,165
+719,who is kyles mom on y & r,Diane Jenkins (Maura West),Diane Jenkins,0.6666666666666666,0.48538756370544434,74,57,162
+720,what are the names of the two rovers currently exploring mars,MER-A Spirit,Perseverance and Curiosity,0.0,1.7822203636169434,86,84,171
+721,who writes the script for big bang theory,Chuck Lorre,Various writers hired by Chuck Lorre and Bill Prady,0.3636363636363636,0.7140500545501709,92,139,159
+722,who plays tom riddle in the half blood prince,Frank Stephenson Dillane,Frank Dillane,0.8,0.5951683521270752,85,106,165
+723,is pure gold an element or a compound,chemical element,ELEMENT,0.6666666666666666,0.8020951747894287,98,43,159
+724,the doctrine of lapse was causes of which rebellion,Indian Rebellion of 1857,Indian Rebellion of 1857,1.0,0.6597900390625,82,74,162
+725,original singer of get your kicks on route 66,Nat King Cole,"The original singer of ""Get Your Kicks on Route 66"" is Nat King Cole.",0.375,0.5021274089813232,74,75,165
+726,who played dumbledore in the goblet of fire,Michael Gambon,"Michael Gambon played Dumbledore in ""Harry Potter and the Goblet of Fire.""",0.3076923076923077,0.5554139614105225,72,74,165
+727,what agency was created to secure america from terrorist attacks,United States Department of Homeland Security (DHS),Department of Homeland Security,0.7272727272727273,0.5218851566314697,78,84,165
+728,where in the bible is the story of ruth and naomi,The Book of Ruth,"Book of Ruth, Old Testament",0.7499999999999999,2.149268627166748,104,93,171
+729,what country gave united states the statue of liberty,France,France,1.0,1.929633617401123,149,107,162
+730,what part of the brain is memory affected by alcohol,hippocampus,hippocampus and prefrontal cortex,0.4,1.0218329429626465,120,246,165
+731,who sang the song my heart will go on,Celine Dion,Celine Dion,1.0,0.6237742900848389,76,66,162
+732,relaying signals from the neuron to other cells is a function of the,thalamus,Axon,0.0,0.6674342155456543,93,98,177
+733,where does black lightning tv show take place,Freeland,Freeland in the fictional city within the DC Universe.,0.25,0.7996020317077637,99,109,159
+734,who killed peter on the tv show soap,Chester,"Peter Campbell was killed by an unknown assailant on the TV show ""Soap.""",0.0,0.48443055152893066,69,62,159
+735,where did our lady of mount carmel appear,England,VARIOUS LOCATIONS AROUND THE WORLD,0.0,1.5846381187438965,135,94,162
+736,when did that 70's show first air,"August 23, 1998","August 23, 1998",1.0,0.6427829265594482,83,88,162
+737,what is the significance of the nodes of ranvier,"uninsulated and highly enriched in ion channels, allowing them to participate in the exchange of ions required to regenerate the action potential",Allow rapid propagation of action potentials along the axon.,0.14285714285714288,1.1881697177886963,139,297,165
+738,how many terms can a governor serve in oklahoma,two consecutive terms,2,0.0,0.4877798557281494,72,52,165
+739,where did jason voorhees get the hockey mask,from a victim,"In the Friday the 13th film series, Jason Voorhees obtains his iconic hockey mask in the third movie, *Friday the 13th Part III* (1982), after stealing it from one of his victims. The mask becomes his signature look for the character throughout the franchise.",0.05128205128205129,1.0012950897216797,115,199,168
+740,who is the first miss world in india,Reita Faria Powell,Reita Faria,0.8,0.5499742031097412,78,75,159
+741,where was the first ice hockey game played,"at the Victoria Skating Rink in Montreal, Quebec, Canada","Montreal, Canada",0.4,0.6558210849761963,90,70,159
+742,what channel is the love station on sirius,channel 70,17,0.0,0.4951937198638916,69,103,162
+743,who does liam neeson play in star wars 1,Qui-Gon Jinn,Qui-Gon Jinn,1.0,0.6308753490447998,88,93,171
+744,when did the us leave japan after wwii,"April 28, 1952",1952,0.5,1.038041114807129,117,82,162
+745,what is the name for the smell of rain,Petrichor,petrichor,1.0,0.5233359336853027,72,57,162
+746,who invented the greater than and less than sign,Thomas Harriot,Thomas Harriot,1.0,0.7546689510345459,90,98,162
+747,who has scored the most goals for arsenal,Thierry Henry,Thierry Henry has scored the most goals for Arsenal with 228 goals.,0.3076923076923077,0.4684562683105469,69,94,159
+748,where did the name fruit of the loom come from,"Fruit of the Loom – an expression referring to clothes, paralleling the phrase ""fruit of the womb"" meaning ""children"", which can be traced back to use in the Bible (Psalm 127:3)","The name ""Fruit of the Loom"" was inspired by a painting of fruits hanging from a loom.",0.20512820512820515,0.5318582057952881,79,206,168
+749,what was the deadliest tornado in the united states,the Tri-State Tornado,"Tri-State Tornado on March 18, 1925, killed 695 people.",0.3636363636363636,0.8827061653137207,114,140,162
+750,who founded the first french colony in north america,Jacques Cartier,The first French colony in North America was founded by Jacques Cartier in 1541.,0.2666666666666667,0.5372686386108398,72,110,162
+751,what are the types of alternative dispute resolution,negotiation,"Negotiation, Mediation, Arbitration, Conciliation, Mini-trial, Summary jury trial, Collaborative law",0.18181818181818182,1.2300951480865479,133,102,159
+752,who was the first draft pick in the 2018 nba,Deandre Ayton,Deandre Ayton,1.0,0.6778078079223633,91,84,174
+753,what is a box spring called in the uk,divan,divan base,0.6666666666666666,0.5410044193267822,78,76,162
+754,where does publishers clearing house get their funding,merchandise,"Through advertising revenue, merchandise sales, and magazine subscriptions.",0.2222222222222222,0.9477379322052002,118,123,159
+755,who plays louie in stuck in the middle,Nicolas Bechtel,Malachi Barton,0.0,0.4360778331756592,69,74,162
+756,which structure in the urinary system carries urine to the bladder,ureters,Ureter,0.0,0.5217597484588623,74,53,168
+757,when was the spca established in south africa,1872,1872,1.0,0.6562750339508057,84,83,162
+758,when did northern ireland become its own country,1921,Not its own country.,0.0,0.9616422653198242,119,166,162
+759,how many times has itay won the world cup,four,Italy has won the FIFA World Cup four times.,0.2222222222222222,0.7628216743469238,96,64,165
+760,who plays babita in taarak mehta ka ooltah chashmah,Munmun Dutta,Munmun Dutta,1.0,0.7215826511383057,92,97,183
+761,who is the minister of local government and housing,The Rt Hon. James Brokenshire,I don't have real-time updates on specific officials as it may vary by location and may change. I recommend checking the latest government sources or news outlets for the most up-to-date information on the minister of local government and housing in your area.,0.0,0.8905365467071533,103,107,162
+762,where did cypress hill get their name from,after a street in South Gate,Cypress Avenue,0.0,0.5541441440582275,77,94,162
+763,who plays brittany on young and the restless,Vanessa Lee Evigan,Lauren Woodland,0.0,0.8614790439605713,75,73,165
+764,tremors a cold day in hell filming location,in the Cape Town area,South Africa,0.0,0.611274242401123,77,75,165
+765,who wanted to create a railroad from cape town to cairo,Cecil Rhodes,Cecil Rhodes,1.0,1.1377511024475098,113,52,168
+766,when did half pennies stop being legal tender,December 1984,1984,0.6666666666666666,0.5034871101379395,75,166,162
+767,when was the first weather satellite launched into space,"February 17, 1959","April 1, 1960",0.0,0.8165202140808105,92,89,162
+768,what is the most popular music in cuba,Son,Salsa,0.0,0.45627641677856445,68,80,162
+769,how long is the ferry from bainbridge to seattle,8.6 miles,35 minutes,0.0,0.49664807319641113,78,59,171
+770,achievement of a cricketer out first ball for zero in both innings,a king pair,The probability of a cricketer getting out first ball for zero in both innings is 1/36.,0.0,1.480541706085205,145,374,177
+771,psych episode where shawn and juliet start dating,"""In Plain Fright"" (5.11)",Extradition II: The Actual Extradition Part,0.0,0.7699244022369385,95,158,165
+772,the galápagos islands are part of what country quizlet,the Republic of Ecuador,Ecuador,0.5,0.4776592254638672,74,48,174
+773,when did dancing with the stars start this season,"September 24, 2018","Dancing with the Stars started on September 20, 2021.",0.18181818181818182,0.5083909034729004,69,135,162
+774,who was the basketball player that died on the court,"Eric ""Hank"" Gathers",The basketball player who died on the court was Hank Gathers.,0.3333333333333333,0.4641871452331543,68,55,165
+775,when was the first satellite put in space,"October 4, 1957","October 4, 1957",1.0,0.7753376960754395,91,105,159
+776,how long is an inmate on death row,an average of 178 months (roughly 15 years) between sentencing and execution,VARIES,0.0,1.217022180557251,126,159,159
+777,who played mini-me in the austin power movies,Verne Jay Troyer,Verne Troyer,0.8,0.6773183345794678,79,122,165
+778,the pollution of love canal in new york was caused by ____,massive dumping of toxic waste,Hooker Chemical Company,0.0,0.6973049640655518,86,74,171
+779,who is responsible for founding the american financial system,the Bank of the United States,Alexander Hamilton,0.0,0.4821341037750244,70,167,162
+780,who built the san diego de alcala mission,Spanish friar Junípero Serra,Father Junipero Serra and Captain Gaspar de Portolá,0.16666666666666666,0.7346060276031494,102,113,165
+781,who won the fifa under 17 world cup 2017,England,England,1.0,0.5247979164123535,76,52,174
+782,what is the hottest temperature ever recorded in utah,117 °F / 47 °C,120°F (49°C),0.0,0.731626033782959,91,116,165
+783,who sings the 4 song on sesame street,Feist,"The fourth song is typically sung by various characters on Sesame Street, including Big Bird, Elmo, Cookie Monster, and others.",0.0,0.6502668857574463,81,79,162
+784,who is the highest goal scorer for real madrid,Cristiano Ronaldo,The highest goal scorer for Real Madrid is Cristiano Ronaldo with 450 goals.,0.2857142857142857,1.8913629055023193,69,49,162
+785,what's the name of the little rascals dog,Pete the Pup,Petey,0.0,0.6046280860900879,77,55,168
+786,when did nigeria launched its first satellite nigeriasat-1,27 September 2003,"September 27, 2003",1.0,0.7408380508422852,91,95,174
+787,when did the medieval times start and finish,5th to the 15th century,5th - 15th century,0.8571428571428571,0.6763947010040283,86,123,159
+788,where are the withers located on a horse,the ridge between the shoulder blades,Top of the shoulders where the neck meets the back,0.0,0.6377015113830566,88,97,162
+789,when were camels introduced into the middle east,not earlier than the last third of the 10th century [BC] and most probably during this time.,11th century BC,0.2222222222222222,1.5748329162597656,130,64,162
+790,what are the hardware parts of the computer,"the physical parts or components of a computer, such as the central processing unit, monitor, keyboard, computer data storage, graphic card, sound card, speakers and motherboard","CPU, RAM, HDD/SSD, motherboard, GPU, PSU, optical drive, input/output devices, cooling system",0.057142857142857134,2.7418503761291504,187,337,159
+791,when did lean wit it rock wit it come out,"January 17, 2006",2006,0.5,0.6818552017211914,83,86,165
+792,brightest star in the constellation lyra dan word,Vega,Vega,1.0,0.36302852630615234,61,30,165
+793,who did auburn lose to in football this year,Oklahoma,Alabama,0.0,1.123948097229004,110,172,168
+794,who has the longest win streak in mma,Anderson Silva,Anderson Silva,1.0,0.8595588207244873,99,75,162
+795,mercedes benz a class front or rear wheel drive,front wheel drive,Front-wheel drive,0.4,0.4864952564239502,71,51,165
+796,who are the candidates running for governor of maine,Shawn Moody,Janet Mills and Paul LePage,0.0,1.0101864337921143,93,155,165
+797,who sings i can't fight this feeling,REO Speedwagon,"""I Can't Fight This Feeling"" is sung by the band REO Speedwagon.",0.3076923076923077,0.5231273174285889,70,62,159
+798,what's the highest elevation in new mexico,Wheeler Peak,"Wheeler Peak, 13,161 feet",0.6666666666666666,0.8360040187835693,88,127,159
+799,when did the vikings first reach the shores of britain,793,The Vikings first reached the shores of Britain in AD 793.,0.19999999999999998,0.5007481575012207,71,70,174
+800,what was the purpose of the works progress administration,employing millions of people (mostly unskilled men) to carry out public works projects,To provide employment during the Great Depression.,0.10526315789473684,0.6768875122070312,96,444,162
+801,what is made up of charged particles that continually escape from the corona,solar wind,Charged particles that continually escape from the corona create the solar wind.,0.33333333333333337,0.46729063987731934,74,54,177
+802,who is the winner of supper dancer 2018,Bishal Sharma,"I'm sorry, but I do not have real-time information on events such as reality show contests. You may want to search online to find out who won the Super Dancer 2018 competition.",0.0,0.712385892868042,95,151,165
+803,advantages of drying as a method of food preservation,"inhibits the growth of bacteria, yeasts, and mold","Drying is an effective method of food preservation due to its ability to inhibit microbial growth, extend shelf life, retain nutrients, and offer convenient storage and preparation.",0.18181818181818182,2.3461217880249023,191,445,165
+804,what uses the energy found within a proton gradient to drive the synthesis of atp,oxidative phosphorylation or photophosphorylation,ATP synthase,0.0,2.1496341228485107,229,318,183
+805,who are the characters in green eggs and ham,Sam-I-am,Sam-I-Am and an unnamed character,0.4,0.6176657676696777,88,119,162
+806,which waterway connects the mediterranean sea with red sea,Suez Canal,Suez Canal,1.0,0.5658941268920898,81,66,171
+807,when did typhoon haiyan hit the philippines 2013,At 2040 UTC on November 7,"November 8, 2013",0.2222222222222222,0.5120532512664795,83,108,171
+808,who are the current justices of the u.s. supreme court,John Roberts,"John G. Roberts Jr., Clarence Thomas, Stephen G. Breyer, Samuel A. Alito Jr., Sonia Sotomayor, Elena Kagan, Neil M. Gorsuch, Brett M. Kavanaugh, Amy Coney Barrett",0.14814814814814814,2.0356287956237793,205,311,171
+809,how many seasons is there in the originals,5,5,1.0,0.49074840545654297,71,44,159
+810,in the first century c.e. much of europe north africa and the middle east were under the rule of the,Roman Empire,Roman Empire.,1.0,0.33666539192199707,70,42,201
+811,when did the allies break out of normandy,25–31 July 1944,"July 25, 1944",0.6666666666666666,0.5895960330963135,80,105,162
+812,when did pubg mobile come out in china,"February 9, 2018","February 9, 2018",1.0,0.6579723358154297,80,82,162
+813,is leeds in the north west or north east,north-northwest of London,Yorkshire and the Humber,0.0,0.837273359298706,98,41,165
+814,when does frank become president in house of cards,Chapter 26,"Frank Underwood becomes President of the United States in Season 3, Episode 1 of the TV show ""House of Cards.""",0.0,0.6696152687072754,80,99,162
+815,what is the name of current indian president,Ram Nath Kovind,Ram Nath Kovind,1.0,0.5606043338775635,71,54,159
+816,where is late night with stephen colbert filmed,Ed Sullivan Theater in New York City,New York City,0.6,0.5900311470031738,78,83,165
+817,who plays han solo in the new star wars movie,Alden Ehrenreich,Alden Ehrenreich,1.0,0.5915853977203369,83,76,165
+818,acids are ionic compounds that relate to which element,water,hydrogen,0.0,0.4725193977355957,72,32,168
+819,when was the first gun law passed in the us,in 1813,1837,0.0,0.740990400314331,91,117,165
+820,when does call of duty blackops 4 come out,"October 12, 2018","October 12, 2018",1.0,0.5888721942901611,84,86,168
+821,who is the author of al capone does my shirts,Gennifer Choldenko,  Gennifer Choldenko,1.0,0.5866401195526123,84,81,168
+822,what is the correct order of the chronicles of narnia movies,"The Lion, the Witch and the Wardrobe","The correct order of the Chronicles of Narnia movies is The Lion, the Witch and the Wardrobe (2005), Prince Caspian (2008), The Voyage of the Dawn Treader (2010).",0.32,1.6513071060180664,156,279,177
+823,what do you call a pyramid with a triangular base,a tetrahedron,A pyramid with a triangular base is called a triangular pyramid.,0.0,0.4130840301513672,67,50,165
+824,who was the shrew in taming ofthe shrew,Katherina,"The shrew in ""The Taming of the Shrew"" is Katherine, also known as Kate.",0.0,0.5885686874389648,78,63,171
+825,when is opening day for the nba 2017,"October 17, 2017","The opening day for the NBA 2017-2018 season was on October 17, 2017.",0.42857142857142855,0.5647017955780029,79,69,168
+826,who won men's college basketball last year,North Carolina,The men's college basketball championship last year was won by Baylor University.,0.0,0.470703125,67,53,159
+827,where does the show the office take place,"Scranton, Pennsylvania","Scranton, Pennsylvania",1.0,0.5888607501983643,85,59,159
+828,who is the current president commission of ecowas,Marcel Alain de Souza,The current President of the ECOWAS Commission is Jean-Claude Kassi Brou.,0.0,0.43433499336242676,74,96,165
+829,when did the united states leave the philippines,"July 4, 1946",1946,0.5,0.5862371921539307,74,71,159
+830,who had cameo roles in mamma mia here we go again,Björn Ulvaeus,"Cher, Benny Andersson",0.0,0.7650089263916016,85,185,168
+831,when was the last time someone lived in biltmore house,1956,1957,0.0,0.7155683040618896,88,136,171
+832,when did the first tim hortons open in the usa,1981,1984,0.0,0.5196113586425781,76,81,171
+833,what season did george die on grey's anatomy,fifth season,Season 6,0.5,0.4833080768585205,75,46,165
+834,who views crime as a desire for success when the legitimate means to achieve it are limited,Robert K. Merton,Robert Merton,0.8,1.2156336307525635,148,85,186
+835,who said sun is the center of the solar system,Aristarchus of Samos,Nicolaus Copernicus,0.0,0.9874849319458008,101,91,165
+836,what are the fox and the hounds names,red fox named Tod,"Tod, Copper, Chief",0.28571428571428575,0.5356278419494629,77,87,162
+837,what is the weather like in the eye of a hurricane,mostly calm,Calm and clear,0.4,2.776608467102051,118,224,168
+838,when does new season of blind spot start,"October 27, 2017","April 30, 2020",0.0,0.5712409019470215,78,122,159
+839,who appointed the current members of the supreme court,Donald Trump,The current members of the Supreme Court were appointed by the President of the United States and confirmed by the Senate.,0.0,0.594219446182251,76,193,162
+840,when does the diary of a wimpy kid the getaway come out,"November 7, 2017","The book ""Diary of a Wimpy Kid: The Getaway"" was released on November 7, 2017.",0.4,0.6369779109954834,86,101,177
+841,who has a grammy oscar tony and emmy,Richard Rodgers,"The four entertainers who have won an Emmy, Grammy, Oscar, and Tony award are Audrey Hepburn, Mel Brooks, Whoopi Goldberg, and John Legend.",0.0,0.6973109245300293,90,51,171
+842,when does pam come back to the office,"in ""Jury Duty""",There is no specific date mentioned in the show for Pam's return to the office. It varies depending on the episode and the season.,0.08695652173913045,0.5957388877868652,80,123,159
+843,who plays mabel's voice on gravity falls,Kristen Joy Schaal, Kristen Schaal ,0.8,0.5185980796813965,75,61,162
+844,why there are 29 days in february in a leap year,"because a complete revolution around the Sun takes approximately 6 hours longer than 365 days (8,760 hours)",Because of the way the Earth orbits the Sun.,0.19047619047619044,1.2316527366638184,140,280,174
+845,who was defeated in the battle of yorktown,British Army,Cornwallis,0.0,0.4802422523498535,74,77,162
+846,when did countrywide merge with bank of america,2008,"July 1, 2008",0.5,0.5785458087921143,80,60,162
+847,what is meant by the phrase survival of the fittest,Survival of the form that will leave the most copies of itself in successive generations,Natural selection in evolution.,0.11764705882352941,0.9971330165863037,120,211,168
+848,hawaii is in the center of the ring of fire and is caused by,plate tectonics,Volcanic activity along the Pacific Plate boundaries.,0.25,0.6264092922210693,83,232,180
+849,when was the last time england went to a world cup final,1966,1966,1.0,0.9984512329101562,109,52,174
+850,who won season 9 of americas got talent,magician Mat Franco,Mat Franco,0.8,0.5387058258056641,76,59,165
+851,where is ferris bueller's day off filmed,Chicago,"Chicago, Illinois, USA",0.5,0.6686604022979736,84,129,165
+852,who banned all public meetings and procession in amritsar,Colonel Reginald Dyer,General Reginald Dyer,0.6666666666666666,0.7070295810699463,96,73,168
+853,what do candles symbolize in the catholic church,"the ""prayers the worshipper is offering for him or herself, or for other people.","Light, prayer, Christ's presence",0.0,1.162442922592163,113,258,162
+854,what is the dog called in midsomer murders,Sykes,Sykes,1.0,0.4864778518676758,72,54,165
+855,who does karen gillian play in the avengers,Nebula,Nebula,1.0,0.5000450611114502,75,51,168
+856,who did the cavs trade for kyle korver,Mike Dunleavy,Mike Dunleavy and a future first-round draft pick,0.4444444444444445,0.8257420063018799,94,152,168
+857,first african-american female actress who won the emmy awards,Gail Fisher,Gail Fisher,1.0,0.7475864887237549,97,114,171
+858,who plays dwight's brother on the office,Thomas Middleditch,"Thomas Middleditch plays Dwight's brother, Jeb, in the TV show ""The Office.""",0.33333333333333337,0.5464115142822266,73,74,162
+859,which is the longest running train in india,"One of the Vivek Express trains, the one from Dibrugarh to Kanyakumari", Vivek Express ,0.33333333333333337,0.9452855587005615,104,134,159
+860,when did the new york mets became a team,1962,1962,1.0,0.47454047203063965,72,57,165
+861,where does us route 42 start and end,"Louisville, Kentucky to Cleveland, Ohio","US Route 42 starts in Louisville, Kentucky and ends in Cleveland, Ohio.",0.47058823529411764,0.8289501667022705,89,93,162
+862,when does the second half of fuller house air,"December 9, 2016","The second half of Fuller House was released on Netflix on December 9, 2016.",0.375,2.1068172454833984,122,138,162
+863,what is the name of the vaccine for tuberculosis,bacilli Calmette-Guérin (BCG),BCG,0.5,1.5497188568115234,78,75,162
+864,where is lake george located in new. york,in Warren County,"Lake George is located in the eastern part of New York state, in the Adirondack Mountains region.",0.1111111111111111,0.5316534042358398,77,62,165
+865,the structure found in the cell that contains strands of dna is called a(n),chromosomes,nucleus,0.0,1.1134531497955322,83,42,183
+866,who are the surviving members of the beatles,McCartney,"Paul McCartney, Ringo Starr",0.4,0.6722569465637207,84,95,162
+867,where was war on the planet of the apes filmed,Lower Mainland in Vancouver,"British Columbia, Canada",0.0,0.6820957660675049,83,127,168
+868,who gave the name cape of good hope,John II of Portugal,Bartolomeu Dias,0.0,0.6216247081756592,82,100,159
+869,what is the youngest state in the usa,Hawaii,Hawaii,1.0,1.0469112396240234,124,58,159
+870,why did european countries want empires in the 19th century,"trade, driven by the new ideas and the capitalism that grew out of the European Renaissance","To expand their economic power, showcase national pride, gain military advantages, spread Christianity, compete with other nations, and promote cultural superiority.",0.058823529411764705,3.1013240814208984,243,392,174
+871,where did the thompson twins get their name from,the two bumbling detectives Thomson and Thompson in Hergé's comic strip The Adventures of Tintin,"The Thompson Twins derived their name from the two detectives from the Belgian comic strip ""The Adventures of Tintin"" by Hergé.",0.5333333333333333,0.551408052444458,83,124,165
+872,who sings don't stand so close to me,The Police,The Police,1.0,0.4617288112640381,73,70,162
+873,who plays adam's mom on man with a plan,Swoosie Kurtz,Diane Farr,0.0,0.6148910522460938,81,95,165
+874,who owns mgm resorts international in las vegas,Tracinda Corporation,PUBLICLY TRADED; OWNED BY MULTIPLE SHAREHOLDERS,0.0,1.0828685760498047,108,107,162
+875,what does thou shalt not bear false witness against thy neighbour mean,perjury,Do not lie about your neighbor.,0.0,1.0547888278961182,123,159,171
+876,who won fifa world cup 2018 final match,France,France,1.0,0.4620997905731201,72,62,168
+877,when did delegates begin to sign the completed document,"September 17, 1787","The delegates began to sign the completed document on August 2, 1776.",0.0,0.4446873664855957,71,69,162
+878,within the townships created by the land ordinance of 1785 one section was set aside for,the maintenance of public schools,public education,0.3333333333333333,0.4556920528411865,78,50,192
+879,when was the last time browns had a winning record,1994,2007,0.0,0.7585315704345703,77,90,168
+880,when does the latest riverdale episode come out,"May 16, 2018",Check your local listings or streaming platform for the release date.,0.0,1.1865897178649902,125,165,162
+881,who is morgan freeman in the lego movie,Vitruvius,Vitruvius,1.0,0.5844695568084717,84,67,168
+882,when was the eiffel tower finished being built,15 March 1889,"March 15, 1889",1.0,0.6571319103240967,81,80,165
+883,who was the first president identified as a democrat,Andrew Jackson,The first president identified as a Democrat was Andrew Jackson.,0.4,0.42244458198547363,65,48,162
+884,where is promontory point utah on a map,in Box Elder County,"41.2100° N, 112.6594° W",0.0,1.0968687534332275,115,197,168
+885,who came up with the 2nd law of thermodynamics,Sadi Carnot,"The second law of thermodynamics was developed by multiple scientists, including Rudolf Clausius, Lord Kelvin, and Max Planck.",0.0,0.5558493137359619,83,65,171
+886,who played penny in lost in space 2018,Mina Sundwall,Mina Sundwall,1.0,0.5179691314697266,77,54,165
+887,when did mike trout come into the league,"July 8, 2011","July 8, 2011",1.0,0.5414388179779053,78,54,159
+888,the central dogma of molecular biology concerns the,flow of genetic information within a biological system,flow of genetic information from DNA to RNA to protein.,0.47058823529411764,0.38242578506469727,65,102,162
+889,how many episodes of beyblade burst god are there,48,51,0.0,0.526522159576416,75,49,165
+890,where is the chichen itza located in mexico,"Tinúm Municipality, Yucatán State, Mexico",Chichen Itza is located in the Yucatan Peninsula in Mexico.,0.14285714285714285,0.4624674320220947,70,72,165
+891,where did the invasion of normandy take place,6 June 1944,"The invasion of Normandy took place along the beaches of Normandy, France on June 6, 1944.",0.35294117647058826,0.5520033836364746,78,55,162
+892,the hobbit desolation of smaug bard's son,John Bell,Bain,0.0,0.6640703678131104,83,194,168
+893,what law describes how a planet orbits the sun,laws of planetary motion,"The law that describes how a planet orbits the sun is Kepler's Third Law of Planetary Motion. 
+
+The formula for Kepler's Third Law is: T^2 = k * r^3, where T is the orbital period of the planet (time taken to complete one orbit), r is the average distance from the planet to the sun (semi-major axis), and k is a constant that depends on the mass of the central body.
+
+Let me know if you need any help with a specific calculation involving this law.",0.08,1.32405424118042,158,297,162
+894,other than water what is the most important ingredient of brown stock,bones,bones,1.0,0.586761474609375,76,60,171
+895,who played buck rogers in the 25th century,Gil Gerard,Gil Gerard,1.0,0.46497631072998047,73,63,168
+896,where is the ryder cup golf tournament being played,"on the Albatros Course of Le Golf National in Saint-Quentin-en-Yvelines, a suburb southwest of Paris","Whistling Straits in Wisconsin, USA",0.1111111111111111,0.6379201412200928,88,94,165
+897,how far south does the san andreas fault run,southern California,800 miles,0.0,0.7974448204040527,92,73,165
+898,who does phoebe from charmed end up with,Coop,Coop,1.0,0.5401871204376221,79,78,168
+899,why is it called air on a g string,"transposed down so that it can be played entirely on a violin's lowest string, i.e., the G string","Named after the lowest string of the violin, the ""G"" string.",0.3333333333333333,1.1845736503601074,119,169,162
+900,how many countries are still in the british commonwealth,53,54,0.0,0.7471590042114258,97,85,165
+901,what is an example of a radical in chemistry,hydroxyl radical (HO•),An example of a radical in chemistry is the hydroxyl radical (HO•).,0.5,0.4797375202178955,71,67,162
+902,who was portrayed as the anderson brothers cousin,Ric Flair,Jesse Metcalfe,0.0,0.5500588417053223,75,69,162
+903,the stimulus for the formation of a platelet plug or a blood clot is,endothelial injury,Presence of injury or damage to blood vessel walls,0.1818181818181818,3.2658331394195557,264,314,180
+904,who became the first pope of the roman catholic church,St Peter,Saint Peter is considered the first pope of the Roman Catholic Church.,0.16666666666666669,1.320009708404541,159,46,165
+905,who is the song we belong together about,a woman's desperation for her former lover to return,"""We Belong Together"" by Mariah Carey is a song about heartbreak and longing for a lost love. It is believed to be inspired by her breakup with her ex-husband, Tommy Mottola.",0.16216216216216217,0.732764482498169,95,123,159
+906,dividing up africa among european countries was the goal of the,Berlin Conference of 1884,Berlin Conference of 1884-1885.,0.75,0.42386341094970703,67,78,171
+907,what player in the nfl has the most rings,Bill Belichick,Tom Brady has the most rings in the NFL with 7 Super Bowl championships.,0.0,0.8771445751190186,94,85,162
+908,when will the 2018 nba all stars be announced,"January 18, 2018","January 25, 2018",0.6666666666666666,0.6109371185302734,88,127,171
+909,where is the northern highland rim in tennessee,encountered a few miles north of Nashville and extends to the Kentucky border,"Northern Highland Rim in Tennessee is located in the northern part of the state including parts of Davidson, Sumner, Robertson, and Macon counties.",0.125,1.828192949295044,157,179,165
+910,which english comedian became the first moomba king in 1967,Robert Morley,Tommy Cooper,0.0,0.6050617694854736,82,57,174
+911,who sings bring me back to life with evanescence,Paul McCoy of the band 12 Stones,Paul McCoy of 12 Stones,0.9090909090909091,0.6788651943206787,91,81,171
+912,when is celebrity big brother coming to cbs,"February 7, 2018","As of now, the release date for the next season of Celebrity Big Brother on CBS has not been announced.",0.0,0.59334397315979,76,106,162
+913,when is dragon ball super 130 episode coming out,"March 18, 2018","Dragon Ball Super episode 130 will premiere on March 18, 2018.",0.42857142857142855,0.4531269073486328,72,64,165
+914,zones of upwelling near the shores of land masses have high primary production because such zones,"are rich in nutrients, including nitrate, phosphate and silicic acid",result in high levels of nutrients that support high primary production,0.1904761904761905,1.3888864517211914,170,264,189
+915,when do birth of the dragon come out,"August 25, 2017","August 25, 2017",1.0,0.5914599895477295,81,91,159
+916,what poem is engraved on the statue of liberty,"""The New Colossus","The poem engraved on the Statue of Liberty is ""The New Colossus"" by Emma Lazarus.",0.2857142857142857,0.49958181381225586,75,63,162
+917,what is the fifth letter of the greek alphabet,epsilon,epsilon,1.0,0.40686750411987305,70,43,165
+918,who did greece beat to win euro 2004,Portugal,Portugal,1.0,0.45237135887145996,72,49,168
+919,what speed does the space shuttle re-enter earth,100 km,"17,500 miles per hour",0.0,0.5945706367492676,83,98,162
+920,who does the voice of diane on family guy,Lori Alan,Lori Alan,1.0,0.505272626876831,76,94,165
+921,who is the second robot in i am frankie,Andrew,Elsie,0.0,0.45389366149902344,73,59,165
+922,where is the final of u17 world cup,India,The final match of the U17 World Cup is held in a different host country each year. Check the latest information on the FIFA website or a sports news platform to find out the exact location of this year's U17 World Cup final.,0.0,1.6234228610992432,186,139,162
+923,when did the lion king movie come out,1994,"June 24, 1994",0.5,0.5253794193267822,77,75,159
+924,what kind of milk is gouda cheese made from,cow's milk,cow's milk,1.0,0.5155365467071533,74,55,168
+925,who plays lord elrond in lord of the rings,Hugo Wallace Weaving,Hugo Weaving,0.8,0.5802168846130371,80,68,168
+926,who won season 5 of america's got talent,Michael Grimm,Michael Grimm,1.0,0.595404863357544,74,58,165
+927,the current chief of naval staff in nigeria,Ibok Ekwe Ibas,Vice Admiral Awwal Zubairu Gambo,0.0,0.6619753837585449,87,102,159
+928,who won the womens battle royal wrestlemania 34,Naomi,Naomi,1.0,0.5471065044403076,77,65,168
+929,the news print paper is obtained from which state in india,Madhya Pradesh,The newsprint paper is predominantly produced in the state of Maharashtra in India.,0.0,0.4607565402984619,71,163,168
+930,who plays henry on once upon a time season 7,Andrew J. West,Andrew J. West,1.0,0.6031985282897949,84,78,171
+931,when did english merchants form the east india company,31 December 1600,1600,0.5,0.42563939094543457,70,53,162
+932,who is the football coach at georgia southern,Chad Lunsford,Clay Helton,0.0,0.6452887058258057,83,48,162
+933,when did medicare begin in the united states,1966,"Medicare began in the United States on July 1, 1966.",0.19999999999999998,0.4803900718688965,70,75,162
+934,where does a baker's cyst come from,knee arthritis,"A baker's cyst, also known as a popliteal cyst, is a fluid-filled swelling that develops behind the knee. It usually occurs as a result of conditions that cause the knee to produce too much fluid, such as arthritis, injury, or medical conditions affecting the knee joint.",0.09756097560975609,1.0702667236328125,110,175,159
+935,who has the most triple-doubles ever in the nba,Oscar Robertson,Russell Westbrook,0.0,0.6724417209625244,88,76,171
+936,who died from the movie fast and furious,Paul Walker,Paul Walker,1.0,0.80191969871521,93,100,159
+937,where is the big 12 baseball tournament held,"at Chickasaw Bricktown Ballpark in Oklahoma City, Oklahoma","Chickasaw Bricktown Ballpark, Oklahoma City, Oklahoma",0.8571428571428571,0.6943702697753906,93,99,162
+938,who is the chairman of the lok sabha,the Vice President of India,Om Birla,0.0,0.7547564506530762,88,92,162
+939,where did mark get his information to write his gospel,"a variety of pre-existing sources, such as conflict stories (Mark 2:1–3:6), apocalyptic discourse (4:1–35), and collections of sayings","Multiple sources, including oral traditions and possibly the Gospel of Matthew.",0.22222222222222224,0.7506999969482422,99,148,165
+940,who played the beast in the movie shot caller,Holt McCallany,Holt McCallany,1.0,0.5897834300994873,83,76,162
+941,who plays the frog on gnomeo and juliet,Ashley Jensen,Ozzy Osbourne,0.0,0.5471031665802002,80,73,165
+942,who was the pale rider supposed to be,Death,Death,1.0,0.731151819229126,86,83,159
+943,guy who played opie on sons of anarchy,Ryan Douglas Hurst,Ryan Hurst,0.8,0.546600341796875,78,66,168
+944,who does the green arrow marry in the comics,Black Canary,"In the comics, Green Arrow (Oliver Queen) marries Black Canary (Dinah Laurel Lance).",0.2857142857142857,0.48725008964538574,76,54,162
+945,who did the peoples party nominate for president in 1892,James B. Weaver,James B. Weaver,1.0,0.5367913246154785,79,62,171
+946,who took the israelites to the promised land,Joshua,Moses,0.0,0.47159290313720703,71,57,165
+947,what is the meaning of sap erp system,enterprise resource planning software,Integrated software system for managing business processes and resources.,0.15384615384615383,1.1659760475158691,135,206,162
+948,when did ha long bay become a world heritage site,1994,1994,1.0,0.5112223625183105,73,61,165
+949,who sang the original version of red red wine,Neil Diamond,Neil Diamond,1.0,0.4681730270385742,74,58,162
+950,who appoints the governor and deputy governors of rbi,The Government of India,Central Government,0.4,0.6888952255249023,83,100,168
+951,who voices the bears in we bare bears,Eric Edelstein,"Eric Edelstein, Demetri Martin, Bobby Moynihan",0.5,1.0257089138031006,103,152,159
+952,who was amy dowden partner on strictly 2017,comedian Brian Conley,Brian Conley,0.8,0.5303711891174316,81,70,168
+953,who played the bird woman in mary poppins,Jane Darwell,Jane Darwell,1.0,0.4486367702484131,74,60,162
+954,where did the phrase when pigs fly come from,Scottish proverb,"The phrase ""when pigs fly"" originated in Scotland in the late 16th century. It was later popularized in the United States in the early 20th century. The phrase is used to express that something is highly unlikely to happen.",0.0,0.8117940425872803,103,178,162
+955,where is the setting for leave it to beaver,United States,Mayfield,0.0,0.5495715141296387,78,89,165
+956,where did clap and a half come from,Patrick reclaimed from his seventh grade Social Studies teacher,"Barney & Friends and GloZell Green popularized the ""clap and a half.""",0.0,1.2882308959960938,128,165,159
+957,scientist who lost life in their own discovery,Marie Curie,"Marie Curie, Henry M. Laborit, Alexander Bogdanov",0.4444444444444445,1.6658718585968018,155,244,162
+958,who wrote the song i will follow him,Norman Gimbel,Little Peggy March,0.0,0.5917315483093262,75,129,159
+959,snow white and the huntsman movie heroine name,Kristen Stewart,Snow White,0.0,0.6030399799346924,78,69,162
+960,how many teams from asia will qualify for world cup 2018,five,5 teams from Asia qualified for the 2018 FIFA World Cup.,0.0,0.4848034381866455,72,51,174
+961,who would take over if the president dies,Vice President,Vice President,1.0,1.0942354202270508,134,124,159
+962,who does the voice of dory in finding dory,Ellen DeGeneres,Ellen DeGeneres,1.0,0.5742685794830322,78,71,168
+963,when do we vote for a new governor in california,"November 6, 2018",November 2022,0.4,0.8345410823822021,100,114,165
+964,when does season 5 of the blacklist come out,"November 15, 2017","September 27, 2017",0.3333333333333333,0.5682253837585449,81,78,165
+965,who discovered that animals were made of cells,Henri Dutrochet,Theodor Schwann,0.0,1.7613849639892578,155,259,159
+966,who plays sherman in mr peabody and sherman,Max Charles,Ty Burrell,0.0,0.46305036544799805,74,77,171
+967,who plays oz in oz the great and powerful,James Franco,James Franco,1.0,0.5938289165496826,79,55,162
+968,when was the last superbowl the cowboys won,1995,"The last Super Bowl the Cowboys won was Super Bowl XXX on January 28, 1996.",0.0,0.584294319152832,75,99,165
+969,what do you mean by analysis and design,"Systems analysis, a method of studying a system by examining its component parts and their interactions","Analysis involves understanding a problem, while design involves creating a solution.",0.08695652173913043,1.0656142234802246,126,281,159
+970,where was ross and emily's wedding filmed,"on locations in London, and in front of a live studio audience at The Fountain Studios",Ross and Emily's wedding was filmed at a church in London.,0.3333333333333333,0.477459192276001,68,69,165
+971,who has the executive power in south carolina,the governor,The executive power in South Carolina is held by the Governor.,0.19999999999999998,0.4018881320953369,66,39,162
+972,when did the first pacific rim come out,2013,"July 12, 2013",0.5,0.5581874847412109,80,73,162
+973,when is the start of the 2018 nba season,"October 16, 2018","October 16, 2018",1.0,0.8152554035186768,82,80,171
+974,who sings i dreamed a dream in les miserables,the character Fantine,Anne Hathaway,0.0,0.6091330051422119,82,54,165
+975,when did the last harry potter movie come out in theaters,2011,"July 15, 2011",0.5,0.8562326431274414,101,129,174
+976,when did old 10p go out of circulation,January 2013,"June 30, 1993",0.0,0.7093329429626465,89,90,165
+977,where is the origin of the frontalis muscle,Galea aponeurotica,Galea aponeurotica,1.0,0.8003661632537842,94,136,162
+978,the four essential elements for life are _,Freedom of speech,"C, H, O, N",0.0,0.7432436943054199,88,92,159
+979,when is the last time england got to the semi final,1990,2018 FIFA World Cup,0.0,1.03066086769104,131,120,171
+980,who is the singing voice of jasmine in aladdin,Maria Lea Carmen Imutan Salonga,Lea Salonga,0.5714285714285715,0.5626614093780518,78,64,165
+981,when did the mint start making proof sets,1936,1936,1.0,0.9722089767456055,121,229,159
+982,when did the affordable healthcare act go into effect,"March 23, 2010","March 23, 2010",1.0,0.6159563064575195,86,104,162
+983,the first vice president of india who became the president later,Sarvepalli Radhakrishnan,Sarvepalli Radhakrishnan,1.0,0.6717441082000732,91,211,168
+984,who played cindy brady in a very brady christmas,Jennifer Runyon,Jennifer Runyon,1.0,0.518561601638794,76,61,171
+985,what episode of american dad is krampus on,the eighth episode of the tenth season,"Season 9, Episode 8",0.4444444444444445,0.6811654567718506,89,109,162
+986,when was the last time world cup was held in england,1966,1966,1.0,0.5189354419708252,79,65,171
+987,what type of car does dwight schrute drive,1987 Pontiac Trans Am,Dwight Schrute drives a Pontiac Trans Am.,0.6,0.38682055473327637,69,64,168
+988,what is apollo the god of in roman mythology,music,"sun, music, poetry, oracles",0.4,0.6198976039886475,85,113,165
+989,what do you get with diablo 3 ultimate evil edition,the original console version of Diablo III,Diablo 3 Ultimate Evil Edition includes the base game Diablo 3 and the Reaper of Souls expansion.,0.19047619047619044,1.0580062866210938,128,145,171
+990,where did the chinese tallow tree come from,eastern Asia,"The Chinese tallow tree originated from eastern Asia, specifically in China and Japan.",0.2857142857142857,0.4649355411529541,70,84,162
+991,the virus in rise of the planet of the apes,ALZ-113,ALZ-113 virus,0.6666666666666666,0.9751732349395752,110,243,168
+992,one major difference in the hellenistic and the classical sculpture is,"Common people, women, children, animals and domestic scenes became acceptable subjects for sculpture",Dynamic and emotional vs. idealized and static.,0.1,0.8785884380340576,112,163,174
+993,who used the term element for the first time,Plato,Empedocles,0.0,0.5671436786651611,82,98,162
+994,how many times have patriots been to the superbowl,nine times,11,0.0,0.5089876651763916,74,169,168
+995,who is credited with the first idea of a nuclear atom,Ernest Rutherford,Ernest Rutherford,1.0,1.3251988887786865,147,156,168
+996,who are the twins in better call saul,The Sklar brothers,Leonel and Marco Salamanca,0.0,0.687528133392334,85,78,162
+997,when did america become the united states of america,1776,"July 4, 1776",0.5,0.5689005851745605,80,93,162
+998,who has sold the most albums world wide,The Beatles,The Beatles,1.0,0.48076415061950684,71,54,159
+999,who plays laura croft in tomb raider 2018,Alicia Vikander,Alicia Vikander,1.0,0.5750153064727783,82,50,174
