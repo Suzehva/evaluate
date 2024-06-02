@@ -1,0 +1,7 @@
+Model Version: gpt-4o
+Average Latency (s): 6.958099247217178
+Total Tokens Used: 490204
+Eval Sample Size: 1000
+Accuracy: 0.897
+System Prompt: You answer questions about math problems. Enclose your final answer in LaTeX's \boxed tag.
+
