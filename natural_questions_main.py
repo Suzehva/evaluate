@@ -52,7 +52,7 @@ def run_model(train, test):
             prompt_tokens = 0
 
             for i in range(config.ENSEMBLE_SIZE):
-                response = apis.call_default_api(question, config.MODEL, prompt)
+                response = apis.call_default_api(question, config.MODEL, prompt, temperature=1)
 
                 num_tokens += response.usage.total_tokens
                 completion_tokens += response.usage.completion_tokens
@@ -102,6 +102,8 @@ def run_model(train, test):
                 'prompt_tokens': prompt_tokens
             }
         )
+        if config.USE_ENSEMBLE:
+            results[-1]['ensemble_output'] = responses
         total_tokens += num_tokens
         total_time += latency
         average_f1 += f1
