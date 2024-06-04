@@ -23,7 +23,7 @@ def get_cot_fs_prompt(dataset):
 
 
 def get_tot_prompt():
-    prompt = f"Imagine {main.NUM_EXPERTS} different experts are answering a question about a math problem. All experts will write down 1 step of their thinking,then share it with the group. Then all experts will go on to the next step, etc. If any expert realises they're wrong at any point then they leave. Once the experts have arrived at a final answer, enclose the final answer in LaTeX's \\boxed tag.\n"
+    prompt = f"Imagine {config.NUM_EXPERTS} different experts are answering a question about a math problem. All experts will write down 1 step of their thinking,then share it with the group. Then all experts will go on to the next step, etc. If any expert realises they're wrong at any point then they leave. Once the experts have arrived at a final answer, enclose the final answer in LaTeX's \\boxed tag.\n"
     return prompt
 
 def get_examples(prompt_type, dataset, fewshot_size):
