@@ -1,0 +1,11 @@
+Model Version: gpt-4o
+Average Latency (s): 27.42972818350792
+Total Tokens Used: 1544143
+Eval Sample Size: 1000
+Accuracy: 0.903
+System Prompt: You answer questions about math problems. Enclose your final answer in LaTeX's \boxed tag.
+Q: How many vertical asymptotes does the graph of $y=\frac{2}{x^2+x-6}$ have?
+A: 2
+
+Few Shot Examples: 1
+Ensemble Size: 3
