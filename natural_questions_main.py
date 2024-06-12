@@ -55,6 +55,7 @@ def run_model(train, test):
                 response = apis.call_default_api(question, config.MODEL, prompt, temperature=1)
 
                 num_tokens += response.usage.total_tokens
+                #print(num_tokens)
                 completion_tokens += response.usage.completion_tokens
                 prompt_tokens += response.usage.prompt_tokens
 
@@ -70,16 +71,11 @@ def run_model(train, test):
             output_answer = response.choices[0].message.content
 
             num_tokens = response.usage.total_tokens
+            #print(num_tokens)
             completion_tokens = response.usage.completion_tokens
             prompt_tokens = response.usage.prompt_tokens
 
             output_answer = natural_questions_pre.extract_answer(output_answer)
-        start_time = time() # should I do this call and latency call later within if statements?
-        response = apis.call_default_api(question, config.MODEL, prompt)
-        latency = time() - start_time
-        output_answer = response.choices[0].message.content
-        output_answer = natural_questions_pre.extract_answer(output_answer)
-        num_tokens = response.usage.total_tokens
 
         f1 = 0
         answer = answers[0]['text'][0] # take 1st answer as default

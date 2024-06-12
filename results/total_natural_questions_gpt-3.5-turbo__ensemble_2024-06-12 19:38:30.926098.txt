@@ -1,0 +1,8 @@
+Model Version: gpt-3.5-turbo
+Average Latency (s): 0.35757891337076825
+Total Tokens Used: 543
+Eval Sample Size: 3
+F1 Score: 0.2333333333333333
+System Prompt: You answer questions and give short, concise answers. Give your shorest answer possible. Put your answer between double square brackets like this: [[ANSWER]].
+
+Ensemble Size: 3

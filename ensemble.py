@@ -18,6 +18,9 @@ def take_majority_vote_math(responses):
 
 def take_highest_f1_natural_questions(responses, answers):
     responses_cleaned = [natural_questions_pre.extract_answer(response) for response in responses]
+    for response in responses_cleaned:
+        print(response)
+
     majority_output = max(set(responses_cleaned), key=responses_cleaned.count)
     #print("majority_output: " + majority_output)
     return majority_output

@@ -38,6 +38,8 @@ def run_model(train, test):
                 response = apis.call_default_api(problem, config.MODEL, prompt, temperature=1)
                 output_solution = response.choices[0].message.content
                 num_tokens += response.usage.total_tokens
+                completion_tokens += response.usage.completion_tokens
+                prompt_tokens += response.usage.prompt_tokens
                 responses.append(output_solution)
             latency = time() - start_time
             output_solution = ensemble.take_majority_vote_math(responses)
