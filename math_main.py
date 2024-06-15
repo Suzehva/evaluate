@@ -4,7 +4,7 @@ from time import time
 from openai import OpenAI
 import apis
 from prompting import math_prompts
-from preprocess import math_pre
+from postprocessing import math_post
 import ensemble
 #import main
 import config
@@ -34,6 +34,8 @@ def run_model(train, test):
             start_time = time()
             responses = []
             num_tokens = 0
+            completion_tokens = 0
+            prompt_tokens = 0
             for i in range(config.ENSEMBLE_SIZE):
                 response = apis.call_default_api(problem, config.MODEL, prompt, temperature=1)
                 output_solution = response.choices[0].message.content
@@ -43,14 +45,16 @@ def run_model(train, test):
                 responses.append(output_solution)
             latency = time() - start_time
             output_solution = ensemble.take_majority_vote_math(responses)
-            correct = math_pre.check_answer(output_solution, sample['solution'])
+            correct = math_post.check_answer(output_solution, sample['solution'])
         else:
             start_time = time() # should I do this call and latency call later within if statements?
             response = apis.call_default_api(problem, config.MODEL, prompt)
             latency = time() - start_time
             output_solution = response.choices[0].message.content
             num_tokens = response.usage.total_tokens
-            correct = math_pre.check_answer(output_solution, sample['solution'])
+            correct = math_post.check_answer(output_solution, sample['solution'])
+            prompt_tokens = response.usage.prompt_tokens;
+            completion_tokens = response.usage.completion_tokens
 
         results.append(
             {
@@ -62,8 +66,8 @@ def run_model(train, test):
                 'correct':correct,
                 'latency': latency,
                 'num_tokens': num_tokens,
-                'completion_tokens':response.usage.completion_tokens,
-                'prompt_tokens':response.usage.prompt_tokens
+                'completion_tokens':completion_tokens,
+                'prompt_tokens':prompt_tokens
             }
         )
         if config.USE_ENSEMBLE:

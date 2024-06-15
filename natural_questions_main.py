@@ -4,7 +4,7 @@ from time import time
 from openai import OpenAI
 import apis
 from prompting import natural_questions_prompts
-from preprocess import natural_questions_pre
+from postprocessing import natural_questions_post
 import evaluation
 import ensemble
 #import main
@@ -75,7 +75,7 @@ def run_model(train, test):
             completion_tokens = response.usage.completion_tokens
             prompt_tokens = response.usage.prompt_tokens
 
-            output_answer = natural_questions_pre.extract_answer(output_answer)
+            output_answer = natural_questions_post.extract_answer(output_answer)
 
         f1 = 0
         answer = answers[0]['text'][0] # take 1st answer as default

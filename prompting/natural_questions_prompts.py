@@ -1,5 +1,5 @@
 from typing import Optional
-from preprocess import math_pre
+from postprocessing import natural_questions_post
 import config
 
 def get_vanilla_prompt():
@@ -33,21 +33,13 @@ def get_examples(prompt_type, dataset, fewshot_size):
         if i >= shot_size:
             break
         i += 1
-        if (dataset == "math"):
-            problem = example['problem']
-            solution = example['solution']
-            if prompt_type == "FS": # strip chain-of-thought reasoning in sample
-                solution = math_pre.get_answer(solution)
-            system_prompt += f"Q: {problem}\nA: {solution}\n"
-        elif (dataset == "natural_questions"):
-            question = example['question']['text']
-            answers = example['annotations']['short_answers'] # only use first answer given
-            if (len(answers[0]['text']) == 0):
-                shot_size += 1
-                continue
-            answer = answers[0]['text']
-            system_prompt += f"Q: {question}\nA: {answer}\n"
-
+        question = example['question']['text']
+        answers = example['annotations']['short_answers'] # only use first answer given
+        if (len(answers[0]['text']) == 0):
+            shot_size += 1
+            continue
+        answer = answers[0]['text']
+        system_prompt += f"Q: {question}\nA: {answer}\n"
     return system_prompt
 
 

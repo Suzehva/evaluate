@@ -1,0 +1,2 @@
+,question,answer,model_output,f1,latency,num_tokens,completion_tokens,prompt_tokens,ensemble_output
+0,when is the last episode of season 8 of the walking dead,"March 18, 2018","March 31, 2019",0.3333333333333333,1.5309967994689941,208,40,168,"['[[April 15, 2018]]', '[[March 31, 2019]]', '[[The last episode of Season 8 of The Walking Dead is ""Wrath"", episode 16.]]']"

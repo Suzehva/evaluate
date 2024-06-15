@@ -1,0 +1,2 @@
+,question,answer,model_output,f1,latency,num_tokens,completion_tokens,prompt_tokens,ensemble_output
+0,when is the last episode of season 8 of the walking dead,"March 18, 2018","The last episode of season 8 of The Walking Dead aired on April 15, 2018.",0.125,1.887049913406372,237,63,174,"['The last episode of season 8 of The Walking Dead aired on April 15, 2018.', 'The last episode of season 8 of The Walking Dead aired on April 15, 2018.', 'The last episode of season 8 of The Walking Dead aired on April 15, 2018.']"

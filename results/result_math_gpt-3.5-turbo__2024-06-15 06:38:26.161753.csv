@@ -1,0 +1,14 @@
+,problem,level,type,solution,model_output,correct,latency,num_tokens,completion_tokens,prompt_tokens
+0,How many vertical asymptotes does the graph of $y=\frac{2}{x^2+x-6}$ have?,Level 3,Algebra,"The denominator of the rational function factors into $x^2+x-6=(x-2)(x+3)$. Since the numerator is always nonzero, there is a vertical asymptote whenever the denominator is $0$, which occurs for $x = 2$ and $x = -3$.  Therefore, the graph has $\boxed{2}$ vertical asymptotes.","To find the vertical asymptotes of a rational function, we need to look for the values of $x$ that make the denominator zero. 
+
+In this case, the denominator of the function $y=\frac{2}{x^2+x-6}$ is $x^2+x-6$. To find the zeros of this quadratic expression, we need to factor it:
+
+$x^2 + x - 6 = (x+3)(x-2)$
+
+Setting the denominator equal to zero gives:
+
+$(x+3)(x-2) = 0$
+
+This gives us two values of $x$ that make the denominator zero: $x=-3$ and $x=2$. Therefore, the graph of $y=\frac{2}{x^2+x-6}$ has two vertical asymptotes at $x=-3$ and $x=2$.
+
+Therefore, the graph has \(\boxed{2}\) vertical asymptotes.",1.0,3.008683443069458,250,195,55

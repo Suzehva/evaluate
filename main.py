@@ -58,13 +58,16 @@ def main():
         print("\naverage f1 score:", average_f1)
     
     average_latency = total_time / config.SAMPLE_SIZE
+    print(f"Dataset: {config.DATASET}, model: {config.MODEL}, sample size: {config.SAMPLE_SIZE}, prompting technique: {config.PROMPTING_T}")
     print("Average Latency (s):", average_latency)
     print("Total Tokens Used:", total_tokens)
     print("Number of datapoints used: ", config.SAMPLE_SIZE)
     if (config.PROMPTING_T == "FS"):
-        print("number of examples used per few_shot: ", config.FEWSHOT_SIZE)
+        print("Number of examples used per few_shot: ", config.FEWSHOT_SIZE)
+    if (config.USE_ENSEMBLE):
+        print("Used ensemble. Number of experts used: ", config.ENSEMBLE_SIZE)
+    print("---------------------")
 
-       
     df = pd.DataFrame(results)
     
     if config.USE_ENSEMBLE:
@@ -73,6 +76,7 @@ def main():
     else:
         df.to_csv(f"results/result_{config.DATASET}_{config.MODEL}_{config.PROMPTING_T}_{datetime.now()}.csv")
         file_path = f'results/total_{config.DATASET}_{config.MODEL}_{config.PROMPTING_T}_{datetime.now()}.txt'
+    
     with open(file_path, 'w') as file:
         file.write(f"Model Version: {config.MODEL}\n")
         file.write(f"Average Latency (s): {average_latency}\n")
@@ -100,19 +104,5 @@ if __name__ == "__main__":
     parser.add_argument('--ensemble_size', type=int, default=5, help='Number of models to use for ensembling')
     args = parser.parse_args()
 
-
-    config.initialize(args)
-    """DATASET = args.dataset
-    MODEL = args.model
-    SAMPLE_SIZE = args.sample_size
-    PROMPTING_T = args.prompting_type 
-    if PROMPTING_T == 'FS' or PROMPTING_T == 'COT_FS':
-        FEWSHOT_SIZE = args.prompting_arg
-    elif PROMPTING_T == 'TOT':
-        NUM_EXPERTS = args.prompting_arg
-    USE_ENSEMBLE = args.use_ensemble
-    if USE_ENSEMBLE:
-        ENSEMBLE_SIZE = args.ensemble_size
-    """
-    
+    config.initialize(args)    
     main()

@@ -1,5 +1,5 @@
 from typing import Optional
-from preprocess import math_pre
+from postprocessing import math_post
 #import main
 import config
 
@@ -32,7 +32,7 @@ def get_examples(prompt_type, dataset, fewshot_size):
         problem = example['problem']
         solution = example['solution']
         if prompt_type == "FS": # strip chain-of-thought reasoning in sample
-            solution = math_pre.get_answer(solution)
+            solution = math_post.get_answer(solution)
         prompt += f"Q: {problem}\nA: {solution}\n"
     return prompt
 

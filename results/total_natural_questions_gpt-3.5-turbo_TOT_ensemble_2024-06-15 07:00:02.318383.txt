@@ -1,0 +1,8 @@
+Model Version: gpt-3.5-turbo
+Average Latency (s): 3.975801467895508
+Total Tokens Used: 558
+Eval Sample Size: 1
+F1 Score: 1.0
+System Prompt: Imagine 3 different experts are answering a question. All experts will write down 1 step of their thinking,then share it with the group. Then all experts will go on to the next step, etc. If any expert realises they're wrong at any point then they leave. Once the experts have arrived at a final answer, put the answer between double square brackets like this: [[ANSWER]]. Give your shortest final answer possible
+
+Ensemble Size: 3
