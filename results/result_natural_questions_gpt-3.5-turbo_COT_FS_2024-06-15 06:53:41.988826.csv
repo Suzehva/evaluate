@@ -1,2 +1,0 @@
-,question,answer,model_output,f1,latency,num_tokens,completion_tokens,prompt_tokens
-0,in greek mythology who was the goddess of spring growth,"Persephone (/pərˈsɛfəni/; Greek: Περσεφόνη), also called Kore (/ˈkɔːriː/; ""the maiden"")",Persephone,0.19999999999999998,0.6671125888824463,102,19,83

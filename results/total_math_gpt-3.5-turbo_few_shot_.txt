@@ -1,5 +1,0 @@
-Model Version: gpt-3.5-turboAverage Latency (s): 3.3918683528900146
-Total Tokens Used: 1396
-Eval Sample Size: 5
-Accuracy: 0.0
-System Prompt: 

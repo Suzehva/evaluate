@@ -1,2 +1,0 @@
-,question,answer,model_output,f1,latency,num_tokens,completion_tokens,prompt_tokens
-0,what is the name of the most important jewish text,the Shulchan Aruch,Torah,0,1.147350788116455,238,65,173

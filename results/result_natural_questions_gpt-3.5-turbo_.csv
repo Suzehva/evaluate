@@ -1,6 +1,0 @@
-,question,answer,model_output,f1,latency,num_tokens,completion_tokens,prompt_tokens
-0,when is the last episode of season 8 of the walking dead,"March 18, 2018","April 15, 2018",0.3333333333333333,0.442105770111084,65,9,56
-1,in greek mythology who was the goddess of spring growth,"Persephone (/pərˈsɛfəni/; Greek: Περσεφόνη), also called Kore (/ˈkɔːriː/; ""the maiden"")",Persephone,0.19999999999999998,0.44145655632019043,59,5,54
-2,what is the name of the most important jewish text,the Shulchan Aruch,Torah,0.0,0.298520565032959,57,4,53
-3,what is the name of spain's most famous soccer team,Real Madrid,Real Madrid,1.0,0.37311363220214844,59,4,55
-4,when was the first robot used in surgery,1983,1983,1.0,0.300853967666626,55,4,51

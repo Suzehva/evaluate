@@ -1,8 +1,0 @@
-Model Version: gpt-3.5-turbo
-Average Latency (s): 13.292627000808716
-Total Tokens Used: 5654
-Eval Sample Size: 5
-Accuracy: 0.0
-System Prompt: You answer questions about math problems. Enclose your final answer in LaTeX's \boxed tag.
-
-Ensemble Size: math_main.ENSEMBLE_SIZE

@@ -1,7 +1,0 @@
-Model Version: gpt-4o
-Average Latency (s): 9.376921724796295
-Total Tokens Used: 633189
-Eval Sample Size: 1000
-Accuracy: 0.874
-System Prompt: Imagine 3 different experts are answering a question about a math problem. All experts will write down 1 step of their thinking,then share it with the group. Then all experts will go on to the next step, etc. If any expert realises they're wrong at any point then they leave. Once the experts have arrived at a final answer, enclose the final answer in LaTeX's \boxed tag.
-

@@ -1,5 +1,4 @@
 # usage: ./scripts/error_check.sh to test if any error occur across any of the pipelines
-<< IGNORE
 python main.py --model gpt-3.5-turbo --sample_size 1 --dataset math --prompting_type ""
 python main.py --model gpt-3.5-turbo --sample_size 1 --dataset math --prompting_type "FS" --prompting_arg 1
 python main.py --model gpt-3.5-turbo --sample_size 1 --dataset math --prompting_type "FS" --prompting_arg 3
@@ -14,7 +13,6 @@ python main.py --model gpt-3.5-turbo --sample_size 1 --dataset math --prompting_
 python main.py --model gpt-3.5-turbo --sample_size 1 --dataset math --prompting_type "COT_FS" --prompting_arg 1 --use_ensemble --ensemble_size 3
 python main.py --model gpt-3.5-turbo --sample_size 1 --dataset math --prompting_type "COT_FS" --prompting_arg 3 --use_ensemble --ensemble_size 3
 python main.py --model gpt-3.5-turbo --sample_size 1 --dataset math --prompting_type "TOT" --prompting_arg 3 --use_ensemble --ensemble_size 3
-IGNORE
 python main.py --model gpt-3.5-turbo --sample_size 1 --dataset natural_questions --prompting_type ""
 python main.py --model gpt-3.5-turbo --sample_size 1 --dataset natural_questions --prompting_type "FS" --prompting_arg 1
 python main.py --model gpt-3.5-turbo --sample_size 1 --dataset natural_questions --prompting_type "FS" --prompting_arg 3

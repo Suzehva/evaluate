@@ -1,6 +1,0 @@
-,question,answer,model_output,f1,latency,num_tokens,completion_tokens,prompt_tokens
-0,what is the name of the most important jewish text,"{'end_byte': [133303], 'end_token': [4399], 'start_byte': [133231], 'start_token': [4396], 'text': ['the Shulchan Aruch']}",[[Torah]],0.0,0.5240566730499268,50,4,46
-1,what is the name of spain's most famous soccer team,Real Madrid,[[Real Madrid]],1.0,0.3896627426147461,52,4,48
-2,when was the first robot used in surgery,"{'end_byte': [92102], 'end_token': [3832], 'start_byte': [92098], 'start_token': [3831], 'text': ['1983']}",[[The first robot used in surgery was in 1985.]],0.0,0.7563564777374268,58,14,44
-3,who sings the song i don't care i love it,Icona Pop and Charli XCX,"[[Icona Pop]] sang the song ""I Love It"".",0.3333333333333333,0.47530531883239746,60,13,47
-4,who are uncle owen and aunt beru related to,"{'end_byte': [61401, 61653, 61913], 'end_token': [457, 471, 491], 'start_byte': [61397, 61647, 61899], 'start_token': [456, 470, 489], 'text': ['Shmi', 'Anakin', 'Padmé Amidala']}",[[Luke Skywalker]] is the nephew of Uncle Owen and Aunt Beru.,0.0,0.5476658344268799,62,15,47

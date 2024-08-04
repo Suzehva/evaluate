@@ -1,2 +1,0 @@
-,question,answer,model_output,f1,latency,num_tokens,completion_tokens,prompt_tokens,ensemble_output
-0,in greek mythology who was the goddess of spring growth,"Persephone (/pərˈsɛfəni/; Greek: Περσεφόνη), also called Kore (/ˈkɔːriː/; ""the maiden"")",Persephone,0.19999999999999998,1.5914394855499268,300,51,249,"['1. In Greek mythology, the goddess of spring growth is Persephone.\n2. [[Persephone]]', 'Persephone. \n\n[[Persephone]]', 'Persephone was the goddess of spring growth in Greek mythology.\n[[Persephone]]']"
